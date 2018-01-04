@@ -1,4 +1,4 @@
-# Python-Programming-Exercises
+# Python-programming-exercises
 ---------------------
 ##	Introduction 
 
