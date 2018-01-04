@@ -26,5 +26,5 @@
 Starting date: 3rd January 2018 
 -------------------------------
 * **Practice Status**
-   1. **[Day 1](https://github.com/darkprinx/Python-programming-exercises/blob/master/Day%201.md "Day 1 Status")**- Question 1,2,3 
-   2. **[Day 2](https://github.com/darkprinx/Python-programming-exercises/blob/master/Day%202.md "Day 2 Status")**- Question 4,5,6,7,8,9
+   1. **[Day 1](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Day%201.md "Day 1 Status")**- Question 1,2,3 
+   2. **[Day 2](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Day%202.md "Day 2 Status")**- Question 4,5,6,7,8,9
