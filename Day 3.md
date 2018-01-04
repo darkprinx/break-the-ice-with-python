@@ -1,38 +1,28 @@
-# Question 9
+# Question 10
 ### Level 2
 --------------------
 
 **Question:**
 
-***Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.***
+***Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.***
 
 ***Suppose the following input is supplied to the program:***
-```
-Hello world
-Practice makes perfect
-```
+
+```hello world and practice makes perfect and hello world again```
+
 ***Then, the output should be:***
-```
-HELLO WORLD
-PRACTICE MAKES PERFECT
-```
+
+```again and hello makes perfect practice world```
 
 ----------------------
 ### Hints:
-#### In case of input data being supplied to the question, it should be assumed to be a console input.
+#### In case of input data being supplied to the question, it should be assumed to be a console input.We use set container to remove duplicated data automatically and then use sorted() to sort the data.
 
 -------------------
 **Main author's Solution: Python 2**
 ```
-lines = []
-while True:
-    s = raw_input()
-    if s:
-        lines.append(s.upper())
-    else:
-        break;
-
-for sentence in lines:
-    print sentence
+s = raw_input()
+words = [word for word in s.split(" ")]
+print " ".join(sorted(list(set(words))))
 ```
 ----------------
