@@ -1,4 +1,4 @@
-# 100+ Python Programming Exercises
+# Python-Programming-Exercises
 ---------------------
 ##	Introduction 
 
