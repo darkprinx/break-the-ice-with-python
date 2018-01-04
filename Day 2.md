@@ -331,4 +331,5 @@ for line in lst:
 --------------------
 
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Day%201.md "Day 1")
+
 [***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Day%203.md "Day 3")
