@@ -88,7 +88,7 @@ print ','.join(value)
 ----------------
 **My Solution: Python 3**
 ```
-def check(x):        # converts binary to integer & returns zero if divisible by 5
+def check(x):              # converts binary to integer & returns zero if divisible by 5
     total=0
     pw=1
     reversed(x)
@@ -106,4 +106,10 @@ for i in data:
         lst.append(i)
 
 print(",".join(lst))
+```
+**OR**
+```
+data=input().split(',')
+data=list(filter(lambda i:int(i,2)%5==0,data))    
+print(",".join(data))
 ```
