@@ -26,3 +26,14 @@ words = [word for word in s.split(" ")]
 print " ".join(sorted(list(set(words))))
 ```
 ----------------
+**My Solution: Python 3**
+```
+n=input().split()
+
+for i in n:
+    if n.count(i)>1:
+        n.remove(i)
+
+n.sort()
+print(" ".join(n))
+```
