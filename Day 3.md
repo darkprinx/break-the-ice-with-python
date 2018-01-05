@@ -31,8 +31,8 @@ print " ".join(sorted(list(set(words))))
 n=input().split()
 
 for i in n:
-    if n.count(i)>1:
-        n.remove(i)
+    if n.count(i)>1:    #count function returns total repeatation of an element that is send as argument
+        n.remove(i)     # removes exactly one element per call
 
 n.sort()
 print(" ".join(n))
