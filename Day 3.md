@@ -86,6 +86,7 @@ for p in items:
 print ','.join(value)
 ```
 ----------------
+**My Solution: Python 3**
 ```
 def check(x):        # converts binary to integer & returns zero if divisible by 5
     total=0
@@ -101,7 +102,7 @@ data=input().split(",")    # inputs taken here and splited in ',' position
 lst=[]
 
 for i in data:
-    if check(i)==0:
+    if check(i)==0:        # if zero found it means divisible by zero and added to the list
         lst.append(i)
 
 print(",".join(lst))
