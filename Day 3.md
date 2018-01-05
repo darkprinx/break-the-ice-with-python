@@ -89,12 +89,11 @@ print ','.join(value)
 **My Solution: Python 3**
 ```
 def check(x):              # converts binary to integer & returns zero if divisible by 5
-    total=0
-    pw=1
+    total,pw=0,1
     reversed(x)
 
     for i in x:
-        total+=pw*(ord(i)-48)
+        total+=pw*(ord(i)-48)   # ord() function returns ASCII value
         pw*=2
     return total%5
 
@@ -114,12 +113,12 @@ def check(x):                 # check function returns true if divisible by 5
                               # it will be converted to decimal
 data=input().split(',')
 
-data=list(filter(check,data)) # in filter function, elements are picked from 'data' if found True by 'check' function
+data=list(filter(check,data)) # in filter(func,object) function, elements are picked from 'data' if found True by 'check' function
 print(",".join(data))
 ```
 **OR**
 ```
 data=input().split(',')
-data=list(filter(lambda i:int(i,2)%5==0,data))    
+data=list(filter(lambda i:int(i,2)%5==0,data))    # lambda is an operator that helps to write function of one line
 print(",".join(data))
 ```
