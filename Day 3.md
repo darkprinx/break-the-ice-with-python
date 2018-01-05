@@ -86,3 +86,23 @@ for p in items:
 print ','.join(value)
 ```
 ----------------
+```
+def check(x):        # converts binary to integer & returns zero if divisible by 5
+    total=0
+    pw=1
+    reversed(x)
+
+    for i in x:
+        total+=pw*(ord(i)-48)
+        pw*=2
+    return total%5
+
+data=input().split(",")    # inputs taken here and splited in ',' position
+lst=[]
+
+for i in data:
+    if check(i)==0:
+        lst.append(i)
+
+print(",".join(lst))
+```
