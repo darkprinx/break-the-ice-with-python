@@ -37,3 +37,10 @@ for i in n:
 n.sort()
 print(" ".join(n))
 ```
+**OR**
+```
+n=input().split()
+[n.remove(i) for i in n if n.count(i)>1 ]   # removal operation with comprehension method
+n.sort()
+print(" ".join(n))
+```
