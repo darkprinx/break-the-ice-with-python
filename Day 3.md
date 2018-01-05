@@ -28,19 +28,19 @@ print " ".join(sorted(list(set(words))))
 ----------------
 **My Solution: Python 3**
 ```
-n=input().split()
+word=input().split()
 
-for i in n:
-    if n.count(i)>1:    #count function returns total repeatation of an element that is send as argument
-        n.remove(i)     # removes exactly one element per call
+for i in word:
+    if word.count(i)>1:    #count function returns total repeatation of an element that is send as argument
+        word.remove(i)     # removes exactly one element per call
 
-n.sort()
-print(" ".join(n))
+word.sort()
+print(" ".join(word))
 ```
 **OR**
 ```
-n=input().split()
-[n.remove(i) for i in n if n.count(i)>1 ]   # removal operation with comprehension method
-n.sort()
-print(" ".join(n))
+word=input().split()
+[word.remove(i) for i in word if word.count(i)>1 ]   # removal operation with comprehension method
+word.sort()
+print(" ".join(word))
 ```
