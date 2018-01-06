@@ -60,4 +60,3 @@ for i in word:
 
 print("UPPER CASE {0}\nLOWER CASE {1}".format(upper,lower))
 ```
-
