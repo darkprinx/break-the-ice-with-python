@@ -219,8 +219,22 @@ word=input()
 letter,digit=0,0
 
 for i in word:
+    if ('a'<=i and i<='z') or('A'<=i and i<='Z'):
+        letter+=1
+    if '0'<=i and i<='9':
+        digit+=1
+
+print("LETTERS {0}\nDIGITS {1}".format(letter,digit))
+```
+**OR**
+```
+word=input()
+letter,digit=0,0
+
+for i in word:
     letter+=i.isalpha()         # returns True if alphabet
     digit+=i.isnumeric()        # returns True if numeric
 
-print("LETTERS %d\nDIGITS %d"%(letter,digit))
+print("LETTERS %d\nDIGITS %d"%(letter,digit))       # two different types of formating method is shown in both solution
 ```
+-----------------
