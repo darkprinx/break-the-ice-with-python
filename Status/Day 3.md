@@ -215,4 +215,12 @@ print "DIGITS", d["DIGITS"]
 ----------------
 **My Solution: Python 3**
 ```
+word=input()
+letter,digit=0,0
+
+for i in word:
+    letter+=i.isalpha()         # returns True if alphabet
+    digit+=i.isnumeric()        # returns True if numeric
+
+print("LETTERS %d\nDIGITS %d"%(letter,digit))
 ```
