@@ -238,3 +238,11 @@ for i in word:
 print("LETTERS %d\nDIGITS %d"%(letter,digit))       # two different types of formating method is shown in both solution
 ```
 -----------------
+## Conclusion
+***All the above problems are mostly string related problems. Major parts of the solution includes string releted functions and comprehension method to write down the code in more shorter form.Also, this week there is [January Long Challange 2018](https://www.codechef.com/JAN18?order=desc&sortBy=successful_submissions "Jan LC2018") at Codechef.So, updates of the next days will  carry on with lower number of problems and discussions.***
+
+[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2")
+
+[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
+
+
