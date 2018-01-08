@@ -27,4 +27,6 @@ print ",".join(numbers)
 ----------------
 **My Solution: Python 3**
 ```
+lst=[i for i in input().split(',') if int(i)%2]
+print(",".join(lst))
 ```
