@@ -61,7 +61,7 @@ RIGHT 2
 ```
 ----------------------
 ### Hints:
-#### In case of input data being supplied to the question, it should be assumed to be a console input.
+#### In case of input data being supplied to the question, it should be assumed to be a console input.Here distance indicates to euclidean distance.Import math module to use sqrt function.
 -----------------------
 **Main author's Solution: Python 2**
 ```
@@ -90,5 +90,23 @@ print int(round(math.sqrt(pos[1]**2+pos[0]**2)))
 ----------------
 **My Solution: Python 3**
 ```
+import  math
+
+x,y=0,0
+while True:
+    s=input().split()
+    if not s:
+        break
+    if s[0]=='UP':                # s[0] indicates command
+        x-=int(s[1])              # s[1] indicates unit of move
+    if s[0]=='DOWN':
+        x+=int(s[1])
+    if s[0]=='LEFT':
+        y-=int(s[1])
+    if s[0]=='RIGHT':
+        y+=int(s[1])
+                                  # N**P means N^P
+dist=round(math.sqrt(x**2+y**2))  # euclidean distance = square root of (x^2+y^2) and rounding it to nearest integer
+print(dist)
 ```
 ------------------
