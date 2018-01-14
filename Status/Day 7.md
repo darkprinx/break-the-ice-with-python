@@ -8,7 +8,7 @@
 
 ----------------------
 ### Hints:
-#### Consider use yield
+#### Consider use class, function and comprehension 
 
 -------------------
 **Main author's Solution: Python 2**
