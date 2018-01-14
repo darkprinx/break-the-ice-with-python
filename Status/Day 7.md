@@ -55,7 +55,10 @@ LEFT 3
 RIGHT 2
 ```
 ***Then, the output of the program should be:***
-```2```
+
+```
+2
+```
 ----------------------
 ### Hints:
 #### In case of input data being supplied to the question, it should be assumed to be a console input.
