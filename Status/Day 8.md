@@ -84,3 +84,28 @@ ss = sorted(ss.items())  # returns as a tuple list
 for i in ss:
     print("%s:%d"%(i[0],i[1]))
 ```
+---------------
+# Question 23
+### level 1
+
+**Question:**
+
+***Write a method which can calculate square value of number***
+
+----------------------
+### Hints: Using the ** operator which can be written as n**p where means n^p
+
+-------------------
+**Main author's Solution: Python 2**
+```
+def square(num):
+    return num ** 2
+
+print square(2)
+print square(3)
+```
+----------------
+**My Solution: Python 3**
+```
+```
+
