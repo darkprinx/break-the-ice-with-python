@@ -107,5 +107,7 @@ print square(3)
 ----------------
 **My Solution: Python 3**
 ```
+n=int(input())
+print(n**2)
 ```
-
+---------------------
