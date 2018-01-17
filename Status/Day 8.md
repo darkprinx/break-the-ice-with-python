@@ -47,6 +47,14 @@ for w in words:
 **My Solution: Python 3**
 ```
 ss=input().split()
+word=sorted(set(ss))     # split words are stored and sorted as a set
+
+for i in word:
+    print("{0}:{1}".format(i,ss.count(i)))
+```
+**OR**
+```
+ss=input().split()
 dict={}
 for i in ss:
     i=dict.setdefault(i,ss.count(i))    # setdefault() function takes key & value to set it as dictionary.
