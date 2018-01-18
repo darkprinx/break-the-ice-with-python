@@ -19,9 +19,9 @@ Suppose the following input is supplied to the program: 34,67,55,33,12,98***
 
 **Main author's Solution: Python 2**
 ```
-values=raw_input()
-l=values.split(",")
-t=tuple(l)
+values = raw_input()
+l = values.split(",")
+t = tuple(l)
 print l
 print t
 ```
@@ -29,11 +29,11 @@ print t
 
 **My Solution: Python 3**
 ```
-lst=input().split(',')  # the input is being taken as string and as it is string it has a built in
-                        # method name split. ',' inside split function does split where it finds any ','
-                        # and save the input as list in lst variable
+lst = input().split(',')  # the input is being taken as string and as it is string it has a built in
+                          # method name split. ',' inside split function does split where it finds any ','
+                          # and save the input as list in lst variable
 
-tpl=tuple(lst)          # tuple method converts list to tuple
+tpl = tuple(lst)          # tuple method converts list to tuple
 
 print(lst)
 print(tpl)
@@ -79,12 +79,12 @@ class IOstring():
         pass
 
     def getString(self):
-        self.s=input()
+        self.s = input()
 
     def printString(self):
         print(self.s.upper())
 
-xx=IOstring()
+xx = IOstring()
 xx.getString()
 xx.printString()
 ```
@@ -121,10 +121,10 @@ Let us assume the following comma separated input sequence is given to the progr
 ```
 #!/usr/bin/env python
 import math
-c=50
-h=30
+c = 50
+h = 30
 value = []
-items=[x for x in raw_input().split(',')]
+items = [x for x in raw_input().split(',')]
 for d in items:
     value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
 
@@ -136,16 +136,16 @@ print ','.join(value)
 ```
 from math import * # importing all math functions
 
-C,H=50,30
+C,H = 50,30
 
 def calc(D):
     return sqrt((2*C*D)/H)
 
-D=input().split(',')    # splits in comma position and set up in list
-D=[int(i) for i in D]   # converts string to integer
-D=[calc(i) for i in D]  # returns floating value by calc method for every item in D
-D=[round(i) for i in D] # All the floating values are rounded
-D=[str(i) for i in D]   # All the integers are converted to string to be able to apply join operation
+D = input().split(',')    # splits in comma position and set up in list
+D = [int(i) for i in D]   # converts string to integer
+D = [calc(i) for i in D]  # returns floating value by calc method for every item in D
+D = [round(i) for i in D] # All the floating values are rounded
+D = [str(i) for i in D]   # All the integers are converted to string to be able to apply join operation
 
 print(",".join(D))
 ```
@@ -153,19 +153,19 @@ print(",".join(D))
 ```
 from math import * # importing all math functions
 
-C,H=50,30
+C,H = 50,30
 
 def calc(D):
     return sqrt((2*C*D)/H)
 
-D=input().split(',')    # splits in comma position and set up in list
-D=[str(round(calc(int(i)))) for i in D]  # using comprehension method. It works in order of the previous code
+D = input().split(',')                     # splits in comma position and set up in list
+D = [str(round(calc(int(i)))) for i in D]  # using comprehension method. It works in order of the previous code
 print(",".join(D))
 ```
 **OR**
 ```
 from math import *
-C,H=50,30
+C,H = 50,30
 
 def calc(D):
     return sqrt((2*C*D)/H)
@@ -175,14 +175,14 @@ print(",".join([str(int(calc(int(i)))) for i in input().split(',')]))
 **OR**
 ```
 from math import * # importing all math functions
-C,H=50,30
+C,H = 50,30
 
 def calc(D):
-    D=int(D)
+    D = int(D)
     return str(int(sqrt((2*C*D)/H)))
 
-D=input().split(',')
-D=list(map(calc,D))   # applying calc function on D and storing as a list
+D = input().split(',')
+D = list(map(calc,D))   # applying calc function on D and storing as a list
 print(",".join(D))
 ```
 ---------------------
@@ -208,25 +208,25 @@ print(",".join(D))
 **Main author's Solution: Python 2**
 ```
 input_str = raw_input()
-dimensions=[int(x) for x in input_str.split(',')]
-rowNum=dimensions[0]
-colNum=dimensions[1]
+dimensions = [int(x) for x in input_str.split(',')]
+rowNum = dimensions[0]
+colNum = dimensions[1]
 multilist = [[0 for col in range(colNum)] for row in range(rowNum)]
 
 for row in range(rowNum):
     for col in range(colNum):
-        multilist[row][col]= row*col
+        multilist[row][col] = row*col
 
 print multilist
 ```
 -----------------------
 **My Solution: Python 3**
 ```
-x,y=map(int,input().split(','))
-lst=[]
+x,y = map(int,input().split(','))
+lst = []
 
 for i in range(x):
-    tmp=[]
+    tmp = []
     for j in range(y):     
         tmp.append(i*j)
     lst.append(tmp)
@@ -235,8 +235,8 @@ print(lst)
 ```
 **OR**
 ```
-x,y=map(int,input().split(','))
-lst=[[i*j for j in range(y)] for i in range(x)]  
+x,y = map(int,input().split(','))
+lst = [[i*j for j in range(y)] for i in range(x)]  
 print(lst)
 ```
 ---------------------------
@@ -257,7 +257,6 @@ without,hello,bag,world
 bag,hello,without,world
 ```
 
-
 ----------------------
 ### Hints:
 #### In case of input data being supplied to the question, it should be assumed to be a console input.
@@ -265,14 +264,14 @@ bag,hello,without,world
 -------------------
 **Main author's Solution: Python 2**
 ```
-items=[x for x in raw_input().split(',')]
+items = [x for x in raw_input().split(',')]
 items.sort()
 print ','.join(items)
 ```
 ----------------
 **My Solution: Python 3**
 ```
-lst=input().split(',')
+lst = input().split(',')
 lst.sort()
 print(",".join(lst))
 ```
@@ -317,10 +316,10 @@ for sentence in lines:
 ----------------
 **My Solution: Python 3**
 ```
-lst=[]
+lst = []
 
 while True:
-    x=input()
+    x = input()
     if len(x)==0:
         break;
     lst.append(x)
