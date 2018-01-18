@@ -23,9 +23,9 @@ class Test:
         return [i for i in range(n) if i%7==0]   # returns the values as a list if an element is divisible by 7
 
 
-n=int(input())
-num=Test()
-lst=num.generator(n)
+n = int(input())
+num = Test()
+lst = num.generator(n)
 print(lst)
 
 ```
@@ -92,21 +92,26 @@ print int(round(math.sqrt(pos[1]**2+pos[0]**2)))
 ```
 import  math
 
-x,y=0,0
+x,y = 0,0
 while True:
-    s=input().split()
+    s = input().split()
     if not s:
         break
-    if s[0]=='UP':                # s[0] indicates command
-        x-=int(s[1])              # s[1] indicates unit of move
+    if s[0]=='UP':                  # s[0] indicates command
+        x-=int(s[1])                # s[1] indicates unit of move
     if s[0]=='DOWN':
         x+=int(s[1])
     if s[0]=='LEFT':
         y-=int(s[1])
     if s[0]=='RIGHT':
         y+=int(s[1])
-                                  # N**P means N^P
-dist=round(math.sqrt(x**2+y**2))  # euclidean distance = square root of (x^2+y^2) and rounding it to nearest integer
+                                    # N**P means N^P
+dist = round(math.sqrt(x**2 + y**2))  # euclidean distance = square root of (x^2+y^2) and rounding it to nearest integer
 print(dist)
 ```
 ------------------
+
+[***go to previous day**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6")
+
+[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 8")
+
