@@ -21,13 +21,13 @@
 **Main author's Solution: Python 2**
 ```
 values = raw_input()
-numbers = [x for x in values.split(",") if int(x)%2!=0]
+numbers = [x for x in values.split(",") if int(x)%2 != 0]
 print ",".join(numbers)
 ```
 ----------------
 **My Solution: Python 3**
 ```
-lst=[i for i in input().split(',') if int(i)%2]
+lst = [i for i in input().split(',') if int(i) % 2]
 print(",".join(lst))
 ```
 ------------------------
@@ -85,12 +85,12 @@ print netAmount
 ----------------
 **My Solution: Python 3**
 ```
-total=0
+total = 0
 while True:
-    s=input().split()
+    s = input().split()
     if not s:            # break if the string is empty
         break
-    cm,num=map(str,s)    # two inputs are distributed in cm and num in string data type
+    cm,num = map(str,s)    # two inputs are distributed in cm and num in string data type
 
     if cm=='D':
         total+=int(num)
@@ -99,3 +99,6 @@ while True:
 
 print(total)
 ```
+[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
+
+[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6")
