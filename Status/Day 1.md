@@ -26,7 +26,7 @@ print ','.join(l)
 **My Solution: Python 3**
 ```
 for i in range(2000,3201):
-    if i%7==0 and i%5!=0:
+    if i%7 == 0 and i%5!=0:
         print(i,end=',')
 print("\b")
 ```
@@ -51,7 +51,7 @@ def fact(x):
         return 1
     return x * fact(x - 1)
 
-x=int(raw_input())
+x = int(raw_input())
 print fact(x)
 ```
 ------------
@@ -59,22 +59,22 @@ print fact(x)
 
 * **Using While Loop**
     ```
-    n=int(raw_input()) #input() function takes input as string type
-                       #int() converts it to integer type
-    fact=1
-    i=1
+    n = int(raw_input()) #input() function takes input as string type
+                         #int() converts it to integer type
+    fact = 1
+    i = 1
     while i<=n:
-        fact=fact*i;
-        i=i+1
+        fact = fact*i;
+        i = i+1
     print(fact)
     ```
  * **Using For Loop**
     ```
-    n=int(input()) #input() function takes input as string type
+    n = int(input()) #input() function takes input as string type
                     #int() converts it to integer type
-    fact=1
+    fact = 1
     for i in range(1,n+1):
-        fact=fact *i
+        fact = fact * i
     print(fact)
     ```
 -------------------
@@ -95,26 +95,26 @@ print fact(x)
 
 **Main author's Solution: Python 2**
 ```
-n=int(raw_input())
-d=dict()
+n = int(raw_input())
+d = dict()
 for i in range(1,n+1):
-    d[i]=i*i
+    d[i] = i*i
 print d
 ```
 
 **My Solution: Python 3:**
 ```
-n=int(input())
-ans={}
+n = int(input())
+ans = {}
 for i in range (1,n+1):
-    ans[i]=i*i
+    ans[i] = i*i
 print(ans)
 ```
 **OR**
 ```
 # This is done with dictionary comprehension method
-n=int(input())
-ans={i:i*i for i in range(1,n+1)}
+n = int(input())
+ans={i : i*i for i in range(1,n+1)}
 print(ans)
 ```
 ----------------------------------
