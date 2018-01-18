@@ -24,7 +24,7 @@ print SumFunction(1,2)
 **My Solution: Python 3**
 ```
 sum = lambda n1,n2 : n1 + n2      # here lambda is use to define little function as sum
-print(sum(1,2))
+print(sum(1,2))	     
 ```
 ----------------------------
 # Question 27
@@ -80,6 +80,65 @@ printValue("3","4") #7
 **My Solution: Python 3**
 ```
 sum = lambda s1,s2 : int(s1) + int(s2)
-print(sum("10","45"))
+print(sum("10","45"))      # 55
 ```
 -------------------
+
+# Question 29
+## level 1
+-------------
+**Question:**
+
+***Define a function that can accept two strings as input and concatenate them and then print it in console.***
+
+----------------------
+### Hints: Use + sign to concatenate the strings
+
+-------------------
+**Main author's Solution: Python 2**
+```
+def printValue(s1,s2):
+	print s1 + s2
+
+printValue("3","4") #34
+```
+----------------
+**My Solution: Python 3**
+```
+sum = lambda s1,s2 : s1 + s2
+print(sum("10","45"))        # 1045
+```
+------------------
+# Question 30
+### Level 1
+--------------------
+
+**Question:**
+
+***Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print all strings line by line.***
+
+----------------------
+### Hints: Use len() function to get the length of a string
+
+-------------------
+**Main author's Solution: Python 2**
+```
+def printValue(s1,s2):
+	len1 = len(s1)
+	len2 = len(s2)
+	if len1>len2:
+		print s1
+	elif len2>len1:
+		print s2
+	else:
+		print s1
+		print s2
+		
+
+printValue("one","three")
+
+```
+----------------
+**My Solution: Python 3**
+```
+```
