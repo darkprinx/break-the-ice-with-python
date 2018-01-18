@@ -41,9 +41,9 @@
 ```
 import re
 value = []
-items=[x for x in raw_input().split(',')]
+items = [x for x in raw_input().split(',')]
 for p in items:
-    if len(p)<6 or len(p)>12:
+    if len(p) < 6 or len(p) > 12:
         continue
     else:
         pass
@@ -86,15 +86,15 @@ def is_num(x):                  # Returns True  if the string has a numeric digi
 def is_other(x):                # Returns True if the string has any "$#@"
     for i in x:
         if i=='$' or i=='#' or i=='@':
-            return  True
+            return True
     return False
 
-s=input().split(',')            
-lst=[]
+s = input().split(',')            
+lst = []
 
 for i in s:
-    length=len(i)
-    if 6<=length and length<=12 and is_low(i) and is_up(i) and is_num(i) and is_other(i):   #Checks if all the requirments are fulfilled
+    length = len(i)
+    if 6 <= length and length <= 12 and is_low(i) and is_up(i) and is_num(i) and is_other(i):   #Checks if all the requirments are fulfilled
         lst.append(i)
 
 print(",".join(lst))
@@ -102,7 +102,7 @@ print(",".join(lst))
 **OR**
 ```
 def check(x):
-    cnt= 6<=len(x) and len(x)<=12
+    cnt = (6<=len(x) and len(x)<=12)
     for i in x:
         if i.isupper():
             cnt+=1
@@ -119,27 +119,27 @@ def check(x):
         if i=='@' or i=='#'or i=='$':
             cnt+=1
             break
-    return cnt==5               # counting if total 5 all conditions are fulfilled then returns True
+    return cnt == 5               # counting if total 5 all conditions are fulfilled then returns True
 
-s=input().split(',')
-lst=filter(check,s)             # Filter function pick the words from s, those returns True by check() function
+s = input().split(',')
+lst = filter(check,s)             # Filter function pick the words from s, those returns True by check() function
 print(",".join(lst))
 ```
 **OR**
 ```
 import  re
 
-s=input().split(',')
-lst=[]
+s = input().split(',')
+lst = []
 
 for i in s:
-    cnt=0
+    cnt = 0
     cnt+=(6<=len(i) and len(i)<=12)
     cnt+=bool(re.search("[a-z]",i))      # here re module includes a function re.search() which returns the object information
     cnt+=bool(re.search("[A-Z]",i))      # of where the pattern string i is matched with any of the [a-z]/[A-z]/[0=9]/[@#$] characters
     cnt+=bool(re.search("[0-9]",i))      # if not a single match found then returns NONE which converts to False in boolean
     cnt+=bool(re.search("[@#$]",i))      # expression otherwise True if found any.
-    if cnt==5:
+    if cnt == 5:
         lst.append(i)
 
 print(",".join(lst))
@@ -194,9 +194,9 @@ print sorted(l, key=itemgetter(0,1,2))
 --------------------------
 **My Solution: Python 3**
 ```
-lst=[]
+lst = []
 while True:
-    s=input().split(',')
+    s = input().split(',')
     if not s[0]:                          # breaks for blank input
         break
     lst.append(tuple(s))
