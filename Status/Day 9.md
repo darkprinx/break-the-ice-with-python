@@ -56,3 +56,30 @@ print(n)
 print(type(n))            # checks the type of the variable
 ```
 ---------------------
+
+# Question 28
+## Level 1
+-----------------
+
+**Question:**
+
+***Define a function that can receive two integer numbers in string form and compute their sum and then print it in console.***
+
+----------------------
+### Hints: Use int() to convert a string to integer.
+
+-------------------
+**Main author's Solution: Python 2**
+```
+def printValue(s1,s2):
+	print int(s1) + int(s2)
+printValue("3","4") #7
+```
+----------------
+
+**My Solution: Python 3**
+```
+sum = lambda s1,s2 : int(s1) + int(s2)
+print(sum("10","45"))
+```
+-------------------
