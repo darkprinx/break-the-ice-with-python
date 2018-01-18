@@ -63,9 +63,9 @@ print fact(x)
                          #int() converts it to integer type
     fact = 1
     i = 1
-    while i<=n:
-        fact = fact*i;
-        i = i+1
+    while i <= n:
+        fact = fact * i;
+        i = i + 1
     print(fact)
     ```
  * **Using For Loop**
@@ -98,7 +98,7 @@ print fact(x)
 n = int(raw_input())
 d = dict()
 for i in range(1,n+1):
-    d[i] = i*i
+    d[i] = i * i
 print d
 ```
 
@@ -107,7 +107,7 @@ print d
 n = int(input())
 ans = {}
 for i in range (1,n+1):
-    ans[i] = i*i
+    ans[i] = i * i
 print(ans)
 ```
 **OR**
