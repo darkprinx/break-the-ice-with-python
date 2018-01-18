@@ -30,3 +30,7 @@
    2. **[Day 2](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2 Status")**- Question 4,5,6,7,8,9
    3. **[Day 3](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3 Status")**- Question 10,11,12,13
    4. **[Day 4](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4 Status")**- Question 14,15
+   5. **[Day 5](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5 Status")**- Question 16,17
+   6. **[Day 6](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6 Status")**- Question 18,19
+   7. **[Day 7](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7 Status")**- Question 20,21
+   8. **[Day 8](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 8 Status")**- Question 22,23,24,25
