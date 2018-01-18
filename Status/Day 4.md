@@ -24,7 +24,7 @@ LOWER CASE 9
 **Main author's Solution: Python 2**
 ```
 s = raw_input()
-d={"UPPER CASE":0, "LOWER CASE":0}
+d = {"UPPER CASE":0, "LOWER CASE":0}
 for c in s:
     if c.isupper():
         d["UPPER CASE"]+=1
@@ -38,8 +38,8 @@ print "LOWER CASE", d["LOWER CASE"]
 ----------------
 **My Solution: Python 3**
 ```
-word=input()
-upper,lower=0,0
+word = input()
+upper,lower = 0,0
 
 for i in word:
     if 'a'<=i and i<='z' :
@@ -51,8 +51,8 @@ print("UPPER CASE {0}\nLOWER CASE {1}".format(upper,lower))
 ```
 **OR**
 ```
-word=input()
-upper,lower=0,0
+word = input()
+upper,lower = 0,0
 
 for i in word:
         lower+=i.islower()
@@ -62,9 +62,9 @@ print("UPPER CASE {0}\nLOWER CASE {1}".format(upper,lower))
 ```
 **OR**
 ```
-word=input()
-upper=sum(1 for i in word if i.isupper())           # sum function cumulatively sum up 1's if the condition is True
-lower=sum(1 for i in word if i.islower())
+word = input()
+upper = sum(1 for i in word if i.isupper())           # sum function cumulatively sum up 1's if the condition is True
+lower = sum(1 for i in word if i.islower())
 
 print("UPPER CASE {0}\nLOWER CASE {1}".format(upper,lower))
 ```
@@ -102,8 +102,8 @@ print n1+n2+n3+n4
 ----------------
 **My Solution: Python 3**
 ```
-a=input()
-total,tmp=0,str()        # initialing an integer and empty string
+a = input()
+total,tmp = 0,str()        # initialing an integer and empty string
 
 for i in range(4):
     tmp+=a               # concatenating 'a' to 'tmp'
@@ -113,7 +113,12 @@ print(total)
 ```
 **OR**
 ```
-a=input()
-total=int(a)+int(2*a)+int(3*a)+int(4*a)  # N*a=Na, for example  a="23", 2*a="2323",3*a="232323"
+a = input()
+total = int(a) + int(2*a) + int(3*a) + int(4*a)  # N*a=Na, for example  a="23", 2*a="2323",3*a="232323"
 print(total)
 ```
+
+[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
+
+[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
+[
