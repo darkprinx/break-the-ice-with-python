@@ -8,7 +8,7 @@
 ----------------------
 ### Hints: Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to get power of a number.Use range() for loops.
 -------------------
-**Main Author's Solution: Python 2
+**Main Author's Solution: Python 2**
 ```
 def printDict():
 	d=dict()
