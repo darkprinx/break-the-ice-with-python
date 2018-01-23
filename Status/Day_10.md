@@ -64,3 +64,33 @@ printDict()
 
 # Question 33
 ### level 1
+
+**Question:**
+
+***Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).***
+
+----------------------
+### Hints:
+#### Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.
+
+-------------------
+**Main Author's Solution: Python 2**
+```
+def printList():
+	li=list()
+	for i in range(1,21):
+		li.append(i**2)
+	print li
+		
+printList()
+```
+----------------
+**My Solution: Python 3**
+```
+def printDict():
+    lst = [i ** 2 for i in range(1, 21)]
+    print(lst)
+
+printDict()
+```
+-------------------
