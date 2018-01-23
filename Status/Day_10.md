@@ -87,10 +87,10 @@ printList()
 ----------------
 **My Solution: Python 3**
 ```
-def printDict():
+def printList():
     lst = [i ** 2 for i in range(1, 21)]
     print(lst)
 
-printDict()
+printList()
 ```
 -------------------
