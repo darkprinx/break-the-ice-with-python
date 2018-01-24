@@ -163,6 +163,39 @@ def printList():
 printList()
 ```
 ----------------------
+# Question 35
+### level 1
+
+**Question:**
+
+***Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.***
+
+----------------------
+### Hints: Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
+
+-------------------
+**Main Author's Solution: Python 2**
+```
+def printList():
+	li=list()
+	for i in range(1,21):
+		li.append(i**2)
+	print li[5:]
+		
+printList()
+```
+----------------
+**My Solution: Python 3**
+```
+def printList():
+    lst = [i ** 2 for i in range(1, 21)]
+    for i in range(5,20):
+        print(lst[i])
+
+printList()
+```
+
+---------------------
 
 ### Comment
 ***Problems of this section is very much easy and all of those are of a modification of same type problem which mainly focused on using some commonly used function works with list,dictionary, tupple.In my entire solutions, I havn't tried to solve problems in efficient way.Rather I tried to solve in a different way that I can.This will help a beginner to know how simplest problems can be solved in different ways.*** 
