@@ -154,3 +154,8 @@ def printVal(s1,s2):
 s1,s2=input().split()
 printVal(s1,s2)
 ```
+------------
+
+[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 9")
+
+[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%2010.md "Day 10")
