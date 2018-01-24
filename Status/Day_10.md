@@ -196,6 +196,39 @@ printList()
 ```
 
 ---------------------
+# Question 37
+### level 1
+
+**Question:**
+
+***Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included).***
+
+
+----------------------
+### Hints: Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use tuple() to get a tuple from a list.
+
+-------------------
+**Main Author's Solution: Python 2**
+```
+def printTuple():
+	li=list()
+	for i in range(1,21):
+		li.append(i**2)
+	print tuple(li)
+		
+printTuple()
+```
+----------------
+**My Solution: Python 3**
+```
+def printTupple():
+    lst = [i ** 2 for i in range(1, 21)]
+    print(tuple(lst))
+
+printTupple()
+```
+
+-----------------
 
 ### Comment
 ***Problems of this section is very much easy and all of those are of a modification of same type problem which mainly focused on using some commonly used function works with list,dictionary, tupple.In my entire solutions, I havn't tried to solve problems in efficient way.Rather I tried to solve in a different way that I can.This will help a beginner to know how simplest problems can be solved in different ways.*** 
