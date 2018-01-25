@@ -56,7 +56,8 @@ print(lst2)
 ### Hints: Use "for" to iterate the tuple. Use tuple() to generate a tuple from a list.
 
 -------------------
-**My Solution: Python 3**
+
+**Main Author's Solution: Python 2**
 ```
 tp = (1,2,3,4,5,6,7,8,9,10)
 li = list()
@@ -80,5 +81,35 @@ tpl = (1,2,3,4,5,6,7,8,9,10)
 tpl1 = tuple(filter(lambda x : x%2==0,tpl))  # Lambda function returns True if found even element.
                                              # Filter removes data for which function returns False
 print(tpl1)
+```
+----------------
+
+# Question 40
+### Level 1
+
+**Question:**
+
+***Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". ***
+
+----------------------
+### Hints: Use if statement to judge condition.
+
+-------------------
+**Main Author's Solution: Python 2**
+```
+s= raw_input()
+if s=="yes" or s=="YES" or s=="Yes":
+    print "Yes"
+else:
+    print "No"
+```
+----------------
+**My Solution: Python 3**
+```
+s = input()
+if s.lower() == 'yes':   # lower function returns all lowercase letters in the string
+    print('Yes')
+else:
+    print("No")
 ```
 ----------------
