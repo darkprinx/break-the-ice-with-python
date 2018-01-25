@@ -142,3 +142,36 @@ squaredNumbers = map(lambda x: x**2, li)  # returns map type object data
 print(list(squaredNumbers))               # converting the object into list
 ```
 --------------
+
+# Question 42
+### Level 1
+
+**Question:**
+
+***Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].***
+
+----------------------
+### Hints: Use map() to generate a list.Use filter() to filter elements of a list.Use lambda to define anonymous functions.
+
+-------------------
+
+**Main Author's Solution: Python 2**
+```
+li = [1,2,3,4,5,6,7,8,9,10]
+evenNumbers = map(lambda x: x**2, filter(lambda x: x%2==0, li))
+print evenNumbers
+```
+----------------
+
+**My Solution: Python 3**
+```
+def even(x):
+    return x%2==0
+
+def squer(x):
+    return x*x
+
+li = [1,2,3,4,5,6,7,8,9,10]
+li = map(squer,filter(even,li))   # first filters number by even number and the apply map() on the resultant elements
+print(list(li))
+```
