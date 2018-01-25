@@ -175,3 +175,31 @@ li = [1,2,3,4,5,6,7,8,9,10]
 li = map(squer,filter(even,li))   # first filters number by even number and the apply map() on the resultant elements
 print(list(li))
 ```
+---------------
+# Question 43
+### Level 1
+
+**Question:**
+
+***Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).***
+
+----------------------
+### Hints: Use filter() to filter elements of a list.Use lambda to define anonymous functions.
+
+-------------------
+**Main Author's Solution: Python 2**
+```
+evenNumbers = filter(lambda x: x%2==0, range(1,21))
+print evenNumbers
+```
+----------------
+**My Solution: Python 3**
+```
+def even(x):
+    return x%2==0
+
+evenNumbers = filter(even, range(1,21))
+print(list(evenNumbers))
+```
+------------------
+
