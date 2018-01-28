@@ -14,6 +14,7 @@
 squaredNumbers = map(lambda x: x**2, range(1,21))
 print squaredNumbers
 ```
+----------------
 **My Solution: Python 3**
 ```
 ```
@@ -39,22 +40,24 @@ anAmerican = American()
 anAmerican.printNationality()
 American.printNationality()
 ```
+--------------------------
 **My Solution: Python 3**
 ```
 ```
 ----------------------------------------
 
-7.2
+# Question 46
+### Level 1
 
-Question:
-Define a class named American and its subclass NewYorker. 
+**Question:**
+***Define a class named American and its subclass NewYorker.***
 
-Hints:
+------------
+### Hints: Use class Subclass(ParentClass) to define a subclass.
+------------
 
-Use class Subclass(ParentClass) to define a subclass.
-
-Solution:
-
+**Main Author's Solution: Python 2**
+```
 class American(object):
     pass
 
@@ -65,5 +68,9 @@ anAmerican = American()
 aNewYorker = NewYorker()
 print anAmerican
 print aNewYorker
-
-
+```
+----------------
+**My Solution: Python 3**
+```
+```
+----------------------------------------
