@@ -1,6 +1,6 @@
 
 # Question 47
-### Level 1
+### Level 2
 
 **Question:**
 
@@ -29,7 +29,7 @@ print aCircle.area()
 ----------------
 
 # Question 48
-### Level 1
+### Level 2
 
 **Question:**
 
@@ -59,3 +59,39 @@ print aRectangle.area()
 ```
 ----------------
 
+# Question 49
+### Level 2
+
+**Question:**
+
+***Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.***
+
+----------------------
+### Hints: To override a method in super class, we can define a method with the same name in the super class.
+
+----------------------
+
+**Main author's Solution: Python 2**
+```
+class Shape(object):
+    def __init__(self):
+        pass
+
+    def area(self):
+        return 0
+
+class Square(Shape):
+    def __init__(self, l):
+        Shape.__init__(self)
+        self.length = l
+
+    def area(self):
+        return self.length*self.length
+
+aSquare= Square(3)
+print aSquare.area()
+```
+----------------
+**My Solution: Python 3**
+```
+```
