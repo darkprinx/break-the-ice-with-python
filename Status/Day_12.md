@@ -89,5 +89,16 @@ print aNewYorker
 ----------------
 **My Solution: Python 3**
 ```
+class American():
+    pass
+
+class NewYorker(American):
+    pass
+
+american = American()
+newyorker = NewYorker()
+
+print(american)
+print(newyorker)
 ```
 ----------------------------------------
