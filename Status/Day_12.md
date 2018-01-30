@@ -32,7 +32,8 @@ print (squaredNumbers)
 ***Define a class named American which has a static method called printNationality.***
 
 ---------------------
-### Hints: Use @staticmethod decorator to define class static method.
+### Hints: Use @staticmethod decorator to define class static method.There are also two more methods.To know more, go to this [link](https://realpython.com/blog/python/instance-class-and-static-methods-demystified/). 
+
 ---------------------
 **Main Author's Solution: Python 2**
 ```
@@ -48,6 +49,17 @@ American.printNationality()
 --------------------------
 **My Solution: Python 3**
 ```
+class American():
+    @staticmethod
+    def printNationality():
+        print("I am American")
+
+american = American()
+american.printNationality()   # this will not run if @staticmethod does not decorates the function.
+                              # Because the class has no inctance.
+
+American.printNationality()   # this will run even though the @staticmethod
+                              # does not decorate printNationality()
 ```
 ----------------------------------------
 
