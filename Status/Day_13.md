@@ -116,4 +116,27 @@ print aSquare.area()
 ----------------
 **My Solution: Python 3**
 ```
+class Shape():
+    def __init__(self):
+        pass
+
+    def area(self):
+        return 0
+
+class Square(Shape):
+    def __init__(self,length = 0):
+        Shape.__init__(self)
+        self.length = length
+
+    def area(self):
+        return self.length*self.length
+
+Asqr = Square(5)
+print(Asqr.area())      # prints 25 as given argument
+
+print(Square().area())  # prints zero as default area
 ```
+
+## Conclusion
+
+***Well It seems that the above problems are very much focused on basic concpets and implimantation of object oriented programming.As the concepts are not about to solve any functional problem rather design the structure , so both codes are very much similar in there implimantation part.***
