@@ -1,17 +1,20 @@
 
 # Question 47
-### Level 2
+###### Level 2
 
-**Question:**
 
-***Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area.***
+### Question
+
+> ***Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area.***
 
 ----------------------
-### Hints: Use def methodName(self) to define a method.
--------------------
+### Hints
+> ***Use def methodName(self) to define a method.***
+
+---------------------
 
 **Main author's Solution: Python 2**
-```
+```python
 class Circle(object):
     def __init__(self, r):
         self.radius = r
@@ -24,7 +27,7 @@ print aCircle.area()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 class Circle():
     def __init__(self,r):
         self.radius = r
@@ -39,18 +42,20 @@ print(circle.area())
 ----------------
 
 # Question 48
-### Level 2
+###### Level 2
 
-**Question:**
+### Question
 
-***Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area.***
+> ***Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area.***
 
 ----------------------
-### Hints: Use def methodName(self) to define a method.
--------------------
+### Hints 
+> ***Use def methodName(self) to define a method.***
+
+----
 
 **Main author's Solution: Python 2**
-```
+```python
 class Rectangle(object):
     def __init__(self, l, w):
         self.length = l
@@ -65,7 +70,7 @@ print aRectangle.area()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 class Rectangle():
     def __init__(self,l,w):
         self.length = l
@@ -84,17 +89,19 @@ print(rect.area())
 # Question 49
 ### Level 2
 
-**Question:**
+### **Question**
 
-***Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.***
+> ***Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.***
 
 ----------------------
-### Hints: To override a method in super class, we can define a method with the same name in the super class.
+### Hints 
+> ***To override a method in super class, we can define a method with the same name in the super class.***
+
 
 ----------------------
 
 **Main author's Solution: Python 2**
-```
+```python
 class Shape(object):
     def __init__(self):
         pass
@@ -115,7 +122,7 @@ print aSquare.area()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 class Shape():
     def __init__(self):
         pass
@@ -136,6 +143,33 @@ print(Asqr.area())      # prints 25 as given argument
 
 print(Square().area())  # prints zero as default area
 ```
+---------------------
+
+
+
+# Question 50
+###### Level 2
+
+
+### Question
+
+> ***Please raise a RuntimeError exception.***
+
+----------------------
+### Hints
+> ***UUse raise() to raise an exception.***
+
+-----------
+
+
+**Solution:**
+```python
+raise RuntimeError('something wrong')
+```
+
+----------------
+
+
 
 ## Conclusion
 
