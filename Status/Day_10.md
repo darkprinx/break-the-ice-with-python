@@ -1,15 +1,18 @@
 # Question 31
-### level 1
 
-**Question:**
+### **Question:**
 
-***Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.***
+>***Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.***
 
 ----------------------
-### Hints: Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to get power of a number.Use range() for loops.
+
+### Hints: 
+```
+Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to get power of a number.Use range() for loops.
+```
 -------------------
 **Main Author's Solution: Python 2**
-```
+```python
 def printDict():
 	d=dict()
 	for i in range(1,21):
@@ -20,7 +23,7 @@ printDict()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 def printDict():
     dict={i:i**2 for i in range(1,21)}   # Using comprehension method and
     print(dict)
@@ -30,19 +33,20 @@ printDict()
 ----------------
 
 # Question 32
-### level 1
 
-**Question:**
+### **Question:**
 
-***Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.***
+>***Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.***
 
 ----------------------
-### Hints:
-#### Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to get power of a number.Use range() for loops.Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
 
+### Hints:
+``` 
+Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to get power of a number.Use range() for loops.Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
+```
 -------------------
 **Main Author's Solution: Python 2**
-```
+```python
 def printDict():
 	d=dict()
 	for i in range(1,21):
@@ -53,7 +57,7 @@ printDict()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 def printDict():
     dict = {i: i**2 for i in range(1, 21)}
     print(dict.keys())      # print keys of a dictionary
@@ -63,19 +67,21 @@ printDict()
 ---------------------
 
 # Question 33
-### level 1
 
-**Question:**
+### **Question:**
 
-***Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).***
+>***Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).***
 
 ----------------------
+
 ### Hints:
-#### Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.
+```
+Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.
+```
 
 -------------------
 **Main Author's Solution: Python 2**
-```
+```python
 def printList():
 	li=list()
 	for i in range(1,21):
@@ -86,7 +92,7 @@ printList()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 def printList():
     lst = [i ** 2 for i in range(1, 21)]
     print(lst)
@@ -96,19 +102,21 @@ printList()
 -------------------
 
 # Question 34
-### level 1
 
-**Question:**
+### **Question:**
 
-***Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.***
+>***Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.***
 
 ----------------------
+
 ### Hints:
-#### Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
+```
+Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
+```
 
 -------------------
 **Main Author's Solution: Python 2**
-```
+```python
 def printList():
 	li=list()
 	for i in range(1,21):
@@ -120,7 +128,7 @@ printList()
 ----------------
 
 **My Solution: Python 3**
-```
+```python
 def printList():
     lst = [i ** 2 for i in range(1, 21)]
 
@@ -131,19 +139,19 @@ printList()
 ```
 -------------
 # Question 35
-### level 1
 
-**Question:**
+### **Question:**
 
-***Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.***
+>***Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.***
 
 ----------------------
 ### Hints:
-#### Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
-
+```
+Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
+```
 -------------------
 **Main Author's Solution: Python 2**
-```
+```python
 def printList():
 	li=list()
 	for i in range(1,21):
@@ -154,7 +162,7 @@ printList()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 def printList():
     lst = [i ** 2 for i in range(1, 21)]
     for i in range(19,14,-1):
@@ -164,18 +172,19 @@ printList()
 ```
 ----------------------
 # Question 36
-### level 1
 
-**Question:**
+### **Question:**
 
-***Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.***
+>***Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.***
 
 ----------------------
-### Hints: Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
+```
+Hints: Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
+```
 
 -------------------
 **Main Author's Solution: Python 2**
-```
+```python
 def printList():
 	li=list()
 	for i in range(1,21):
@@ -186,7 +195,7 @@ printList()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 def printList():
     lst = [i ** 2 for i in range(1, 21)]
     for i in range(5,20):
@@ -197,19 +206,22 @@ printList()
 
 ---------------------
 # Question 37
-### level 1
 
-**Question:**
+### **Question:**
 
-***Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included).***
+>***Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included).***
 
 
 ----------------------
-### Hints: Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use tuple() to get a tuple from a list.
+
+### Hints: 
+```
+Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use tuple() to get a tuple from a list.
+```
 
 -------------------
 **Main Author's Solution: Python 2**
-```
+```python
 def printTuple():
 	li=list()
 	for i in range(1,21):
@@ -220,7 +232,7 @@ printTuple()
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 def printTupple():
     lst = [i ** 2 for i in range(1, 21)]
     print(tuple(lst))

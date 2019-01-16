@@ -1,22 +1,23 @@
 # Question 44
-### Level 1
 
-**Question:**
-***Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).***
+### **Question:**
+>***Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).***
 
 ---------------
 
-### Hints: Use map() to generate a list. Use lambda to define anonymous functions.
+### Hints:
+>***Use map() to generate a list. Use lambda to define anonymous functions.***
+
 ---------------
 
 **Main Author's Solution: Python 2**
-```
+```python
 squaredNumbers = map(lambda x: x**2, range(1,21))
 print squaredNumbers
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 def sqr(x):
     return x*x
 
@@ -26,17 +27,17 @@ print (squaredNumbers)
 ----------------------------------------
 
 # Question 45
-### Level 1
 
-**Question:**
-***Define a class named American which has a static method called printNationality.***
+### **Question:**
+>***Define a class named American which has a static method called printNationality.***
 
 ---------------------
-### Hints: Use @staticmethod decorator to define class static method.There are also two more methods.To know more, go to this [link](https://realpython.com/blog/python/instance-class-and-static-methods-demystified/). 
+### Hints: 
+>***Use @staticmethod decorator to define class static method.There are also two more methods.To know more, go to this [link](https://realpython.com/blog/python/instance-class-and-static-methods-demystified/).***
 
 ---------------------
 **Main Author's Solution: Python 2**
-```
+```python
 class American(object):
     @staticmethod
     def printNationality():
@@ -48,7 +49,7 @@ American.printNationality()
 ```
 --------------------------
 **My Solution: Python 3**
-```
+```python
 class American():
     @staticmethod
     def printNationality():
@@ -64,17 +65,19 @@ American.printNationality()   # this will run even though the @staticmethod
 ----------------------------------------
 
 # Question 46
-### Level 1
 
-**Question:**
-***Define a class named American and its subclass NewYorker.***
+### **Question:**
+>***Define a class named American and its subclass NewYorker.***
 
 ------------
-### Hints: Use class Subclass(ParentClass) to define a subclass.
+
+### Hints: 
+>**Use class Subclass(ParentClass) to define a subclass.***
+
 ------------
 
 **Main Author's Solution: Python 2**
-```
+```python
 class American(object):
     pass
 
@@ -88,7 +91,7 @@ print aNewYorker
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 class American():
     pass
 
