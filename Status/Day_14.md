@@ -70,8 +70,6 @@ error = MyError("something wrong")
 ---------------------
 
 
-
-
 # Question 53
 
 ### **Question**
@@ -81,13 +79,10 @@ error = MyError("something wrong")
 > ***Example:
 If the following email address is given as input to the 
 program:***
-
-
 ```
 john@google.com
 ```
 > ***Then, the output of the program should be:***
-
 ```
 john
 ```

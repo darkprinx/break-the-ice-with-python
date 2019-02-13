@@ -1,28 +1,27 @@
 
 # Question 14
-### Level 2
---------------------
 
-**Question:**
+### **Question:**
 
-***Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.***
+>***Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.***
 
-***Suppose the following input is supplied to the program:***
+>***Suppose the following input is supplied to the program:***
 ```
 Hello world!
 ```
-***Then, the output should be:***
+>***Then, the output should be:***
 ```
 UPPER CASE 1
 LOWER CASE 9
 ```
 ---------------------
+
 ### Hints:
-#### In case of input data being supplied to the question, it should be assumed to be a console input.
+>***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
 -------------------
 **Main author's Solution: Python 2**
-```
+```python
 s = raw_input()
 d = {"UPPER CASE":0, "LOWER CASE":0}
 for c in s:
@@ -37,7 +36,7 @@ print "LOWER CASE", d["LOWER CASE"]
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 word = input()
 upper,lower = 0,0
 
@@ -50,7 +49,7 @@ for i in word:
 print("UPPER CASE {0}\nLOWER CASE {1}".format(upper,lower))
 ```
 **OR**
-```
+```python
 word = input()
 upper,lower = 0,0
 
@@ -61,7 +60,7 @@ for i in word:
 print("UPPER CASE {0}\nLOWER CASE {1}".format(upper,lower))
 ```
 **OR**
-```
+```python
 word = input()
 upper = sum(1 for i in word if i.isupper())           # sum function cumulatively sum up 1's if the condition is True
 lower = sum(1 for i in word if i.islower())
@@ -70,28 +69,28 @@ print("UPPER CASE {0}\nLOWER CASE {1}".format(upper,lower))
 ```
 ----------------------
 # Question 15
-### Level 2
---------------------
 
-**Question:**
+### **Question:**
 
-***Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.***
+>***Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.***
 
-***Suppose the following input is supplied to the program:***
+>***Suppose the following input is supplied to the program:***
 
-```9```
+```
+9
+```
 
-***Then, the output should be:***
+>***Then, the output should be:***
 ```
 11106
 ```
 ---------------------
 ### Hints:
-#### In case of input data being supplied to the question, it should be assumed to be a console input.
+>***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
 -------------------
 **Main author's Solution: Python 2**
-```
+```python
 a = raw_input()
 n1 = int( "%s" % a )
 n2 = int( "%s%s" % (a,a) )
@@ -101,7 +100,7 @@ print n1+n2+n3+n4
 ```
 ----------------
 **My Solution: Python 3**
-```
+```python
 a = input()
 total,tmp = 0,str()        # initialing an integer and empty string
 
@@ -112,7 +111,7 @@ for i in range(4):
 print(total)
 ```
 **OR**
-```
+```python
 a = input()
 total = int(a) + int(2*a) + int(3*a) + int(4*a)  # N*a=Na, for example  a="23", 2*a="2323",3*a="232323"
 print(total)
