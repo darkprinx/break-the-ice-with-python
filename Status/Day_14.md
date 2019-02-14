@@ -28,7 +28,15 @@ finally:
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+def divide():
+    return 5/0
+
+try:
+    divide()
+except ZeroDivisionError as ze:
+    print("Why on earth you are dividing a number by ZERO!!")
+except:
+    print("Any other exception")
 
 ```
 ---------------------
@@ -64,7 +72,27 @@ error = MyError("something wrong")
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+
+class CustomException(Exception):
+    """Exception raised for custom purpose
+
+    Attributes:
+        message -- explanation of the error
+    """
+
+    def __init__(self, message):
+        self.message = message
+
+
+num = int(input())
+
+try:
+    if num < 10:
+        raise CustomException("Input is less than 10")
+    elif num > 10:
+        raise CustomException("Input is grater than 10")
+except CustomException as ce:
+    print("The error raised: " + ce.message)
 
 ```
 ---------------------
@@ -105,7 +133,20 @@ print r2.group(1)
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+email = "john@google.com"
+email = email.split('@')
+print(email[0])
 ```
 ---------------------
+**OR**
+```python
+import re
+
+email = "john@google.com elise@python.com"
+pattern = "(\w+)@\w+.com"
+ans = re.findall(pattern,email)
+print(ans)
+```
+
+
+
