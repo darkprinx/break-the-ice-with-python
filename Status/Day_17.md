@@ -21,11 +21,11 @@ for i in li:
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+data = [2,4,5,6]
+for i in data:
+    assert i%2 == 0, "{} is not an even number".format(i)
 ```
 ---------------------
-
 
 
 # Question 66
@@ -58,8 +58,9 @@ print eval(expression)
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+expression = input()
+ans = eval(expression)
+print(ans)
 ```
 ---------------------
 
@@ -111,7 +112,7 @@ print bin_search(li,12)
 
 ### **Question**
 
->***Please generate a random float where the value is between 10 and 100 using Python math module.***
+>***Please generate a random float where the value is between 10 and 100 using Python module.***
 
 ----------------------
 ### Hints
@@ -123,13 +124,13 @@ print bin_search(li,12)
 ```python
 import random
 print random.random()*100
-
 ```
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+import random
+rand_num = random.uniform(10,100)
+print(rand_num)
 ```
 ---------------------
 
@@ -139,7 +140,7 @@ print random.random()*100
 
 ### **Question**
 
->***Please generate a random float where the value is between 5 and 95 using Python math module.***
+>***Please generate a random float where the value is between 5 and 95 using Python module.***
 
 
 ----------------------
@@ -156,8 +157,9 @@ print random.random()*100-5
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+import random
+rand_num = random.uniform(5,95)
+print(rand_num)
 ```
 ---------------------
 
