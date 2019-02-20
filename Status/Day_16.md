@@ -42,12 +42,15 @@ print f(n)
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+def f(n):
+    if n == 0:
+        return 0
+    return f(n-1) + 100
 
+n = int(input())
+print(f(n))
 ```
 ---------------------
-
-
 
 # Question 61
 
@@ -91,12 +94,15 @@ print f(n)
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+def f(n):
+    if n < 2:
+        return n
+    return f(n-1) + f(n-2)
 
+n = int(input())
+print(f(n))
 ```
 ---------------------
-
-
 
 # Question 62
 
@@ -144,7 +150,19 @@ print ",".join(values)
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+def f(n):
+    if n < 2:
+        fibo[n] = n
+        return fibo[n]
+    fibo[n] = f(n-1) + f(n-2)
+    return fibo[n]
+
+n = int(input())
+fibo = [0]*(n+1)  # initialize a list of size (n+1)
+f(n)              # call once and it will set value to fibo[0-n]
+fibo = [str(i) for i in fibo]   # converting integer data to string type
+ans = ",".join(fibo)    # joining all string element of fibo with ',' character
+print(ans)
 
 ```
 ---------------------
@@ -173,7 +191,7 @@ If the following n is given as input to the program:***
 
 ----------------------
 
-**Main author's Solution: Python 2**
+**Solution:**
 ```python
 def EvenGenerator(n):
     i=0
@@ -192,13 +210,6 @@ print ",".join(values)
 
 ```
 ----------------
-**My Solution: Python 3**
-```python
-#to be written
-
-```
----------------------
-
 
 
 # Question 64
@@ -241,7 +252,14 @@ print ",".join(values)
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+def generate(n):
+    for i in range(n+1):
+        if i % 35 == 0:    # 5*7 = 35, if a number is divisible by a & b then it is also divisible by a*b
+            yield i
+
+n = int(input())
+resp = [str(i) for i in generate(n)]
+print(",".join(resp))
 
 ```
 ---------------------
