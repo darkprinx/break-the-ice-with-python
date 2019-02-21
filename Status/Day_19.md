@@ -5,27 +5,18 @@
 
 >***Please write a program to randomly print a integer number between 7 and 15 inclusive.***
 
-
 ----------------------
 ### Hints 
 > ***Use random.randrange() to a random integer in a given range.***
 
 ----------------------
 
-**Main author's Solution: Python 2**
+**Solution:**
 ```python
 import random
 print random.randrange(7,16)
 ```
 ----------------
-**My Solution: Python 3**
-```python
-#to be written
-
-```
----------------------
-
-
 
 # Question 76
 
@@ -39,7 +30,7 @@ print random.randrange(7,16)
 
 ----------------------
 
-**Main author's Solution: Python 2**
+**Solution:**
 ```python
 import zlib
 s = 'hello world!hello world!hello world!hello world!'
@@ -48,12 +39,6 @@ print t
 print zlib.decompress(t)
 ```
 ----------------
-**My Solution: Python 3**
-```python
-#to be written
-
-```
----------------------
 
 # Question 77
 
@@ -77,11 +62,27 @@ print t.timeit()
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+import datetime
 
+before = datetime.datetime.now()
+for i in range(100):
+    x = 1 + 1
+after = datetime.datetime.now()
+execution_time = after - before
+print(execution_time.microseconds)
+```
+**OR**
+```python
+import time
+
+before = time.time()
+for i in range(100):
+    x = 1 + 1
+after = time.time()
+execution_time = after - before
+print(execution_time)
 ```
 ---------------------
-
 
 # Question 78
 
@@ -107,12 +108,23 @@ print li
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+import random
 
+lst = [3,6,7,8]
+random.shuffle(lst)
+print(lst)
+```
+**OR**
+```python
+import random
+
+# shuffle with a chosen seed
+lst = [3,6,7,8]
+seed = 7
+random.Random(seed).shuffle(lst)
+print(lst)
 ```
 ---------------------
-
-
 
 # Question 79
 
@@ -142,8 +154,14 @@ for i in range(len(subjects)):
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+subjects=["I", "You"]
+verbs=["Play", "Love"]
+objects=["Hockey","Football"]
 
+for sub in subjects:
+    for verb in verbs:
+        for obj in objects:
+            print("{} {} {}".format(sub,verb,obj))
 ```
 ---------------------
 
