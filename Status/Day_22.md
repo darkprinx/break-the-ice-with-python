@@ -37,11 +37,24 @@ print '\n'.join(['%s,%s' % (k, v) for k, v in dic.items()])
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+import string
 
+s = input()
+for letter in string.ascii_lowercase:
+    cnt = s.count(letter)
+    if cnt > 0:
+        print("{},{}".format(letter,cnt))
+```
+**OR**
+```python
+s = input()
+for letter in range(ord('a'),ord('z')+1):    # ord() gets the ascii value of a char
+    letter = chr(letter)                     # chr() gets the char of an ascii value
+    cnt = s.count(letter)
+    if cnt > 0:
+        print("{},{}".format(letter,cnt))
 ```
 ---------------------
-
 
 
 # Question 91
@@ -73,8 +86,9 @@ print s
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+s = input()
+s = ''.join(reversed(s))
+print(s)
 ```
 ---------------------
 
@@ -107,8 +121,18 @@ print s
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+s = "H1e2l3l4o5w6o7r8l9d"
+s = [ s[i] for i in range(len(s)) if i%2 ==0 ]
+print(''.join(s))
+```
+**OR**
+```python
+s = "H1e2l3l4o5w6o7r8l9d"
+ns =''
+for i in range(len(s)):
+    if i % 2 == 0:
+        ns+=s[i]
+print(ns)
 ```
 ---------------------
 
@@ -125,20 +149,13 @@ print s
 
 ----------------------
 
-**Main author's Solution: Python 2**
+**Solution:**
 ```python
 
 import itertools
 print list(itertools.permutations([1,2,3]))
 ```
 ----------------
-**My Solution: Python 3**
-```python
-#to be written
-
-```
----------------------
-
 
 
 # Question 94
@@ -155,7 +172,7 @@ We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many
 
 ----------------------
 
-**Main author's Solution: Python 2**
+**Solution:**
 ```python
 def solve(numheads,numlegs):
     ns='No solutions!'
@@ -171,11 +188,3 @@ solutions=solve(numheads,numlegs)
 print solutions
 ```
 ----------------
-**My Solution: Python 3**
-```python
-#to be written
-
-```
----------------------
-
-
