@@ -8,8 +8,7 @@
 
 ----------------------
 ### Hints 
-> ***Use list comprehension to delete a bunch of element from a list.
-Use enumerate() to get (index, value) tuple.***
+> ***Use list comprehension to delete a bunch of element from a list.Use enumerate() to get (index, value) tuple.***
 
 ----------------------
 
@@ -22,11 +21,11 @@ print li
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+li = [12,24,35,70,88,120,155]
+li = [li[i] for i in range(len(li)) if i not in (0,4,5)]
+print(li)
 ```
 ---------------------
-
 
 
 # Question 86
@@ -50,8 +49,9 @@ print li
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+li = [12,24,35,24,88,120,155]
+li.remove(24)  # this will remove only the first occurrence of 24
+print(li)
 ```
 ---------------------
 
@@ -79,8 +79,21 @@ print li
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
-
+list1 = [1,3,6,78,35,55]
+list2 = [12,24,35,24,88,120,155]
+set1= set(list1)
+set2= set(list2)
+intersection = set1 & set2
+print(intersection)
+```
+**OR**
+```python
+list1 = [1,3,6,78,35,55]
+list2 = [12,24,35,24,88,120,155]
+set1= set(list1)
+set2= set(list2)
+intersection = set.intersection(set1,set2)
+print(intersection)
 ```
 ---------------------
 
@@ -116,11 +129,26 @@ print removeDuplicate(li)
 ----------------
 **My Solution: Python 3**
 ```python
-#to be written
+li = [12,24,35,24,88,120,155,88,120,155]
+for i in li:
+    if li.count(i) > 1:
+        li.remove(i)
+print(li)
+```
+**OR**
+```python
+def removeDuplicate( li ):
+    seen = {}  # dictionary
+    for item in li:
+        if item not in seen:
+            seen[item] = True
+            yield item
 
+li = [12, 24, 35, 24, 88, 120, 155, 88, 120, 155]
+ans = list(removeDuplicate(li))
+print(ans)
 ```
 ---------------------
-
 
 
 # Question 89
@@ -136,7 +164,7 @@ print removeDuplicate(li)
 
 ----------------------
 
-**Main author's Solution: Python 2**
+**Solution:**
 ```python
 class Person(object):
     def getGender( self ):
@@ -156,11 +184,3 @@ print aMale.getGender()
 print aFemale.getGender()
 ```
 ----------------
-**My Solution: Python 3**
-```python
-#to be written
-
-```
----------------------
-
-
