@@ -146,3 +146,7 @@ array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
 print array
 ```
 ----------------
+
+[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_11.md "Day 19")
+
+[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_13.md "Day 21")
