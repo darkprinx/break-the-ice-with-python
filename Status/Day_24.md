@@ -150,5 +150,6 @@ print(sum)
 
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 23")
 
+[***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
 
 # To Be Continue...

@@ -268,3 +268,5 @@ print(",".join(resp))
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15")
 
 [***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17")
+
+[***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
