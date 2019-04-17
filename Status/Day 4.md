@@ -67,6 +67,22 @@ lower = sum(1 for i in word if i.islower())
 
 print("UPPER CASE {0}\nLOWER CASE {1}".format(upper,lower))
 ```
+**OR**
+```python
+# solution by Amitewu
+
+string = input("Enter the sentense")
+upper = 0
+lower = 0
+for x in string:
+    if x.isupper() == True:
+        upper += 1
+    if x.islower() == True:
+        lower += 1
+
+print("UPPER CASE: ", upper)
+print("LOWER CASE: ", lower)
+```
 ----------------------
 # Question 15
 
