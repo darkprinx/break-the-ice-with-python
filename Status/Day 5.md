@@ -35,6 +35,12 @@ print(",".join(lst))
 ```
 ------------------------
 
+**Solution by Amit: Python 3**
+```python
+x=input().split(",")
+ans=list(filter(lambda x : int(x)%2!=0 ,x))
+print(",".join(ans))
+```
 
 # Question 17
 
