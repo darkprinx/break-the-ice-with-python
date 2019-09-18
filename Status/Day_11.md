@@ -44,6 +44,17 @@ for i in range(5,10):
 print(lst1)
 print(lst2)
 ```
+**OR**
+```python
+
+'''
+Solution by: CoffeeBrakeInc
+'''
+
+tup = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+lt = int(len(tup)/2)
+print(tup[:lt], tup[lt:])
+```
 ------------------
 
 # Question 39
