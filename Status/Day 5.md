@@ -31,6 +31,9 @@
 lst = [str(int(i)**2) for i in input().split(',') if int(i) % 2]
 print(",".join(lst))
 ```
+
+***There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him.*** 
+
 ------------------------
 
 # Question 17
