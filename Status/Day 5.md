@@ -12,7 +12,7 @@
 >***Then, the output should be:***
 
 ```
-1,3,5,7,9
+1,9,25,49,81
 ```
 
 ----------------------
@@ -23,24 +23,15 @@
 -------------------
 **Main author's Solution: Python 2**
 ```python
-values = raw_input()
-numbers = [x for x in values.split(",") if int(x)%2 != 0]
-print ",".join(numbers)
+## The solution by the author is incorrect.Thus it's not included here.
 ```
 ----------------
 **My Solution: Python 3**
 ```python
-lst = [i for i in input().split(',') if int(i) % 2]
+lst = [str(int(i)**2) for i in input().split(',') if int(i) % 2]
 print(",".join(lst))
 ```
 ------------------------
-
-**Solution by Amit: Python 3**
-```python
-x=input().split(",")
-ans=list(filter(lambda x : int(x)%2!=0 ,x))
-print(",".join(ans))
-```
 
 # Question 17
 
