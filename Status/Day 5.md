@@ -101,7 +101,7 @@ while True:
 print(total)
 ```
 -----------------
-**Solution by @leonedott**
+**Solution by: leonedott**
 ```python
 lst = []
 while True:
