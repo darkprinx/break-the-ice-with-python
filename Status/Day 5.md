@@ -100,6 +100,25 @@ while True:
 
 print(total)
 ```
+-----------------
+**Solution by @leonedott**
+```python
+lst = []
+while True:
+  x = input()
+  if len(x)==0:
+    break
+  lst.append(x)
+
+balance = 0
+for item in lst:
+  if 'D' in item:
+    balance += int(item.strip('D '))
+  if 'W' in item:
+    balance -= int(item.strip('W '))
+print(balance)
+```
+
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
 
 [***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6")
