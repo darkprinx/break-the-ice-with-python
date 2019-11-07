@@ -22,7 +22,7 @@ print random.choice([i for i in range(11) if i%2==0])
 **My Solution: Python 3**
 ```python
 import random
-resp = [i for i in range(2,11,2)]
+resp = [i for i in range(0,11,2)]
 print(random.choice(resp))
 ```
 ---------------------
