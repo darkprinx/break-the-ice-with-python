@@ -83,6 +83,12 @@ ss = sorted(ss.items())  # returns as a tuple list
 for i in ss:
     print("%s:%d"%(i[0],i[1]))
 ```
+**OR**
+```python
+from pprint import pprint
+p=input().split()
+pprint({i:p.count(i) for i in p})
+```
 ---------------
 
 # Question 23
