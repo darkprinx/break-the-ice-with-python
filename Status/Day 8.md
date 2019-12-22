@@ -83,7 +83,7 @@ ss = sorted(ss.items())  # returns as a tuple list
 for i in ss:
     print("%s:%d"%(i[0],i[1]))
 ```
-**OR**
+**Solution by: AnjanKumarG**
 ```python
 from pprint import pprint
 p=input().split()
