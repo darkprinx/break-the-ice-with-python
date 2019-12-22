@@ -154,8 +154,9 @@ s1,s2=input().split()
 printVal(s1,s2)
 ```
 ------------
-**Solution by: yuan1z**
+
 ```python
+'''Solution by: yuan1z'''
 func = lambda a,b: print(max((a,b),key=len)) if len(a)!=len(b) else print(a+'\n'+b)
 ```
 ------------
