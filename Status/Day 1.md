@@ -79,6 +79,8 @@ print fact(x)
     ```
  * **Using Lambda Function**
     ```python
+    # Solution by:  harshraj22
+    
     n = int(input())
     def shortFact(x): return x if x is 1 else x*shortFact(x-1)
     print(shortFact(n))
