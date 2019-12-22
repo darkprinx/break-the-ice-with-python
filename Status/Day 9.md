@@ -154,6 +154,12 @@ s1,s2=input().split()
 printVal(s1,s2)
 ```
 ------------
+**Solution by: yuan1z**
+```python
+func = lambda a,b: print(max((a,b),key=len)) if len(a)!=len(b) else print(a+'\n'+b)
+```
+------------
+
 
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 9")
 
