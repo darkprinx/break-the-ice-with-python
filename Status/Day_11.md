@@ -142,7 +142,7 @@ else:
     print("No")
 ```
 ----------------
-**My Solution: Python 3**
+**Solution by AasaiAlangaram: Python 3**
 ```python
 input = input('Enter string:')
 
