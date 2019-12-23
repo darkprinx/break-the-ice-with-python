@@ -142,6 +142,15 @@ else:
     print("No")
 ```
 ----------------
+**My Solution: Python 3**
+```python
+input = input('Enter string:')
+
+output = ''.join(['Yes' if input == 'yes' or input =='YES' or input =='Yes' or input =='YeS' else 'No' ])
+
+print(str(output))
+```
+----------------
 
 # Question 41
 
