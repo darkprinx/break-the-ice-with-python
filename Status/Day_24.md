@@ -56,6 +56,8 @@ for word in word_list:
 >b 3
 >a 2
 >c 2
+>d 1
+>e 1
 >```
 
 ### Hints
@@ -71,8 +73,22 @@ for i in word:
     dct[i] = dct.get(i,0) + 1
 
 dct = sorted(dct.items(),key=lambda x: (-x[1],x[0]))
-for i in dct[:3]:
+for i in dct:
     print(i[0],i[1])
+```
+---------------------
+```python
+'''Solution by: yuan1z'''
+
+X = input()
+my_set = set(X)
+arr = []
+for item in my_set:
+    arr.append([item,X.count(item)])
+tmp = sorted(arr,key = lambda x: (-x[1],x[0]))
+
+for i in tmp:
+    print(i[0]+' '+str(i[1]))
 ```
 ---------------------
 
