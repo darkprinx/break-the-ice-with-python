@@ -101,8 +101,10 @@ while True:
 print(total)
 ```
 -----------------
-**Solution by: leonedott**
+
 ```python
+'''Solution by: leonedott'''
+
 lst = []
 while True:
   x = input()
@@ -118,6 +120,25 @@ for item in lst:
     balance -= int(item.strip('W '))
 print(balance)
 ```
+------------------------
+```python
+'''Solution by: AlexanderSro'''
+
+account = 0
+while True:
+    action = input("Deposit/Whitdrow/Balance/Quit? D/W/B/Q: ").lower()
+    if action == "d":
+        deposit = input("How much would you like to deposit? ")
+        account = account + int(deposit)
+    elif action == "w":
+        withdrow = input("How much would you like to withdrow? ")
+        account = account - int(withdrow)
+    elif action == "b":
+        print(account)
+    else:
+        quit()
+```
+-----------------
 
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
 
