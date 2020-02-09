@@ -14,16 +14,21 @@
 #### ***The solution code for this problem was not as reltive to as the problem mentioned and there was a typing mistake while calling the function.***
 
 ----------------
-**My Solution: Python 3**
+**Solution: Python 3**
 ```python
-class Test:
-    def generator(self,n):
-        return [i for i in range(n) if i%7==0]   # returns the values as a list if an element is divisible by 7
+'''Solution by: Seawolf159
+'''
+class Divisible:
+    
+    def by_seven(self, n):
+        for number in range(n + 1):
+            if number % 7 == 0: yield number
 
-n = int(input())
-num = Test()
-lst = num.generator(n)
-print(lst)
+
+divisible = Divisible()
+generator = divisible.by_seven(int(input("Please insert a number. --> ")))
+for number in generator:
+    print(number)
 
 ```
 ----------------------
