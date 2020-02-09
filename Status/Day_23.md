@@ -84,6 +84,7 @@ width = int(input())
 
 print(textwrap.fill(string,width))
 ```
+----------------------
 
 # Question 97
 
