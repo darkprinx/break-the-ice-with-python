@@ -73,6 +73,18 @@ if __name__ == '__main__':
 ```
 ---------------------
 
+```
+python
+'''Solution by: mishrasunny-coder
+'''
+import textwrap
+
+string = input()
+width = int(input())
+
+print(textwrap.fill(string,width))
+```
+
 # Question 97
 
 ### **Question**
