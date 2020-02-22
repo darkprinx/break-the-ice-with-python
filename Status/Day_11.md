@@ -133,21 +133,24 @@ else:
     print "No"
 ```
 ----------------
-**My Solution: Python 3**
+**Solution: Python 3**
 ```python
-s = input()
-if s.lower() == 'yes':   # lower function returns all lowercase letters in the string
-    print('Yes')
-else:
+'''
+Solution by: Seawolf159
+'''
+text = input("Please type something. --> ")
+if text == "yes" or text == "YES" or text == "Yes": 
+    print("Yes")
+else: 
     print("No")
 ```
 ----------------
-**Solution by AasaiAlangaram: Python 3**
 ```python
+'''
+Solution by: AasaiAlangaram
+'''
 input = input('Enter string:')
-
-output = ''.join(['Yes' if input == 'yes' or input =='YES' or input =='Yes' or input =='YeS' else 'No' ])
-
+output = ''.join(['Yes' if input == 'yes' or input =='YES' or input =='Yes' else 'No' ])
 print(str(output))
 ```
 ----------------
