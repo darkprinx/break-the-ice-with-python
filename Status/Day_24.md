@@ -138,6 +138,21 @@ print('Digit -',digit)
 print('Letter -',letter)
 ```
 ----------------
+**Another solution**
+```python
+s = input("Input a string")
+d=l=0
+for c in s:
+    if c.isdigit():
+        d=d+1
+    elif c.isalpha():
+        l=l+1
+    else:
+        pass
+print("Letters", l)
+print("Digits", d)
+```
+----------------
 
 
 # Question 103
@@ -173,6 +188,18 @@ def rec(n):
 n = int(input())
 sum = rec(n)
 print(sum)
+```
+----------------
+**Another solution**
+```python
+def recurSum(n):
+    if n <= 1:
+        return n
+    return n + recurSum(n - 1)
+
+
+n = int(input())
+print(recurSum(n))
 ```
 ----------------
 

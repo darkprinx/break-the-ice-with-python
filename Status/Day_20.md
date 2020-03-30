@@ -36,6 +36,17 @@ print(lst)
 ```
 ---------------------
 
+**Another solution**
+```python
+li = [5,6,77,45,22,12,24]
+li2 = []
+for x in li:
+  if(x%2!=0):
+    li2.append(x)
+print(li2)
+```
+---------------------
+
 
 # Question 81
 
@@ -61,6 +72,17 @@ print li
 li = [12,24,35,70,88,120,155]
 li = [x for x in li if x % 35!=0]
 print(li)
+```
+---------------------
+
+**Another solution **
+```python
+li = [12,24,35,70,88,120,155]
+li2 = []
+for x in li:
+  if(x%5!=0 and x%7!=0):
+    li2.append(x)
+print(li2)
 ```
 ---------------------
 
@@ -90,6 +112,16 @@ print li
 li = [12,24,35,70,88,120,155]
 li = [li[i] for i in range(len(li)) if i%2 != 0]
 print(li)
+```
+---------------------
+**Another solution**
+```python
+li = [12,24,35,70,88,120,155]
+li2 = []
+for x in range(0,len(li)):
+  if(x%2!=0):
+    li2.append(li[x])
+print(li2)
 ```
 ---------------------
 
