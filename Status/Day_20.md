@@ -83,6 +83,8 @@ for x in li:
   if(x%5!=0 and x%7!=0):
     li2.append(x)
 print(li2)
+'''added new feature/2'''
+
 ```
 ---------------------
 
