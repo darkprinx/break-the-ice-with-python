@@ -133,6 +133,16 @@ total = int(a) + int(2*a) + int(3*a) + int(4*a)  # N*a=Na, for example  a="23", 
 print(total)
 ```
 
+----------------
+[***Nagendra Babu***](https://github.com/nagendra226)
+```python
+'''Python 3 Nagendra Babu'''
+program = 'a+aa+aaa+aaaa'
+eval_program = program.replace('a','9')
+print(eval(eval_program))
+```
+----------------
+
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
 
 [***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
