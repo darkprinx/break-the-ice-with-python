@@ -31,10 +31,29 @@
 lst = [str(int(i)**2) for i in input().split(',') if int(i) % 2]
 print(",".join(lst))
 ```
+-----------------
 
-***There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him.*** 
+```python
+'''Solution by: shagun'''
+square odd no
+
+lst = input().split(',')     # splits in comma position and set up in list
+
+seq = []
+lst = [int(i) for i in lst]  # converts string to integer
+for i in lst:
+        if i%2 != 0:
+                i = i*i
+                seq.append(i)
+
+
+seq = [str(i) for i in seq]   # All the integers are converted to string to be able to apply join operation
+print(",".join(seq))
+```
 
 ------------------------
+
+***There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him.*** 
 
 # Question 17
 
