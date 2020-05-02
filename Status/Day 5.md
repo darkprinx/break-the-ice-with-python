@@ -138,6 +138,21 @@ while True:
     else:
         quit()
 ```
+------------------
+```python
+'''Solution by: ShalomPrinz
+'''
+lines = []
+while True:
+	loopInput = input()
+	if loopInput == "done":
+		break
+	else:
+		lines.append(loopInput)
+
+lst = list(int(i[2:]) if i[0] == 'D' else -int(i[2:]) for i in lines)
+print(sum(lst))
+```
 -----------------
 
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
