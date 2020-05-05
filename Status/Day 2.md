@@ -62,15 +62,15 @@ class InputOutString(object):
     def __init__(self):
         self.s = ""
 
-    def getString(self):
+    def get_string(self):
         self.s = raw_input()
 
-    def printString(self):
+    def print_string(self):
         print self.s.upper()
 
-strObj = InputOutString()
-strObj.getString()
-strObj.printString()
+str_obj = InputOutString()
+str_obj.get_string()
+str_obj.print_string()
 ```
 ----------------------------------------
 **My Solution: Python 3**
@@ -79,15 +79,15 @@ class IOstring():
     def __init__(self):
         pass
 
-    def getString(self):
+    def get_string(self):
         self.s = input()
 
-    def printString(self):
+    def print_string(self):
         print(self.s.upper())
 
 xx = IOstring()
-xx.getString()
-xx.printString()
+xx.get_string()
+xx.print_string()
 ```
 --------------------------
 # Question 6
@@ -120,7 +120,6 @@ Let us assume the following comma separated input sequence is given to the progr
 
 **Main author's Solution: Python 2**
 ```python
-#!/usr/bin/env python
 import math
 c = 50
 h = 30
@@ -135,24 +134,25 @@ print ','.join(value)
 
 **My Solution: Python 3**
 ```python
-from math import * # importing all math functions
+from math import sqrt # import specific functions as importing all using *
+                      # is bad practice
 
 C,H = 50,30
 
 def calc(D):
     return sqrt((2*C*D)/H)
 
-D = input().split(',')    # splits in comma position and set up in list
+D = [int(i) for i in input().split(',')] # splits in comma position and set up in list
 D = [int(i) for i in D]   # converts string to integer
 D = [calc(i) for i in D]  # returns floating value by calc method for every item in D
-D = [round(i) for i in D] # All the floating values are rounded
+D = [round(i) for i in D] # All the floating values are rounded 
 D = [str(i) for i in D]   # All the integers are converted to string to be able to apply join operation
 
 print(",".join(D))
 ```
 **OR**
 ```python
-from math import * # importing all math functions
+from math import sqrt
 
 C,H = 50,30
 
@@ -165,7 +165,7 @@ print(",".join(D))
 ```
 **OR**
 ```python
-from math import *
+from math import sqrt
 C,H = 50,30
 
 def calc(D):
@@ -210,12 +210,12 @@ print(",".join(D))
 ```python
 input_str = raw_input()
 dimensions = [int(x) for x in input_str.split(',')]
-rowNum = dimensions[0]
-colNum = dimensions[1]
-multilist = [[0 for col in range(colNum)] for row in range(rowNum)]
+row_num = dimensions[0]
+col_num = dimensions[1]
+multilist = [[0 for col in range(col_num)] for row in range(row_num)]
 
-for row in range(rowNum):
-    for col in range(colNum):
+for row in range(row_num):
+    for col in range(col_num):
         multilist[row][col] = row * col
 
 print multilist
@@ -305,7 +305,7 @@ while True:
     if s:
         lines.append(s.upper())
     else:
-        break;
+        break
 
 for sentence in lines:
     print sentence
@@ -315,13 +315,26 @@ for sentence in lines:
 ```python
 lst = []
 
-while True:
+while input():
     x = input()
     if len(x)==0:
-        break;
+        break
     lst.append(x.upper())
 
 for line in lst:
+    print(line)
+```
+
+**OR**
+```python
+def user_input():
+    while True:
+        s = input()
+        if not s:
+            return
+        yield s
+
+for line in map(str.upper, user_input()):
     print(line)
 ```
 --------------------
