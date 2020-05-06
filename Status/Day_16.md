@@ -1,34 +1,41 @@
-
-
 # Question 60
 
 ### **Question**
 
->***Write a program to compute:***
+> **_Write a program to compute:_**
+
 ```
 f(n)=f(n-1)+100 when n>0
 and f(0)=0
 ```
->***with a given n input by console (n>0).***
 
->***Example:
-If the following n is given as input to the program:***
+> **_with a given n input by console (n>0)._**
+
+> **_Example:
+> If the following n is given as input to the program:_**
+
 ```
 5
 ```
->***Then, the output of the program should be:***
+
+> **_Then, the output of the program should be:_**
+
 ```
 500
 ```
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
-----------------------
-### Hints 
-> ***We can define recursive function in Python.***
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
-----------------------
+---
+
+### Hints
+
+> **_We can define recursive function in Python._**
+
+---
 
 **Main author's Solution: Python 2**
+
 ```python
 def f(n):
     if n==0:
@@ -39,8 +46,11 @@ def f(n):
 n=int(raw_input())
 print f(n)
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 def f(n):
     if n == 0:
@@ -50,38 +60,48 @@ def f(n):
 n = int(input())
 print(f(n))
 ```
----------------------
+
+---
 
 # Question 61
 
 ### **Question**
 
->***The Fibonacci Sequence is computed based on the following formula:***
+> **_The Fibonacci Sequence is computed based on the following formula:_**
+
 ```
 f(n)=0 if n=0
 f(n)=1 if n=1
 f(n)=f(n-1)+f(n-2) if n>1
 ```
->***Please write a program to compute the value of f(n) with a given n input by console.***
 
->***Example:
-If the following n is given as input to the program:***
+> **_Please write a program to compute the value of f(n) with a given n input by console._**
+
+> **_Example:
+> If the following n is given as input to the program:_**
+
 ```
 7
 ```
->***Then, the output of the program should be:***
+
+> **_Then, the output of the program should be:_**
+
 ```
 13
 ```
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
-----------------------
-### Hints 
-> ***We can define recursive function in Python.***
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
-----------------------
+---
+
+### Hints
+
+> **_We can define recursive function in Python._**
+
+---
 
 **Main author's Solution: Python 2**
+
 ```python
 def f(n):
     if n == 0: return 0
@@ -91,8 +111,11 @@ def f(n):
 n=int(raw_input())
 print f(n)
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 def f(n):
     if n < 2:
@@ -102,40 +125,50 @@ def f(n):
 n = int(input())
 print(f(n))
 ```
----------------------
+
+---
 
 # Question 62
 
 ### **Question**
 
->***The Fibonacci Sequence is computed based on the following formula:***
+> **_The Fibonacci Sequence is computed based on the following formula:_**
+
 ```
 f(n)=0 if n=0
 f(n)=1 if n=1
 f(n)=f(n-1)+f(n-2) if n>1
 ```
->***Please write a program to compute the value of f(n) with a given n input by console.***
 
->***Example:
-If the following n is given as input to the program:***
+> **_Please write a program to compute the value of f(n) with a given n input by console._**
+
+> **_Example:
+> If the following n is given as input to the program:_**
+
 ```
 7
 ```
->***Then, the output of the program should be:***
+
+> **_Then, the output of the program should be:_**
+
 ```
 0,1,1,2,3,5,8,13
 ```
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
-----------------------
-### Hints 
->***We can define recursive function in Python.
-Use list comprehension to generate a list from an existing list.
-Use string.join() to join a list of strings.***
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
-----------------------
+---
+
+### Hints
+
+> **_We can define recursive function in Python.
+> Use list comprehension to generate a list from an existing list.
+> Use string.join() to join a list of strings._**
+
+---
 
 **Main author's Solution: Python 2**
+
 ```python
 def f(n):
     if n == 0: return 0
@@ -147,8 +180,11 @@ values = [str(f(x)) for x in range(0, n+1)]
 print ",".join(values)
 
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 def f(n):
     if n < 2:
@@ -165,33 +201,40 @@ ans = ",".join(fibo)    # joining all string element of fibo with ',' character
 print(ans)
 
 ```
----------------------
 
+---
 
 # Question 63
 
 ### **Question**
 
->***Please write a program using generator to print the even numbers between 0 and n in comma separated form while n is input by console.***
+> **_Please write a program using generator to print the even numbers between 0 and n in comma separated form while n is input by console._**
 
->***Example:
-If the following n is given as input to the program:***
+> **_Example:
+> If the following n is given as input to the program:_**
+
 ```
 10
 ```
->***Then, the output of the program should be:***
+
+> **_Then, the output of the program should be:_**
+
 ```
 0,2,4,6,8,10
 ```
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
-----------------------
-### Hints 
-> ***Use yield to produce the next value in generator.***
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
-----------------------
+---
+
+### Hints
+
+> **_Use yield to produce the next value in generator._**
+
+---
 
 **Solution:**
+
 ```python
 def EvenGenerator(n):
     i=0
@@ -209,7 +252,9 @@ for i in EvenGenerator(n):
 print ",".join(values)
 
 ```
+
 **OR**
+
 ```python
 # Solution by: StartZer0
 n = int(input())
@@ -221,33 +266,39 @@ for i in range(0, n+1, 2):
     print(i)
 ```
 
-----------------
-
+---
 
 # Question 64
 
 ### **Question**
 
->***Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.***
+> **_Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console._**
 
->***Example:
-If the following n is given as input to the program:***
+> **_Example:
+> If the following n is given as input to the program:_**
+
 ```
 100
 ```
->***Then, the output of the program should be:***
+
+> **_Then, the output of the program should be:_**
+
 ```
 0,35,70
 ```
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
-----------------------
-### Hints 
-> ***Use yield to produce the next value in generator.***
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
-----------------------
+---
+
+### Hints
+
+> **_Use yield to produce the next value in generator._**
+
+---
 
 **Main author's Solution: Python 2**
+
 ```python
 def NumGenerator(n):
     for i in range(n+1):
@@ -261,8 +312,11 @@ for i in NumGenerator(n):
 
 print ",".join(values)
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 def generate(n):
     for i in range(n+1):
@@ -274,11 +328,11 @@ resp = [str(i) for i in generate(n)]
 print(",".join(resp))
 
 ```
----------------------
 
+---
 
-[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15")
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15")
 
-[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17")
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17")
 
-[***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

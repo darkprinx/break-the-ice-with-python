@@ -2,36 +2,43 @@
 
 ### **Question:**
 
->***A website requires the users to input username and password to register. Write a program to check the validity of password input by users.***
+> **_A website requires the users to input username and password to register. Write a program to check the validity of password input by users._**
 
->***Following are the criteria for checking the password:***
-  - ***At least 1 letter between [a-z]***
-  - ***At least 1 number between [0-9]***
-  - ***At least 1 letter between [A-Z]***
-  - ***At least 1 character from [$#@]***
-  - ***Minimum length of transaction password: 6***
-  - ***Maximum length of transaction password: 12***
+> **_Following are the criteria for checking the password:_**
 
->***Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.***
+- **_At least 1 letter between [a-z]_**
+- **_At least 1 number between [0-9]_**
+- **_At least 1 letter between [A-Z]_**
+- **_At least 1 character from [$#@]_**
+- **_Minimum length of transaction password: 6_**
+- **_Maximum length of transaction password: 12_**
 
->***Example***
+> **_Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma._**
 
->***If the following passwords are given as input to the program:***
+> **_Example_**
+
+> **_If the following passwords are given as input to the program:_**
+
 ```
 ABd1234@1,a F1#,2w3E*,2We3345
 ```
->***Then, the output of the program should be:***
+
+> **_Then, the output of the program should be:_**
+
 ```
 ABd1234@1
 ```
 
-----------------------
+---
 
 ### Hints:
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
--------------------
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
+
+---
+
 **Main author's Solution: Python 2**
+
 ```python
 import re
 value = []
@@ -56,8 +63,11 @@ for p in items:
     value.append(p)
 print ",".join(value)
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 def is_low(x):                  # Returns True  if the string has a lowercase
     for i in x:
@@ -83,7 +93,7 @@ def is_other(x):                # Returns True if the string has any "$#@"
             return True
     return False
 
-s = input().split(',')            
+s = input().split(',')
 lst = []
 
 for i in s:
@@ -93,7 +103,9 @@ for i in s:
 
 print(",".join(lst))
 ```
+
 **OR**
+
 ```python
 def check(x):
     cnt = (6<=len(x) and len(x)<=12)
@@ -119,7 +131,9 @@ s = input().split(',')
 lst = filter(check,s)             # Filter function pick the words from s, those returns True by check() function
 print(",".join(lst))
 ```
+
 **OR**
+
 ```python
 import  re
 
@@ -139,20 +153,22 @@ for i in s:
 print(",".join(lst))
 ```
 
---------------------------
+---
 
 # Question 19
 
 ### **Question:**
 
->***You are required to write a program to sort the (name, age, score) tuples by ascending order where name is string, age and score are numbers. The tuples are input by console. The sort criteria is:***
-- ***1: Sort based on name***
-- ***2: Then sort based on age***
-- ***3: Then sort by score***
+> **_You are required to write a program to sort the (name, age, score) tuples by ascending order where name is string, age and score are numbers. The tuples are input by console. The sort criteria is:_**
 
->***The priority is that name > age > score.***
+- **_1: Sort based on name_**
+- **_2: Then sort based on age_**
+- **_3: Then sort by score_**
 
->***If the following tuples are given as input to the program:***
+> **_The priority is that name > age > score._**
+
+> **_If the following tuples are given as input to the program:_**
+
 ```
 Tom,19,80
 John,20,90
@@ -160,18 +176,23 @@ Jony,17,91
 Jony,17,93
 Json,21,85
 ```
->***Then, the output of the program should be:***
+
+> **_Then, the output of the program should be:_**
+
 ```
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]
 ```
 
-----------------------
+---
 
 ### Hints:
->***In case of input data being supplied to the question, it should be assumed to be a console input.We use itemgetter to enable multiple sort keys.***
 
--------------------
+> **_In case of input data being supplied to the question, it should be assumed to be a console input.We use itemgetter to enable multiple sort keys._**
+
+---
+
 **Main author's Solution: Python 2**
+
 ```python
 from operator import itemgetter, attrgetter
 
@@ -184,8 +205,11 @@ while True:
 
 print sorted(l, key=itemgetter(0,1,2))
 ```
---------------------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 lst = []
 while True:
@@ -197,12 +221,15 @@ while True:
 lst.sort(key= lambda x:(x[0],x[1],x[2]))  # here key is defined by lambda and the data is sorted by element priority 0>1>2 in accending order
 print(lst)
 ```
------------------------
+
+---
+
 ## Conclusion
-***Before the above problems, I didn't even know about re(regular expression) module and its use. I didn't even know how to sort by multiple keys. To solve those problems in different ways I had to explore and learn those syntax.There are a lots of interesting stuffs in re module though I faced quite a bit hardship to understand many of them.***
 
-[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
+**_Before the above problems, I didn't even know about re(regular expression) module and its use. I didn't even know how to sort by multiple keys. To solve those problems in different ways I had to explore and learn those syntax.There are a lots of interesting stuffs in re module though I faced quite a bit hardship to understand many of them._**
 
-[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7")
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
 
-[***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
