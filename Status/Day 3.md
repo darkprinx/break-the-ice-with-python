@@ -2,31 +2,40 @@
 
 ### **Question**
 
->***Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.***
+> **_Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically._**
 
->***Suppose the following input is supplied to the program:***
+> **_Suppose the following input is supplied to the program:_**
+
 ```
 hello world and practice makes perfect and hello world again
 ```
->***Then, the output should be:***
+
+> **_Then, the output should be:_**
+
 ```
 again and hello makes perfect practice world
 ```
 
-----------------------
+---
 
 ### Hints:
->***In case of input data being supplied to the question, it should be assumed to be a console input.We use set container to remove duplicated data automatically and then use sorted() to sort the data.***
 
--------------------
+> **_In case of input data being supplied to the question, it should be assumed to be a console input.We use set container to remove duplicated data automatically and then use sorted() to sort the data._**
+
+---
+
 **Main author's Solution: Python 2**
+
 ```python
 s = raw_input()
 words = [word for word in s.split(" ")]
 print " ".join(sorted(list(set(words))))
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 word = input().split()
 
@@ -37,44 +46,56 @@ for i in word:
 word.sort()
 print(" ".join(word))
 ```
+
 **OR**
+
 ```python
 word = input().split()
 [word.remove(i) for i in word if word.count(i) > 1 ]   # removal operation with comprehension method
 word.sort()
 print(" ".join(word))
 ```
+
 **OR**
+
 ```python
 word = sorted(list(set(input().split())))              #  input string splits -> converting into set() to store unique
-                                                       #  element -> converting into list to be able to apply sort 
+                                                       #  element -> converting into list to be able to apply sort
 print(" ".join(word))
 ```
----------------------------
+
+---
 
 # Question 11
 
 ### **Question**
 
->***Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.***
+> **_Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence._**
 
->***Example:***
+> **_Example:_**
+
 ```
 0100,0011,1010,1001
 ```
->***Then the output should be:***
+
+> **_Then the output should be:_**
+
 ```
 1010
 ```
->***Notes: Assume the data is input by console.***
 
-----------------------
+> **_Notes: Assume the data is input by console._**
+
+---
 
 ### Hints:
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
--------------------
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
+
+---
+
 **Main author's Solution: Python 2**
+
 ```python
 value = []
 items=[x for x in raw_input().split(',')]
@@ -85,8 +106,11 @@ for p in items:
 
 print ','.join(value)
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 def check(x):                       # converts binary to integer & returns zero if divisible by 5
     total,pw = 0,1
@@ -106,7 +130,9 @@ for i in data:
 
 print(",".join(lst))
 ```
+
 **OR**
+
 ```python
 def check(x):                   # check function returns true if divisible by 5
     return int(x,2)%5 == 0      # int(x,b) takes x as string and b as base from which
@@ -116,27 +142,33 @@ data = input().split(',')
 data = list(filter(check,data)) # in filter(func,object) function, elements are picked from 'data' if found True by 'check' function
 print(",".join(data))
 ```
+
 **OR**
+
 ```python
 data = input().split(',')
 data = list(filter(lambda i:int(i,2)%5==0,data))    # lambda is an operator that helps to write function of one line
 print(",".join(data))
 ```
--------------------------
+
+---
 
 # Question 12
 
 ### **Question:**
 
->***Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.The numbers obtained should be printed in a comma-separated sequence on a single line.***
+> **_Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.The numbers obtained should be printed in a comma-separated sequence on a single line._**
 
-----------------------
+---
 
 ### Hints:
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
--------------------
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
+
+---
+
 **Main author's Solution: Python 2**
+
 ```python
 values = []
 for i in range(1000, 3001):
@@ -145,8 +177,11 @@ for i in range(1000, 3001):
         values.append(s)
 print ",".join(values)
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 lst = []
 
@@ -158,9 +193,11 @@ for i in range(1000,3001):
     if flag == 1:
         lst.append(str(i))    # i is stored in list as string
 
-print(",".join(lst))        
+print(",".join(lst))
 ```
+
 **OR**
+
 ```python
 def check(element):
     return all(ord(i)%2 == 0 for i in element)  # all returns True if all digits i is even in element
@@ -169,38 +206,46 @@ lst = [str(i) for i in range(1000,3001)]        # creates list of all given numb
 lst = list(filter(check,lst))                   # filter removes element from list if check condition fails
 print(",".join(lst))
 ```
+
 **OR**
+
 ```python
 lst = [str(i) for i in range(1000,3001)]
-lst = list(filter(lambda i:all(ord(j)%2 == 0 for j in i),lst ))   # using lambda to define function inside filter function
+lst = list(filter(lambda i:all(ord(j)%2 == 0 for j in i), lst))   # using lambda to define function inside filter function
 print(",".join(lst))
 ```
--------------------------
+
+---
 
 # Question 13
 
 ### **Question:**
 
->***Write a program that accepts a sentence and calculate the number of letters and digits.***
+> **_Write a program that accepts a sentence and calculate the number of letters and digits._**
 
->***Suppose the following input is supplied to the program:***
+> **_Suppose the following input is supplied to the program:_**
 
 ```
 hello world! 123
 ```
 
->***Then, the output should be:***
+> **_Then, the output should be:_**
+
 ```
 LETTERS 10
 DIGITS 3
 ```
-----------------------
+
+---
 
 ### Hints:
->***In case of input data being supplied to the question, it should be assumed to be a console input.***
 
--------------------
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
+
+---
+
 **Main author's Solution: Python 2**
+
 ```python
 s = raw_input()
 d = {"DIGITS":0, "LETTERS":0}
@@ -214,8 +259,11 @@ for c in s:
 print "LETTERS", d["LETTERS"]
 print "DIGITS", d["DIGITS"]
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 word = input()
 letter,digit = 0,0
@@ -228,23 +276,29 @@ for i in word:
 
 print("LETTERS {0}\nDIGITS {1}".format(letter,digit))
 ```
+
 **OR**
+
 ```python
 word = input()
-letter,digit = 0,0
+letter, digit = 0,0
 
 for i in word:
-    letter+=i.isalpha()         # returns True if alphabet
-    digit+=i.isnumeric()        # returns True if numeric
-
-print("LETTERS %d\nDIGITS %d"%(letter,digit))       # two different types of formating method is shown in both solution
+    if i.isalpha(): # returns True if alphabet
+        letter += 1
+    elif i.isnumeric(): # returns True if numeric
+        digit += 1
+print(f"LETTERS {letter}\n{digits}") # two different types of formating method is shown in both solution
 ```
------------------
+
+---
+
 ## Conclusion
-***All the above problems are mostly string related problems. Major parts of the solution includes string releted functions and comprehension method to write down the code in more shorter form.***
 
-[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2")
+**_All the above problems are mostly string related problems. Major parts of the solution includes string releted functions and comprehension method to write down the code in more shorter form._**
 
-[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2")
 
-[***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

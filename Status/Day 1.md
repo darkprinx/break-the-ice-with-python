@@ -24,6 +24,11 @@ print ','.join(l)
 ----------------------------------------
 
 **My Solution: Python 3**
+<<<<<<< HEAD
+=======
+
+* **Using for loops**
+>>>>>>> 100-plus-Python-programming-exercises-extended/master
 ```python
 for i in range(2000,3201):
     if i%7 == 0 and i%5!=0:
@@ -32,6 +37,14 @@ print("\b")
 ```
 -------------------------------
 
+<<<<<<< HEAD
+=======
+* **Using generators and list comprehension**
+```python
+print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep=",") 
+```
+
+>>>>>>> 100-plus-Python-programming-exercises-extended/master
 # Question 2
 
 ### **Question:**
@@ -59,8 +72,8 @@ print fact(x)
 
 * **Using While Loop**
     ```python
-    n = int(raw_input()) #input() function takes input as string type
-                         #int() converts it to integer type
+    n = int(input()) #input() function takes input as string type
+                     #int() converts it to integer type
     fact = 1
     i = 1
     while i <= n:
@@ -115,6 +128,7 @@ print d
 ```
 
 **My Solution: Python 3:**
+* **Using for loop**
 ```python
 n = int(input())
 ans = {}
@@ -122,9 +136,8 @@ for i in range (1,n+1):
     ans[i] = i * i
 print(ans)
 ```
-**OR**
+* **Using dictionary comprehension**
 ```python
-# This is done with dictionary comprehension method
 n = int(input())
 ans={i : i*i for i in range(1,n+1)}
 print(ans)
