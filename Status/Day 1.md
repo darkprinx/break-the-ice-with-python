@@ -27,11 +27,7 @@ print ','.join(l)
 ---
 
 **My Solution: Python 3**
-<<<<<<< HEAD
-=======
-
 - **Using for loops**
-  > > > > > > > 100-plus-Python-programming-exercises-extended/master
 
 ```python
 for i in range(2000,3201):
@@ -41,17 +37,11 @@ print("\b")
 ```
 
 ---
-
-# <<<<<<< HEAD
-
 - **Using generators and list comprehension**
 
 ```python
 print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep=",")
 ```
-
-> > > > > > > 100-plus-Python-programming-exercises-extended/master
-
 # Question 2
 
 ### **Question:**
