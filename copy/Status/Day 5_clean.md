@@ -4,15 +4,15 @@
 
 > **_Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers._** >**_Suppose the following input is supplied to the program:_**
 
-```
+
 1,2,3,4,5,6,7,8,9
-```
+
 
 > **_Then, the output should be:_**
 
-```
+
 1,9,25,49,81
-```
+
 
 ---
 
@@ -24,7 +24,7 @@
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 lst = [str(int(i)**2) for i in input().split(',') if int(i) % 2]
@@ -61,27 +61,31 @@ print(",".join(seq))
 
 > **_Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:_**
 
-```
+
 D 100
+
 W 200
-```
+
 
 - D means deposit while W means withdrawal.
 
 > **_Suppose the following input is supplied to the program:_**
 
-```
+
 D 300
+
 D 300
+
 W 200
+
 D 100
-```
+
 
 > **_Then, the output should be:_**
 
-```
+
 500
-```
+
 
 ---
 
@@ -93,7 +97,7 @@ D 100
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 total = 0
@@ -170,9 +174,3 @@ print(sum(lst))
 ```
 
 ---
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

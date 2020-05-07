@@ -63,7 +63,7 @@ print zlib.decompress(t)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import datetime
@@ -107,7 +107,7 @@ print(execution_time)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import random
@@ -147,7 +147,7 @@ print(lst)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 subjects=["I", "You"]
@@ -161,9 +161,3 @@ for sub in subjects:
 ```
 
 ---
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_18.md "Day 18")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_20.md "Day 20")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

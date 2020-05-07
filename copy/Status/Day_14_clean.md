@@ -1,18 +1,19 @@
-
 # Question 51
 
 ### **Question**
 
-> ***Write a function to compute 5/0 and use try/except to catch the exceptions.***
+> **_Write a function to compute 5/0 and use try/except to catch the exceptions._**
 
-----------------------
-### Hints 
-> ***Use try/except to catch exceptions.***
+---
 
-----------------------
+### Hints
 
--------------
-**Solutions: **
+> **_Use try/except to catch exceptions._**
+
+---
+
+**Solutions:**
+
 ```python
 def divide():
     return 5/0
@@ -25,23 +26,25 @@ except:
     print("Any other exception")
 
 ```
----------------------
 
+---
 
 # Question 52
 
 ### **Question**
 
-> ***Define a custom exception class which takes a string message as attribute.***
+> **_Define a custom exception class which takes a string message as attribute._**
 
-----------------------
-### Hints 
-> ***To define a custom exception, we need to define a class inherited from Exception.***
+---
 
-----------------------
+### Hints
 
--------------
-**Solutions: **
+> **_To define a custom exception, we need to define a class inherited from Exception._**
+
+---
+
+**Solutions:**
+
 ```python
 
 class CustomException(Exception):
@@ -66,42 +69,47 @@ except CustomException as ce:
     print("The error raised: " + ce.message)
 
 ```
----------------------
 
+---
 
 # Question 53
 
 ### **Question**
 
-> ***Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.***
+> **_Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only._**
 
-> ***Example:
-If the following email address is given as input to the 
-program:***
-```
-john@google.com
-```
-> ***Then, the output of the program should be:***
-```
-john
-```
-> ***In case of input data being supplied to the question, it should be assumed to be a console input.***
+> **_Example:
+> If the following email address is given as input to the
+> program:_**
 
-----------------------
-### Hints 
-> ***Use \w to match letters.***
+> john@google.com
 
-----------------------
+> **_Then, the output of the program should be:_**
 
--------------
-**Solutions: **
+> john
+
+> **_In case of input data being supplied to the question, it should be assumed to be a console input._**
+
+---
+
+### Hints
+
+> **_Use \w to match letters._**
+
+---
+
+**Solutions:**
+
 ```python
 email = "john@google.com"
 email = email.split('@')
 print(email[0])
 ```
----------------------
+
+---
+
 **OR**
+
 ```python
 import re
 
@@ -111,9 +119,4 @@ ans = re.findall(pattern,email)
 print(ans)
 ```
 
-
-[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_13.md "Day 13")
-
-[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15")
-
-[***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
+---

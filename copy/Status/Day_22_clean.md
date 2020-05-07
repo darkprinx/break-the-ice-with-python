@@ -7,21 +7,27 @@
 > **_Example:
 > If the following string is given as input to the program:_**
 
-```
+
 abcdefgabc
-```
+
 
 > **_Then, the output of the program should be:_**
 
-```
+
 a,2
+
 c,2
+
 b,2
+
 e,1
+
 d,1
+
 g,1
+
 f,1
-```
+
 
 ### Hints
 
@@ -30,9 +36,7 @@ f,1
 
 ---
 
-
-
-**Solutions: **
+**Solutions:**
 
 ```python
 import string
@@ -66,15 +70,13 @@ for letter in range(ord('a'),ord('z')+1):    # ord() gets the ascii value of a c
 > **Example:
 > If the following string is given as input to the program:\***
 
-```
+
 rise to vote sir
-```
+
 
 > **_Then, the output of the program should be:_**
 
-```
 ris etov ot esir
-```
 
 ### Hints
 
@@ -82,9 +84,7 @@ ris etov ot esir
 
 ---
 
-
-
-**Solutions: **
+**Solutions:**
 
 ```python
 s = input()
@@ -103,15 +103,11 @@ print(s)
 > **_Example:
 > If the following string is given as input to the program:_**
 
-```
 H1e2l3l4o5w6o7r8l9d
-```
 
 > **_Then, the output of the program should be:_**
 
-```
 Helloworld
-```
 
 ### Hints
 
@@ -121,7 +117,7 @@ Helloworld
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 s = "H1e2l3l4o5w6o7r8l9d"
@@ -161,7 +157,7 @@ print(ns)
 ```python
 
 import itertools
-print list(itertools.permutations([1,2,3]))
+print(list(itertools.permutations([1,2,3])))
 ```
 
 ---
@@ -195,13 +191,7 @@ def solve(numheads,numlegs):
 numheads=35
 numlegs=94
 solutions=solve(numheads,numlegs)
-print solutions
+print(solutions)
 ```
 
 ---
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_21.md "Day 21")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_23.md "Day 23")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

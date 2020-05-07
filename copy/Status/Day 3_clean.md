@@ -6,15 +6,11 @@
 
 > **_Suppose the following input is supplied to the program:_**
 
-```
 hello world and practice makes perfect and hello world again
-```
 
 > **_Then, the output should be:_**
 
-```
 again and hello makes perfect practice world
-```
 
 ---
 
@@ -24,9 +20,7 @@ again and hello makes perfect practice world
 
 ---
 
-
-
-**Solutions: **
+**Solutions:**
 
 ```python
 word = input().split()
@@ -66,15 +60,11 @@ print(" ".join(word))
 
 > **_Example:_**
 
-```
 0100,0011,1010,1001
-```
 
 > **_Then the output should be:_**
 
-```
 1010
-```
 
 > **_Notes: Assume the data is input by console._**
 
@@ -86,9 +76,7 @@ print(" ".join(word))
 
 ---
 
-
-
-**Solutions: **
+**Solutions:**
 
 ```python
 def check(x):                       # converts binary to integer & returns zero if divisible by 5
@@ -146,9 +134,7 @@ print(",".join(data))
 
 ---
 
-
-
-**Solutions: **
+**Solutions:**
 
 ```python
 lst = []
@@ -193,16 +179,13 @@ print(",".join(lst))
 
 > **_Suppose the following input is supplied to the program:_**
 
-```
 hello world! 123
-```
 
 > **_Then, the output should be:_**
 
-```
 LETTERS 10
+
 DIGITS 3
-```
 
 ---
 
@@ -212,9 +195,7 @@ DIGITS 3
 
 ---
 
-
-
-**Solutions: **
+**Solutions:**
 
 ```python
 word = input()
@@ -248,9 +229,3 @@ print(f"LETTERS {letter}\n{digits}") # two different types of formating method i
 ## Conclusion
 
 **_All the above problems are mostly string related problems. Major parts of the solution includes string releted functions and comprehension method to write down the code in more shorter form._**
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

@@ -19,15 +19,15 @@
 
 > **_If the following passwords are given as input to the program:_**
 
-```
+
 ABd1234@1,a F1#,2w3E*,2We3345
-```
+
 
 > **_Then, the output of the program should be:_**
 
-```
+
 ABd1234@1
-```
+
 
 ---
 
@@ -39,7 +39,7 @@ ABd1234@1
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 def is_low(x):                  # Returns True  if the string has a lowercase
@@ -142,19 +142,23 @@ print(",".join(lst))
 
 > **_If the following tuples are given as input to the program:_**
 
-```
+
 Tom,19,80
+
 John,20,90
+
 Jony,17,91
+
 Jony,17,93
+
 Json,21,85
-```
+
 
 > **_Then, the output of the program should be:_**
 
-```
+
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]
-```
+
 
 ---
 
@@ -166,7 +170,7 @@ Json,21,85
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 lst = []
@@ -185,9 +189,3 @@ print(lst)
 ## Conclusion
 
 **_Before the above problems, I didn't even know about re(regular expression) module and its use. I didn't even know how to sort by multiple keys. To solve those problems in different ways I had to explore and learn those syntax.There are a lots of interesting stuffs in re module though I faced quite a bit hardship to understand many of them._**
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

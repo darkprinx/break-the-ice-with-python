@@ -7,15 +7,15 @@
 > **_Example:
 > If the following email address is given as input to the program:_**
 
-```
+
 john@google.com
-```
+
 
 > **_Then, the output of the program should be:_**
 
-```
+
 google
-```
+
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
@@ -29,7 +29,7 @@ google
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import re
@@ -51,15 +51,15 @@ print(ans)
 > **_Example:
 > If the following words is given as input to the program:_**
 
-```
+
 2 cats and 3 dogs.
-```
+
 
 > **_Then, the output of the program should be:_**
 
-```
+
 ['2', '3']
-```
+
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
@@ -73,7 +73,7 @@ print(ans)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import re
@@ -137,7 +137,7 @@ print(ans)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 s = input()
@@ -178,15 +178,15 @@ print(u)
 > **_Example:
 > If the following n is given as input to the program:_**
 
-```
+
 5
-```
+
 
 > **_Then, the output of the program should be:_**
 
-```
+
 3.55
-```
+
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
@@ -200,7 +200,7 @@ print(u)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 n = int(input())
@@ -211,9 +211,3 @@ print(round(sum, 2))  # rounded to 2 decimal point
 ```
 
 ---
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_16.md "Day 16")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

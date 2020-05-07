@@ -6,20 +6,16 @@
 
 > **_If the following string is given as input to the program:_**
 >
-> ```
 > 4
 > bcdef
 > abcdefg
 > bcde
 > bcdef
-> ```
 >
 > **_Then, the output of the program should be:_**
 >
-> ```
 > 3
 > 2 1 1
-> ```
 
 ### Hints
 
@@ -27,7 +23,7 @@
 
 ---
 
-**Solutions: **
+**Solutions:**
 
 ```python
 n = int(input())
@@ -56,19 +52,15 @@ for word in word_list:
 
 > **_If the following string is given as input to the program:_**
 >
-> ```
 > aabbbccde
-> ```
 >
 > **_Then, the output of the program should be:_**
 >
-> ```
 > b 3
 > a 2
 > c 2
 > d 1
 > e 1
-> ```
 
 ### Hints
 
@@ -76,7 +68,7 @@ for word in word_list:
 
 ---
 
-**Solutions: **
+**Solutions:**
 
 ```python
 word = input()
@@ -130,16 +122,12 @@ for item in list_of_tuples:
 
 **Input**
 
-> ```
 > Hello321Bye360
-> ```
 
 **Output**
 
-> ```
 > Digit - 6
 > Letter - 8
-> ```
 
 ---
 
@@ -172,15 +160,11 @@ print('Letter -',letter)
 
 **Input**
 
-> ```
 > 5
-> ```
 
 **Output**
 
-> ```
 > 15
-> ```
 
 ---
 
@@ -206,8 +190,4 @@ print(sum)
 
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 23")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
-
-# To Be Continue...
+# To Be Continued...

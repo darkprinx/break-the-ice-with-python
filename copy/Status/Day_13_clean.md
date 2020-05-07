@@ -14,7 +14,7 @@
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 class Circle():
@@ -47,7 +47,7 @@ print(circle.area())
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 class Rectangle():
@@ -82,7 +82,7 @@ print(rect.area())
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 class Shape():
@@ -118,7 +118,7 @@ print(Square().area())  # prints zero as default area
 
 ### Hints
 
-> **_UUse raise() to raise an exception._**
+> **_Use raise to raise an exception._**
 
 ---
 
@@ -133,9 +133,3 @@ raise RuntimeError('something wrong')
 ## Conclusion
 
 **_Well It seems that the above problems are very much focused on basic concpets and implimantation of object oriented programming.As the concepts are not about to solve any functional problem rather design the structure , so both codes are very much similar in there implimantation part._**
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_12.md "Day 12")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

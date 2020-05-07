@@ -6,25 +6,34 @@
 
 > **_Suppose the following input is supplied to the program:_**
 
-```
+
 New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
-```
+
 
 > **_Then, the output should be:_**
 
-```
 2:2
+
 3.:1
+
 3?:1
+
 New:1
+
 Python:5
+
 Read:1
+
 and:1
+
 between:1
+
 choosing:1
+
 or:2
+
 to:1
-```
+
 
 ---
 
@@ -36,7 +45,7 @@ to:1
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 ss = input().split()
@@ -104,15 +113,15 @@ pprint({i:p.count(i) for i in p})
 
 ### Hints:
 
-```
+
 Using the ** operator which can be written as n**p where means n^p
-```
+
 
 ---
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 n=int(input())
@@ -133,15 +142,15 @@ print(n**2)
 
 ### Hints:
 
-```
+
 The built-in document method is __doc__
-```
+
 
 ---
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 print(str.__doc__)
@@ -172,15 +181,15 @@ print(pow.__doc__)
 
 ### Hints:
 
-```
+
 Define an instance parameter, need add it in __init__ method.You can init an object with construct parameter or set the value later
-```
+
 
 ---
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 class Car:
@@ -198,9 +207,3 @@ print("%s name is %s"%(Car.name,toyota.name))
 ```
 
 ---
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%209.md "Day 9")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

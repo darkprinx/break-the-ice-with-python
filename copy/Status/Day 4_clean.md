@@ -6,16 +6,17 @@
 
 > **_Suppose the following input is supplied to the program:_**
 
-```
+
 Hello world!
-```
+
 
 > **_Then, the output should be:_**
 
-```
+
 UPPER CASE 1
+
 LOWER CASE 9
-```
+
 
 ---
 
@@ -27,7 +28,7 @@ LOWER CASE 9
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 word = input()
@@ -93,15 +94,15 @@ print("LOWER CASE: ", lower)
 
 > **_Suppose the following input is supplied to the program:_**
 
-```
+
 9
-```
+
 
 > **_Then, the output should be:_**
 
-```
+
 11106
-```
+
 
 ---
 
@@ -113,7 +114,7 @@ print("LOWER CASE: ", lower)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 a = input()
@@ -133,9 +134,3 @@ a = input()
 total = int(a) + int(2*a) + int(3*a) + int(4*a)  # N*a=Na, for example  a="23", 2*a="2323",3*a="232323"
 print(total)
 ```
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

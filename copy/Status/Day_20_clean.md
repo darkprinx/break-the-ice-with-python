@@ -14,7 +14,7 @@
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 def isEven(n):
@@ -51,7 +51,7 @@ print(lst)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 li = [12,24,35,70,88,120,155]
@@ -78,7 +78,7 @@ print(li)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 li = [12,24,35,70,88,120,155]
@@ -105,7 +105,7 @@ print(li)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 #to be written

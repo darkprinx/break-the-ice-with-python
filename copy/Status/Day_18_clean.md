@@ -14,7 +14,7 @@
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import random
@@ -40,7 +40,7 @@ print(random.choice(resp))
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import random
@@ -66,7 +66,7 @@ print(random.choice(resp))
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import random
@@ -92,7 +92,7 @@ print(resp)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import random
@@ -118,7 +118,7 @@ print(resp)
 
 
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import random
@@ -128,9 +128,3 @@ print(resp)
 ```
 
 ---
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_19.md "Day 19")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

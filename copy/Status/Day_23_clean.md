@@ -1,4 +1,4 @@
-# The extended part of the repository starts from this page. Previous 94 problems were collected from the repository mentioned in intro. The following problems are collected from Hackerrank and other resources from internet.All the given solutions are in python 3.
+# The extended part of the repository starts from this page. Previous 94 problems were collected from the repository mentioned in intro. The following problems are collected from Hackerrank and other resources from internet.
 
 # Question 95
 
@@ -8,16 +8,12 @@
 
 > **_If the following string is given as input to the program:_**
 >
-> ```
 > 5
 > 2 3 6 6 5
-> ```
 >
 > **_Then, the output of the program should be:_**
 >
-> ```
 > 5
-> ```
 
 ### Hints
 
@@ -25,7 +21,7 @@
 
 ---
 
-**Solutions: **
+**Solutions:**
 
 ```python
 n = int(input())
@@ -68,14 +64,11 @@ print(f'The runner up is {L2[-2]}')
 
 > **_If the following string is given as input to the program:_**
 >
-> ```
 > ABCDEFGHIJKLIMNOQRSTUVWXYZ
 > 4
-> ```
 >
 > **_Then, the output of the program should be:_**
 >
-> ```
 > ABCD
 > EFGH
 > IJKL
@@ -83,7 +76,6 @@ print(f'The runner up is {L2[-2]}')
 > QRST
 > UVWX
 > YZ
-> ```
 
 ### Hints
 
@@ -91,7 +83,7 @@ print(f'The runner up is {L2[-2]}')
 
 ---
 
-**Solutions: **
+**Solutions:**
 
 ```python
 import textwrap
@@ -109,9 +101,9 @@ if __name__ == '__main__':
 
 ---
 
-```
-python
-'''Solution by: mishrasunny-coder
+```python
+'''
+Solution by: mishrasunny-coder
 '''
 import textwrap
 
@@ -131,8 +123,7 @@ print(textwrap.fill(string,width))
 
 > **_Different sizes of alphabet rangoli are shown below:_**
 >
-> ```
-> #size 3
+> $size = 3$
 >
 > ----c----
 > --c-b-c--
@@ -140,7 +131,7 @@ print(textwrap.fill(string,width))
 > --c-b-c--
 > ----c----
 >
-> #size 5
+> $size = 5$
 >
 > --------e--------
 > ------e-d-e------
@@ -151,7 +142,6 @@ print(textwrap.fill(string,width))
 > ----e-d-c-d-e----
 > ------e-d-e------
 > --------e--------
-> ```
 
 ### Hints
 
@@ -159,7 +149,7 @@ print(textwrap.fill(string,width))
 
 ---
 
-**Solutions: **
+**Solutions:**
 
 ```python
 
@@ -200,17 +190,13 @@ if __name__ == '__main__':
 
 > **_A single line of input containing the space separated month, day and year, respectively, in MM DD YYYY format._**
 >
-> ```
 > 08 05 2015
-> ```
 
 **Output**
 
 > **_Output the correct day in capital letters._**
 >
-> ```
 > WEDNESDAY
-> ```
 
 ---
 
@@ -243,23 +229,19 @@ print(calendar.day_name[dayId].upper())
 
 > **_The first line of input contains an integer, M.The second line contains M space-separated integers.The third line contains an integer, N.The fourth line contains N space-separated integers._**
 >
-> ```
 > 4
 > 2 4 5 9
 > 4
 > 2 4 11 12
-> ```
 
 **Output**
 
 > **_Output the symmetric difference integers in ascending order, one per line._**
 >
-> ```
 > 5
 > 9
 > 11
 > 12
-> ```
 
 ---
 
@@ -286,9 +268,3 @@ if __name__ == '__main__':
 ```
 
 ---
-
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24")
-
-[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
