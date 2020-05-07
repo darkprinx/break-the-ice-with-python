@@ -4,26 +4,25 @@
 
 > **_Write a program to compute:_**
 
-
-$f(n)=f(n-1)+100$ when n>0
-
-and $f(0)=0$
-
+```
+f(n)=f(n-1)+100 when n>0
+and f(0)=0
+```
 
 > **_with a given n input by console (n>0)._**
 
 > **_Example:
 > If the following n is given as input to the program:_**
 
-
+```
 5
-
+```
 
 > **_Then, the output of the program should be:_**
 
-
+```
 500
-
+```
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
@@ -37,7 +36,7 @@ and $f(0)=0$
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def f(n):
@@ -57,26 +56,26 @@ print(f(n))
 
 > **_The Fibonacci Sequence is computed based on the following formula:_**
 
-
-$f(n)=0$ if n=0
-$f(n)=1$ if n=1
-$f(n)=f(n-1)+f(n-2)$ if n>1
-
+```
+f(n)=0 if n=0
+f(n)=1 if n=1
+f(n)=f(n-1)+f(n-2) if n>1
+```
 
 > **_Please write a program to compute the value of f(n) with a given n input by console._**
 
 > **_Example:
 > If the following n is given as input to the program:_**
 
-
+```
 7
-
+```
 
 > **_Then, the output of the program should be:_**
 
-
+```
 13
-
+```
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
@@ -90,7 +89,7 @@ $f(n)=f(n-1)+f(n-2)$ if n>1
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def f(n):
@@ -110,22 +109,26 @@ print(f(n))
 
 > **_The Fibonacci Sequence is computed based on the following formula:_**
 
-
-$f(n)=0$ if n=0
-$f(n)=1$ if n=1
-$f(n)=f(n-1)+f(n-2)$ if n>1
-
+```
+f(n)=0 if n=0
+f(n)=1 if n=1
+f(n)=f(n-1)+f(n-2) if n>1
+```
 
 > **_Please write a program to compute the value of f(n) with a given n input by console._**
 
 > **_Example:
 > If the following n is given as input to the program:_**
 
+```
 7
+```
 
 > **_Then, the output of the program should be:_**
 
+```
 0,1,1,2,3,5,8,13
+```
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
@@ -141,7 +144,7 @@ $f(n)=f(n-1)+f(n-2)$ if n>1
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def f(n):
@@ -171,11 +174,15 @@ print(ans)
 > **_Example:
 > If the following n is given as input to the program:_**
 
+```
 10
+```
 
 > **_Then, the output of the program should be:_**
 
+```
 0,2,4,6,8,10
+```
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
@@ -231,11 +238,15 @@ for i in range(0, n+1, 2):
 > **_Example:
 > If the following n is given as input to the program:_**
 
+```
 100
+```
 
 > **_Then, the output of the program should be:_**
 
+```
 0,35,70
+```
 
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
@@ -249,7 +260,7 @@ for i in range(0, n+1, 2):
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def generate(n):
@@ -264,3 +275,9 @@ print(",".join(resp))
 ```
 
 ---
+
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15")
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

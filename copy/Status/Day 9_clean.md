@@ -14,7 +14,7 @@
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 sum = lambda n1,n2 : n1 + n2      # here lambda is use to define little function as sum
@@ -39,7 +39,7 @@ print(sum(1,2))
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 conv = lambda x : str(x)
@@ -66,7 +66,7 @@ print(type(n))            # checks the type of the variable
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 sum = lambda s1,s2 : int(s1) + int(s2)
@@ -91,7 +91,7 @@ print(sum("10","45"))      # 55
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 sum = lambda s1,s2 : s1 + s2
@@ -116,7 +116,7 @@ print(sum("10","45"))        # 1045
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def printVal(s1,s2):
@@ -142,3 +142,9 @@ func = lambda a,b: print(max((a,b),key=len)) if len(a)!=len(b) else print(a+'\n'
 ```
 
 ---
+
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 9")
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_10.md "Day 10")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

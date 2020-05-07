@@ -14,7 +14,7 @@
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def sqr(x):
@@ -42,7 +42,7 @@ print (squaredNumbers)
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 class American():
@@ -76,7 +76,7 @@ American.printNationality()   # this will run even though the @staticmethod
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 class American():
@@ -93,3 +93,9 @@ print(newyorker)
 ```
 
 ---
+
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_11.md "Day 11")
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_13.md "Day 13")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

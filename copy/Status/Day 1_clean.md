@@ -15,7 +15,7 @@
 
 
 
-**Solutions:**
+**Solutions: **
 
 - **Using for loops**
 
@@ -51,7 +51,7 @@ print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep=",")
 
 
 
-**Solutions:**
+**Solutions: **
 
 - **Using While Loop**
   ```python
@@ -100,9 +100,9 @@ print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep=",")
 
 > **_Then, the output should be:_**
 
-
+```
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
-
+```
 
 ---
 
@@ -117,3 +117,7 @@ print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep=",")
 ## Conclusion
 
 **_These was the solved problems of day 1. The above problems are very easy for the basic syntex learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Next Day")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

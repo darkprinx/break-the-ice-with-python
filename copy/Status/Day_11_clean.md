@@ -14,7 +14,7 @@
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 tpl = (1,2,3,4,5,6,7,8,9,10)
@@ -91,7 +91,7 @@ print('The Original Tuple:',tp)
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 tpl = (1,2,3,4,5,6,7,8,9,10)
@@ -168,7 +168,7 @@ print(str(output))
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 # No different way of code is written as the requirment is specificly mentioned in problem description
@@ -196,7 +196,7 @@ print(list(squaredNumbers))               # converting the object into list
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def even(x):
@@ -228,7 +228,7 @@ print(list(li))
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def even(x):
@@ -239,3 +239,9 @@ print(list(evenNumbers))
 ```
 
 ---
+
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_10.md "Day 10")
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_12.md "Day 12")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

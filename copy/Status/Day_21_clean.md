@@ -14,7 +14,7 @@
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 li = [12,24,35,70,88,120,155]
@@ -40,7 +40,7 @@ print(li)
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 li = [12,24,35,24,88,120,155]
@@ -66,7 +66,7 @@ print(li)
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 list1 = [1,3,6,78,35,55]
@@ -106,7 +106,7 @@ print(intersection)
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 li = [12,24,35,24,88,120,155,88,120,155]
@@ -164,8 +164,14 @@ class Female( Person ):
 
 aMale = Male()
 aFemale= Female()
-print(aMale.getGender())
-print(aFemale.getGender())
+print aMale.getGender()
+print aFemale.getGender()
 ```
 
 ---
+
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_20.md "Day 20")
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

@@ -8,15 +8,15 @@
 
 ### Hints:
 
-
+```
 Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to get power of a number.Use range() for loops.
-
+```
 
 ---
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def printDict():
@@ -38,15 +38,15 @@ printDict()
 
 ### Hints:
 
-
+```
 Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to get power of a number.Use range() for loops.Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
-
+```
 
 ---
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def printDict():
@@ -68,15 +68,15 @@ printDict()
 
 ### Hints:
 
-
+```
 Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.
-
+```
 
 ---
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def printList():
@@ -98,15 +98,15 @@ printList()
 
 ### Hints:
 
-
+```
 Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
-
+```
 
 ---
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def printList():
@@ -137,15 +137,15 @@ func = lambda :print([i**2 for i in range(1,21)][:5])
 
 ### Hints:
 
-
+```
 Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
-
+```
 
 ---
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def printList():
@@ -166,15 +166,15 @@ printList()
 
 ---
 
-
+```
 Hints: Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
-
+```
 
 ---
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def printList():
@@ -197,15 +197,15 @@ printList()
 
 ### Hints:
 
-
+```
 Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use tuple() to get a tuple from a list.
-
+```
 
 ---
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 def printTupple():
@@ -232,3 +232,9 @@ print(square_of_numbers())
 ### Comment
 
 **_Problems of this section is very much easy and all of those are of a modification of same type problem which mainly focused on using some commonly used function works with list,dictionary, tupple.In my entire solutions, I havn't tried to solve problems in efficient way.Rather I tried to solve in a different way that I can.This will help a beginner to know how simplest problems can be solved in different ways._**
+
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%209.md "Day 9")
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_11.md "Day 11")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

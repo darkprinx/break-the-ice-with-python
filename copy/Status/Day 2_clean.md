@@ -4,16 +4,16 @@
 
 > **_Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.Suppose the following input is supplied to the program:_**
 
-
+```
 34,67,55,33,12,98
-
+```
 
 > **_Then, the output should be:_**
 
-
+```
 ['34', '67', '55', '33', '12', '98']
 ('34', '67', '55', '33', '12', '98')
-
+```
 
 ### Hints:
 
@@ -23,7 +23,7 @@
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 lst = input().split(',')  # the input is being taken as string and as it is string it has a built in
@@ -57,7 +57,7 @@ print(tpl)
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 class IOstring():
@@ -92,15 +92,15 @@ xx.print_string()
 > **_D is the variable whose values should be input to your program in a comma-separated sequence.For example
 > Let us assume the following comma separated input sequence is given to the program:_**
 
-
+```
 100,150,180
-
+```
 
 > **_The output of the program should be:_**
 
-
+```
 18,22,24
-
+```
 
 ---
 
@@ -112,7 +112,7 @@ xx.print_string()
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 from math import sqrt # import specific functions as importing all using *
@@ -186,9 +186,9 @@ print(",".join(D))
 
 > **_Then, the output of the program should be:_**
 
-
+```
 [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
-
+```
 
 ---
 
@@ -200,7 +200,7 @@ print(",".join(D))
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 x,y = map(int,input().split(','))
@@ -233,15 +233,15 @@ print(lst)
 
 > **_Suppose the following input is supplied to the program:_**
 
-
+```
 without,hello,bag,world
-
+```
 
 > **_Then, the output should be:_**
 
-
+```
 bag,hello,without,world
-
+```
 
 ---
 
@@ -253,7 +253,7 @@ bag,hello,without,world
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 lst = input().split(',')
@@ -271,19 +271,17 @@ print(",".join(lst))
 
 > **_Suppose the following input is supplied to the program:_**
 
-
+```
 Hello world
-
 Practice makes perfect
-
+```
 
 > **_Then, the output should be:_**
 
-
+```
 HELLO WORLD
-
 PRACTICE MAKES PERFECT
-
+```
 
 ---
 
@@ -295,7 +293,7 @@ PRACTICE MAKES PERFECT
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 lst = []
@@ -325,3 +323,9 @@ for line in map(str.upper, user_input()):
 ```
 
 ---
+
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

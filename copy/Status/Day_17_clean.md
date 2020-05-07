@@ -14,7 +14,7 @@
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 data = [2,4,5,6]
@@ -33,15 +33,15 @@ for i in data:
 > **_Example:
 > If the following n is given as input to the program:_**
 
-
+```
 35 + 3
-
+```
 
 > **_Then, the output of the program should be:_**
 
-
+```
 38
-
+```
 
 ---
 
@@ -53,7 +53,7 @@ for i in data:
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 expression = input()
@@ -77,9 +77,18 @@ print(ans)
 
 ---
 
-**Solutions:**
 
-### Solution by AasaiAlangaram
+
+**Solutions: **
+
+```python
+#to be written
+
+```
+
+---
+
+**Solution by AasaiAlangaram: Python 3**
 
 ```python
 def binary_search_Ascending(array, target):
@@ -103,9 +112,8 @@ print('The Value Found at Index:',binary_search_Ascending(Array, 82))
 ```
 
 ---
-**OR**
 
-### Solution by yuan1z: Python 
+**Solution by yuan1z: Python 3**
 
 ```python
 idx = 0
@@ -144,7 +152,7 @@ print(bs(66,[1,5,8,10,12,13,55,66,73,78,82,85,88,99,100]))
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 import random
@@ -170,7 +178,7 @@ print(rand_num)
 
 
 
-**Solutions:**
+**Solutions: **
 
 ```python
 import random
@@ -179,3 +187,9 @@ print(rand_num)
 ```
 
 ---
+
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_16.md "Day 16")
+
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_18.md "Day 18")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
