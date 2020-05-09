@@ -1,18 +1,19 @@
-
 # Question 47
 
 ### **Question**
 
-> ***Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area.***
+> **_Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area._**
 
-----------------------
+---
 
 ### Hints
-> ***Use def methodName(self) to define a method.***
 
----------------------
+> **_Use def methodName(self) to define a method._**
+
+---
 
 **Main author's Solution: Python 2**
+
 ```python
 class Circle(object):
     def __init__(self, r):
@@ -24,8 +25,11 @@ class Circle(object):
 aCircle = Circle(2)
 print aCircle.area()
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 class Circle():
     def __init__(self,r):
@@ -38,22 +42,25 @@ class Circle():
 circle = Circle(5)
 print(circle.area())
 ```
-----------------
+
+---
 
 # Question 48
 
 ### **Question**
 
-> ***Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area.***
+> **_Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area._**
 
-----------------------
+---
 
-### Hints 
-> ***Use def methodName(self) to define a method.***
+### Hints
 
-----
+> **_Use def methodName(self) to define a method._**
+
+---
 
 **Main author's Solution: Python 2**
+
 ```python
 class Rectangle(object):
     def __init__(self, l, w):
@@ -67,8 +74,11 @@ aRectangle = Rectangle(2,10)
 print aRectangle.area()
 
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 class Rectangle():
     def __init__(self,l,w):
@@ -83,22 +93,25 @@ rect = Rectangle(2,4)
 print(rect.area())
 
 ```
-----------------
+
+---
 
 # Question 49
 
 ### **Question**
 
-> ***Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.***
+> **_Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default._**
 
-----------------------
+---
 
-### Hints 
-> ***To override a method in super class, we can define a method with the same name in the super class.***
+### Hints
 
-----------------------
+> **_To override a method in super class, we can define a method with the same name in the super class._**
+
+---
 
 **Main author's Solution: Python 2**
+
 ```python
 class Shape(object):
     def __init__(self):
@@ -118,8 +131,11 @@ class Square(Shape):
 aSquare= Square(3)
 print aSquare.area()
 ```
-----------------
+
+---
+
 **My Solution: Python 3**
+
 ```python
 class Shape():
     def __init__(self):
@@ -141,32 +157,37 @@ print(Asqr.area())      # prints 25 as given argument
 
 print(Square().area())  # prints zero as default area
 ```
----------------------
+
+---
 
 # Question 50
 
 ### **Question**
 
-> ***Please raise a RuntimeError exception.***
+> **_Please raise a RuntimeError exception._**
 
-----------------------
+---
+
 ### Hints
-> ***UUse raise() to raise an exception.***
 
------------
+> **_UUse raise() to raise an exception._**
+
+---
 
 **Solution:**
+
 ```python
 raise RuntimeError('something wrong')
 ```
-----------------
+
+---
 
 ## Conclusion
 
-***Well It seems that the above problems are very much focused on basic concpets and implimantation of object oriented programming.As the concepts are not about to solve any functional problem rather design the structure , so both codes are very much similar in there implimantation part.***
+**_Well It seems that the above problems are very much focused on basic concpets and implimantation of object oriented programming.As the concepts are not about to solve any functional problem rather design the structure , so both codes are very much similar in there implimantation part._**
 
-[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_12.md "Day 12")
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_12.md "Day 12")
 
-[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
 
-[***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

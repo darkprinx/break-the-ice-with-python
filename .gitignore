@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+copy/*
 # C extensions
 *.so
 
@@ -24,6 +24,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.idea
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -99,3 +100,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+clean_files.py

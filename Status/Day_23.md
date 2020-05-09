@@ -4,22 +4,29 @@
 
 ### **Question**
 
->***Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given  scores. Store them in a list and find the score of the runner-up.***
+> **_Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them in a list and find the score of the runner-up._**
 
->***If the following string is given as input to the program:***
->```
->5
->2 3 6 6 5
->```
->***Then, the output of the program should be:***
->```
->5
->```
-### Hints 
-> ***Make the scores unique and then find 2nd best number***
+> **_If the following string is given as input to the program:_**
+>
+> ```
+> 5
+> 2 3 6 6 5
+> ```
+>
+> **_Then, the output of the program should be:_**
+>
+> ```
+> 5
+> ```
 
-----------------------
+### Hints
+
+> **_Make the scores unique and then find 2nd best number_**
+
+---
+
 **My Solution: Python 3**
+
 ```python
 n = int(input())
 arr = map(int, input().split())
@@ -27,7 +34,9 @@ arr = list(set(arr))
 arr.sort()
 print(arr[-2])
 ```
----------------------
+
+---
+
 ```python
 '''
 Solution by: mishrasunny-coder
@@ -47,37 +56,43 @@ print(L2)
 
 print(f'The runner up is {L2[-2]}')
 ```
----------------------
+
+---
 
 # Question 96
 
 ### **Question**
 
->***You are given a string S and width W.
-Your task is to wrap the string into a paragraph of width.***
+> **_You are given a string S and width W.
+> Your task is to wrap the string into a paragraph of width._**
 
->***If the following string is given as input to the program:***
->```
->ABCDEFGHIJKLIMNOQRSTUVWXYZ
->4
->```
->***Then, the output of the program should be:***
->```
->ABCD
->EFGH
->IJKL
->IMNO
->QRST
->UVWX
->YZ
->```
+> **_If the following string is given as input to the program:_**
+>
+> ```
+> ABCDEFGHIJKLIMNOQRSTUVWXYZ
+> 4
+> ```
+>
+> **_Then, the output of the program should be:_**
+>
+> ```
+> ABCD
+> EFGH
+> IJKL
+> IMNO
+> QRST
+> UVWX
+> YZ
+> ```
 
 ### Hints
-> ***Use wrap function of textwrap module***
 
-----------------------
+> **_Use wrap function of textwrap module_**
+
+---
 
 **My Solution: Python 3**
+
 ```python
 import textwrap
 
@@ -91,7 +106,8 @@ if __name__ == '__main__':
     result = wrap(string, max_width)
     print(result)
 ```
----------------------
+
+---
 
 ```
 python
@@ -104,41 +120,47 @@ width = int(input())
 
 print(textwrap.fill(string,width))
 ```
-----------------------
+
+---
 
 # Question 97
 
 ### **Question**
 
->***You are given an integer, N. Your task is to print an alphabet rangoli of size N. (Rangoli is a form of Indian folk art based on creation of patterns.)***
+> **_You are given an integer, N. Your task is to print an alphabet rangoli of size N. (Rangoli is a form of Indian folk art based on creation of patterns.)_**
 
->***Different sizes of alphabet rangoli are shown below:***
->```
->#size 3
+> **_Different sizes of alphabet rangoli are shown below:_**
 >
->----c----
->--c-b-c--
->c-b-a-b-c
->--c-b-c--
->----c----
+> ```
+> #size 3
 >
->#size 5
+> ----c----
+> --c-b-c--
+> c-b-a-b-c
+> --c-b-c--
+> ----c----
 >
->--------e--------
->------e-d-e------
->----e-d-c-d-e----
->--e-d-c-b-c-d-e--
->e-d-c-b-a-b-c-d-e
->--e-d-c-b-c-d-e--
->----e-d-c-d-e----
->------e-d-e------
->--------e--------
->```
-### Hints 
->***First print the half of the Rangoli in the given way and save each line in a list. Then print the list in reverse order to get the rest.***
+> #size 5
+>
+> --------e--------
+> ------e-d-e------
+> ----e-d-c-d-e----
+> --e-d-c-b-c-d-e--
+> e-d-c-b-a-b-c-d-e
+> --e-d-c-b-c-d-e--
+> ----e-d-c-d-e----
+> ------e-d-e------
+> --------e--------
+> ```
 
-----------------------
+### Hints
+
+> **_First print the half of the Rangoli in the given way and save each line in a list. Then print the list in reverse order to get the rest._**
+
+---
+
 **My Solution: Python 3**
+
 ```python
 
 import string
@@ -165,36 +187,41 @@ if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
 ```
----------------------
 
+---
 
 # Question 98
 
 ### **Question**
 
->***You are given a date. Your task is to find what the day is on that date.***
+> **_You are given a date. Your task is to find what the day is on that date._**
 
 **Input**
->***A single line of input containing the space separated month, day and year, respectively, in MM DD YYYY format.***
->```
->08 05 2015
->```
 
+> **_A single line of input containing the space separated month, day and year, respectively, in MM DD YYYY format._**
+>
+> ```
+> 08 05 2015
+> ```
 
 **Output**
->***Output the correct day in capital letters.***
->```
->WEDNESDAY
->```
 
+> **_Output the correct day in capital letters._**
+>
+> ```
+> WEDNESDAY
+> ```
 
-----------------------
-### Hints 
-> ***Use weekday function of calender module***
+---
 
-----------------------
+### Hints
+
+> **_Use weekday function of calender module_**
+
+---
 
 **Solution:**
+
 ```python
 import calendar
 
@@ -203,41 +230,47 @@ month, day, year = map(int, input().split())
 dayId = calendar.weekday(year, month, day)
 print(calendar.day_name[dayId].upper())
 ```
-----------------
 
+---
 
 # Question 99
 
 ### **Question**
 
->***Given 2 sets of integers, M and N, print their symmetric difference in ascending order. The term symmetric difference indicates those values that exist in either M or N but do not exist in both.***
+> **_Given 2 sets of integers, M and N, print their symmetric difference in ascending order. The term symmetric difference indicates those values that exist in either M or N but do not exist in both._**
 
 **Input**
->***The first line of input contains an integer, M.The second line contains M space-separated integers.The third line contains an integer, N.The fourth line contains N space-separated integers.***
->```
->4
->2 4 5 9
->4
->2 4 11 12
->```
+
+> **_The first line of input contains an integer, M.The second line contains M space-separated integers.The third line contains an integer, N.The fourth line contains N space-separated integers._**
+>
+> ```
+> 4
+> 2 4 5 9
+> 4
+> 2 4 11 12
+> ```
 
 **Output**
->***Output the symmetric difference integers in ascending order, one per line.***
->```
->5
->9
->11
->12
->```
 
+> **_Output the symmetric difference integers in ascending order, one per line._**
+>
+> ```
+> 5
+> 9
+> 11
+> 12
+> ```
 
-----------------------
+---
+
 ### Hints
-> ***Use \'^\' to make symmetric difference operation.***
 
-----------------------
+> **_Use \'^\' to make symmetric difference operation._**
+
+---
 
 **Solution:**
+
 ```python
 if __name__ == '__main__':
     n = int(input())
@@ -251,10 +284,11 @@ if __name__ == '__main__':
     for i in ans:
         print(i)
 ```
-----------------
 
-[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22")
+---
 
-[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24")
+[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22")
 
-[***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
+[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24")
+
+[**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
