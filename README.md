@@ -10,7 +10,7 @@
 
 ***In this repository, I will be gradually updating the codebase of the given problems with my own solutions. Also, I may try to explain the code and tell my opinion about the problem if needed. Main Authors solutions are in python 2 & my solutions will be in python 3. Every problem is divided into a template format which is discussed below. There is a [discussion](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3) section so don't forget to share your opinion, ideas and feel free to discuss anything wrong or mistake***
 
-***Thanks to [apurvmishra99](https://github.com/apurvmishra99) for contributing the repository by cleaning up the formatting of all Days_.md files. fixing some random errors, fixing some variable naming with PEP8 conventions, and adding a whole new folder of [jupyter](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/tree/master/notebooks) notebook of all 24 days.***
+***A Big Thanks to [apurvmishra99](https://github.com/apurvmishra99) for contributing the repository by cleaning up the formatting of all Days_.md files. fixing some random errors, fixing some variable naming with PEP8 conventions, and adding a whole new folder of [jupyter](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/tree/master/notebooks) notebook of all 24 days.***
 
 ----------------
 
