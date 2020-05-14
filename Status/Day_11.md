@@ -182,7 +182,13 @@ input = input('Enter string:')
 output = ''.join(['Yes' if input == 'yes' or input =='YES' or input =='Yes' else 'No' ])
 print(str(output))
 ```
-
+Solution by: Prashanth
+'''
+x = str(input().lower())
+if x == 'yes':
+    print('Yes')
+else:
+    print('No')
 ---
 
 # Question 41
