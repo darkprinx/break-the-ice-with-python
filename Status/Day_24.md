@@ -204,18 +204,6 @@ sum = rec(n)
 print(sum)
 ```
 
-**Solution:**
-
-```python
-'''Solution by: Prashanth'''
-
-N = int(input(' : '))
-sum = 0
-for i in range(N+1):
-    sum += i
-print(sum)
-
-```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 23")
