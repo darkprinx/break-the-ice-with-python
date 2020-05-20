@@ -290,7 +290,18 @@ for i in word:
         digit += 1
 print(f"LETTERS {letter}\n{digits}") # two different types of formating method is shown in both solution
 ```
+---
+```python
+''' Solution by: popomaticbubble
+'''
+import re
 
+input_string = input('> ')
+print()
+counter = {"LETTERS":len(re.findall("[a-zA-Z]", input_string)), "NUMBERS":len(re.findall("[0-9]", input_string))}
+
+print(counter)
+```
 ---
 
 ## Conclusion
