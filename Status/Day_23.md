@@ -108,7 +108,6 @@ if __name__ == '__main__':
 ```
 
 ---
-
 ```python
 '''Solution by: mishrasunny-coder
 '''
@@ -119,11 +118,8 @@ width = int(input())
 
 print(textwrap.fill(string,width))
 ```
-
 ---
-
-```
-python
+```python
 '''solution by  : Prashanth
 '''
 from textwrap import wrap
