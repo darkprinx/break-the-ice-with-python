@@ -195,7 +195,25 @@ while True:
 lst = list(int(i[2:]) if i[0] == 'D' else -int(i[2:]) for i in lines)
 print(sum(lst))
 ```
+---
+```python
+'''Solution by: popomaticbubble 
+'''
+transactions = []
 
+while True:
+    text = input("> ")
+    if text:
+    	text = text.strip('D ')
+    	text = text.replace('W ', '-')
+    	transactions.append(text)
+    else: 
+		break	
+		
+transactions = (int(i) for i in transactions)
+balance = sum(transactions)
+print(f"Balance is {balance}")
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
