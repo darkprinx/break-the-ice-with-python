@@ -109,8 +109,7 @@ if __name__ == '__main__':
 
 ---
 
-```
-python
+```python
 '''Solution by: mishrasunny-coder
 '''
 import textwrap
@@ -122,6 +121,8 @@ print(textwrap.fill(string,width))
 ```
 
 ---
+
+```
 python
 '''solution by  : Prashanth
 '''
