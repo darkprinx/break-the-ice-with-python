@@ -103,25 +103,7 @@ print fact(x)
   print(shortFact(n))
 
   ```
-- **Including Try and Except Blocks**
 
-```python
-   #Solution by minnielahoti
-   
-   while True:
-    try:
-        num = int(input("Enter a number: "))
-        break
-    except ValueError as err:
-        print(err)
-    
-    org = num
-    fact = 1
-    while num:
-        fact = num * fact
-        num = num - 1
-
-    print(f'the factorial of {org} is {fact}')
 ---
 
 # Question 3
@@ -173,31 +155,12 @@ n = int(input())
 ans={i : i*i for i in range(1,n+1)}
 print(ans)
 ```
-- **Including Try and Except Blocks**
 
-```python
-   #Solution by minnielahoti
-   
-   while True:
-    try:
-        num = int(input("Enter a number: "))
-        break
-    except ValueError as err:
-        print(err)
-    
-    dictio = dict()
-for item in range(num+1):
-    if item == 0:
-        continue
-    else:
-        dictio[item] = item * item
-
-print(dictio)
 ---
 
 ## Conclusion
 
-**_These were the solved problems of day 1. The above problems are very easy for the basic syntex learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
+**_These was the solved problems of day 1. The above problems are very easy for the basic syntex learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
 
 [**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Next Day")
 
