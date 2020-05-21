@@ -103,7 +103,25 @@ print fact(x)
   print(shortFact(n))
 
   ```
+---
+```python
+'''Solution by: minnielahoti
+'''
 
+while True:
+try:
+    num = int(input("Enter a number: "))
+    break
+except ValueError as err:
+    print(err)
+
+org = num
+fact = 1
+while num:
+    fact = num * fact
+    num = num - 1
+print(f'the factorial of {org} is {fact}')
+```
 ---
 
 # Question 3
@@ -155,7 +173,26 @@ n = int(input())
 ans={i : i*i for i in range(1,n+1)}
 print(ans)
 ```
+---
+```python
+'''Solution by: minnielahoti
+'''
 
+while True:
+try:
+    num = int(input("Enter a number: "))
+    break
+except ValueError as err:
+    print(err)
+
+dictio = dict()
+for item in range(num+1):
+    if item == 0:
+        continue
+    else:
+        dictio[item] = item * item
+print(dictio)
+```
 ---
 
 ## Conclusion
