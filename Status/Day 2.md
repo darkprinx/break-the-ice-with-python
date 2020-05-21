@@ -45,7 +45,12 @@ tpl = tuple(lst)          # tuple method converts list to tuple
 print(lst)
 print(tpl)
 ```
-
+---
+```python 
+'''solution by: minnielahoti
+'''
+print(tuple(input("Enter a series of numbers separated by a comma :").split(',')))
+```
 ---
 
 # Question 5
