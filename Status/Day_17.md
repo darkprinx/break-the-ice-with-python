@@ -125,7 +125,26 @@ print bin_search(li,12)
 #to be written
 
 ```
-
+**Solution by ulmasovjafarbek: Python 3**
+```python
+def binary_search(lst, item):
+    low = 0
+    high = len(lst) - 1
+    
+    while low <= high:
+        mid = round((low + high) / 2)
+        
+        if lst[mid] == item:
+            return mid
+        elif lst[mid] > item:
+            high = mid - 1
+        else:
+            low = mid + 1
+    return None
+    
+lst = [1,3,5,7,]
+print(binary_search(lst, 9))   
+```
 ---
 
 **Solution by AasaiAlangaram: Python 3**
