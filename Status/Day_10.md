@@ -223,6 +223,15 @@ def printList():
 
 printList()
 ```
+---
+```python
+'''Solution by: popomaticbubble
+'''
+def squares(n):
+    squares_list = [i**2 for i in range(1,n+1)]
+    print(squares_list[-5:])
+squares(20)
+```
 
 ---
 
