@@ -153,17 +153,18 @@ for i in s:
 print(",".join(lst))
 ```
 
-**OR**
+---
 
-'''python
+```python
+'''Solution by: pratikb0501
+'''
 import re
-
 a = input('Enter passwords: ').split(',')
 pass_pattern = re.compile(r"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[$#@]).{6,12}$")
 for i in a:
     if pass_pattern.fullmatch(i):
         print(i)
-'''
+```
 
 ---
 
