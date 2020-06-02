@@ -220,7 +220,15 @@ D = input().split(',')
 D = list(map(calc,D))   # applying calc function on D and storing as a list
 print(",".join(D))
 ```
-
+---
+```python
+'''Solution by: parian5
+'''
+from math import sqrt
+C, H = 50, 30
+mylist = input().split(',')
+print(*(round(sqrt(2*C*int(D)/H)) for D in mylist), sep=",")
+```
 ---
 
 # Question 7
