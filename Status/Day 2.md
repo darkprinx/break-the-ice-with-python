@@ -384,7 +384,7 @@ for sentence in lines:
 ```python
 lst = []
 
-while input():
+while True:
     x = input()
     if len(x)==0:
         break
