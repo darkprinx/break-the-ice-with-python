@@ -160,6 +160,16 @@ a = input()
 total = int(a) + int(2*a) + int(3*a) + int(4*a)  # N*a=Na, for example  a="23", 2*a="2323",3*a="232323"
 print(total)
 ```
+---
+```python
+'''Solution by: ChichiLovesDonkeys
+'''
+from functools import reduce
+x = input('please enter a digit:')
+# reduce(lambda x, y: int(x) + int(y), [x, x * 2, x * 3, x * 4])
+reduce(lambda x, y: int(x) + int(y), [x*i for i in range(1,5)])
+```
+---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
 
