@@ -40,7 +40,7 @@ for i in MyGen().by_seven( int(input('Please enter a number... ')) ):
 class Divisible:
 
     def by_seven(self, n):
-        for number in range(n + 1):
+        for number in range(1,n + 1):
             if number % 7 == 0: yield number
 
 
