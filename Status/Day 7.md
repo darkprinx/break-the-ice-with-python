@@ -141,10 +141,12 @@ while True:
 dist = round(math.sqrt(x**2 + y**2))  # euclidean distance = square root of (x^2+y^2) and rounding it to nearest integer
 print(dist)
 ```
+---
+```python
+'''Solution by: pratikb0501
+'''
 
-'''python
 from math import sqrt
-
 lst = []
 position = [0,0]
 while True:
@@ -162,9 +164,7 @@ for i in lst:
     if 'RIGHT' in i:
         position[1] += int(i.strip('RIGHT '))
 print(round(sqrt(position[1] ** 2 + position[0] ** 2)))
-
-'''
-
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6")
