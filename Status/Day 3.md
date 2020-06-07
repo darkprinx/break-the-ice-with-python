@@ -151,9 +151,11 @@ data = list(filter(lambda i:int(i,2)%5==0,data))    # lambda is an operator that
 print(",".join(data))
 ```
 
-**OR**
+---
 
 ```python
+'''Solution by: nikitaMogilev
+'''
 data = input().split(',')
 data = [num for num in data if int(num, 2) % 5 == 0]
 print(','.join(data))
