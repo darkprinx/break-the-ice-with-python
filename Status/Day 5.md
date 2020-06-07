@@ -215,6 +215,22 @@ balance = sum(transactions)
 print(f"Balance is {balance}")
 ```
 ---
+```python
+'''Solution by: ChichiLovesDonkeys
+'''
+
+money = 0
+while 1:
+    trans = input().split(' ')
+    if trans[0] == 'D':
+        money = money + int(trans[1])
+    elif trans[0] == 'W':
+        money = money - int(trans[1])
+    elif input() == '':
+        break
+    print(f'Your current balance is: {money}')
+```
+---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
 
