@@ -227,6 +227,16 @@ print(",".join(lst))
 
 ---
 
+```python
+'''Solution by: nikitaMogilev
+'''
+# map() digits of each number with lambda function and check if all() of them even
+# str(num) gives us opportunity to iterate through number by map() and join()
+print(','.join([str(num) for num in range(1000, 3001) if all(map(lambda num: int(num) % 2 == 0, str(num)))]))
+```
+
+---
+
 # Question 13
 
 ### **Question:**
