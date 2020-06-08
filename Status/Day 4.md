@@ -169,6 +169,16 @@ x = input('please enter a digit:')
 reduce(lambda x, y: int(x) + int(y), [x*i for i in range(1,5)])
 ```
 ---
+```python
+'''Solution by: lcastrooliveira
+'''
+def question_15(string_digit):
+    return sum(int(string_digit * n) for n in range(1, 5))
+
+inp = input()
+print(question_15(inp))
+```
+---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
 
