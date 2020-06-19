@@ -188,12 +188,11 @@ print(ans)
 ---
 ```python
 '''Solution by: minnielahoti
+   Corrected by: TheNobleKnight 
 '''
 
-while True:
 try:
     num = int(input("Enter a number: "))
-    break
 except ValueError as err:
     print(err)
 
@@ -202,7 +201,7 @@ for item in range(num+1):
     if item == 0:
         continue
     else:
-        dictio[item] = item * item
+	dictio[item] = item * item
 print(dictio)
 ```
 ---
