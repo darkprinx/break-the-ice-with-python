@@ -123,6 +123,18 @@ while num:
 print(f'the factorial of {org} is {fact}')
 ```
 ---
+```python
+'''Soltuion by: KruthikaSR
+'''
+from functools import reduce
+
+def fun(acc, item):
+	return acc*item
+
+num = int(input())
+print(reduce(fun,range(1, num+1), 1))
+```
+---
 
 # Question 3
 
