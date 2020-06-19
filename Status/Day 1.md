@@ -194,7 +194,14 @@ for item in range(num+1):
 print(dictio)
 ```
 ---
+```python
+'''Solution by: 
+'''
 
+num = int(input("Number: "))
+print(dict(list(enumerate((i * i for i in range(num+1))))))
+```
+---
 ## Conclusion
 
 **_These was the solved problems of day 1. The above problems are very easy for the basic syntex learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
