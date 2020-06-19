@@ -64,6 +64,14 @@ word = sorted(list(set(input().split())))              #  input string splits ->
 print(" ".join(word))
 ```
 
+**OR**
+inp_string = input("Enter string: ").split()
+out_string = []
+for words in inp_string:
+    if words not in out_string:
+        out_string.append(words)
+print(" ".join(sorted(out_string)))
+
 ---
 
 # Question 11
