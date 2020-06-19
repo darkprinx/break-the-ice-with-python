@@ -195,7 +195,7 @@ print(dictio)
 ```
 ---
 ```python
-'''Solution by: 
+'''Solution by: yurbika
 '''
 
 num = int(input("Number: "))
