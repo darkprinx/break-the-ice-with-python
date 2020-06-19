@@ -94,9 +94,6 @@ str_obj.print_string()
 
 ```python
 class IOstring():
-    def __init__(self):
-        pass
-
     def get_string(self):
         self.s = input()
 
