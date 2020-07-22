@@ -227,6 +227,21 @@ mylist = input().split(',')
 print(*(round(sqrt(2*C*int(D)/H)) for D in mylist), sep=",")
 ```
 ---
+```python
+
+'''Solution by: saxenaharsh24
+'''
+
+my_list = [int(x) for x in input('').split(',')]
+C, H, x = 50, 30, []
+
+for D in my_list:
+    Q = ((2*C*D)/H)**(1/2)
+    x.append(round(Q))
+
+print(','.join(map(str, x)))
+```
+---
 
 # Question 7
 
