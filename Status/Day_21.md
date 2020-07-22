@@ -219,7 +219,31 @@ aFemale= Female()
 print aMale.getGender()
 print aFemale.getGender()
 ```
+---
+```python
+'''Solution by: popomaticbubble
+'''
+class Person(object):
+    def __init__(self):
+	self.gender = "unknown"
 
+    def getGender(self):
+	print(self.gender)
+
+class Male(Person):
+    def __init__(self):
+	self.gender = "Male"
+
+class Female(Person):
+    def __init__(self):
+	self.gender = "Female"
+
+sharon = Female()
+doug = Male()
+sharon.getGender()
+doug.getGender()
+
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_20.md "Day 20")
