@@ -252,7 +252,15 @@ for i in range(1, n+1):
     sum+= i/(i+1)
 print(round(sum, 2))  # rounded to 2 decimal point
 ```
+---
+```python
+'''Solution by: lcastrooliveira
+'''
+def question_59(n):
+    print(round(sum(map(lambda x: x/(x+1), range(1, n+1))), 2))
 
+question_59(5)
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
