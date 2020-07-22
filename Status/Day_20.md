@@ -97,7 +97,7 @@ print(li)
 ```python
 
 li = [12,24,35,70,88,120,155]
-li = [x for (i,x) in enumerate(li) if i%2!=0]
+li = [x for (i,x) in enumerate(li) if i%2 != 0 and i <= 6]
 print li
 ```
 
@@ -107,10 +107,19 @@ print li
 
 ```python
 li = [12,24,35,70,88,120,155]
-li = [li[i] for i in range(len(li)) if i%2 != 0]
+li = [li[i] for i in range(len(li)) if i%2 != 0 and i <= 6]
 print(li)
 ```
+---
+```python
+'''Solution by: popomaticbubble
+'''
+orig_lst = [12,24,35,70,88,120,155]
+indices = [0, 2, 4, 6]
 
+new_list = [i for (j, i) in enumerate(orig_lst) if j not in indices]
+print(new_list)
+```
 ---
 
 # Question 83
@@ -137,18 +146,23 @@ li = [x for (i,x) in enumerate(li) if i<3 or 4<i]
 print li
 
 ```
-
 ---
-
 **My Solution: Python 3**
 
 ```python
 #to be written
 li = [12,24,35,70,88,120,155]
-li = [li[i] for i in range(len(li)) if i<3 or 4<i]
+li = [li[i] for i in range(len(li)) if i < 3 or i > 4]
 print(li)
 ```
-
+---
+```python
+'''Solution by: popomaticbubble
+'''
+orig_list = [12,24,35,70,88,120,155]
+new_list = [i for (j, i) in enumerate(orig_list) if j not in range(1,4)]
+print(new_list)
+```
 ---
 
 # Question 84
