@@ -203,6 +203,21 @@ for sub in subjects:
         for obj in objects:
             print("{} {} {}".format(sub,verb,obj))
 ```
+---
+```python
+
+'''Solution by: popomaticbubble
+'''
+import itertools
+subject = ["I", "You"]
+verb = ["Play", "Love"]
+objects = ["Hockey","Football"]
+
+sentence = [subject, verb, objects]
+n = list(itertools.product(*sentence))
+for i in n: 
+    print(i)
+```
 
 ---
 
