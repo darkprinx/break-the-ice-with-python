@@ -172,6 +172,12 @@ data = [num for num in data if int(num, 2) % 5 == 0]
 print(','.join(data))
 ```
 
+```python
+'''Solution by: hajimalung baba
+'''
+print(*(binary for binary in input().split(',') if int(binary,base=2)%5==0))
+```
+
 ---
 
 # Question 12
