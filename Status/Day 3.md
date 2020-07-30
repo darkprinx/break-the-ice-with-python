@@ -252,6 +252,17 @@ print(",".join(lst))
 print(','.join([str(num) for num in range(1000, 3001) if all(map(lambda num: int(num) % 2 == 0, str(num)))]))
 ```
 
+```python
+'''Solution by: hajimalung
+'''
+from functools import reduce 
+#using reduce to check if the number has only even digits or not
+def is_even_and(bool_to_compare,num_as_char):
+    return int(num_as_char)%2==0 and bool_to_compare
+
+print(*(i for i in range(1000,3001) if reduce(is_even_and,str(i),True)),sep=',')
+```
+
 ---
 
 # Question 13
