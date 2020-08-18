@@ -64,8 +64,13 @@ for letter in range(ord('a'),ord('z')+1):    # ord() gets the ascii value of a c
     if cnt > 0:
         print("{},{}".format(letter,cnt))
 ```
-
+```python Solution by Utkarsh4697
+s = 'abcdefgabc'
+for i in sorted(set(s)):
+    print(f'{i}, {s.count(i)}')
+```
 ---
+
 
 # Question 91
 
