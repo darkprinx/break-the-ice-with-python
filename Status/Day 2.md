@@ -351,6 +351,16 @@ lst = input().split(',')
 lst.sort()
 print(",".join(lst))
 ```
+#Solution by Poonam-glitch
+
+```
+def my_func(e):
+    return e[0]
+
+my_list = input('Enter a comma separated string').split(",")
+my_list.sort(key=my_func)
+print(my_list)
+```
 
 ---
 
