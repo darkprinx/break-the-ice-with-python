@@ -172,6 +172,12 @@ data = [num for num in data if int(num, 2) % 5 == 0]
 print(','.join(data))
 ```
 
+```python
+'''Solution by: hajimalung baba
+'''
+print(*(binary for binary in input().split(',') if int(binary,base=2)%5==0))
+```
+
 ---
 
 # Question 12
@@ -244,6 +250,17 @@ print(",".join(lst))
 # map() digits of each number with lambda function and check if all() of them even
 # str(num) gives us opportunity to iterate through number by map() and join()
 print(','.join([str(num) for num in range(1000, 3001) if all(map(lambda num: int(num) % 2 == 0, str(num)))]))
+```
+
+```python
+'''Solution by: hajimalung
+'''
+from functools import reduce 
+#using reduce to check if the number has only even digits or not
+def is_even_and(bool_to_compare,num_as_char):
+    return int(num_as_char)%2==0 and bool_to_compare
+
+print(*(i for i in range(1000,3001) if reduce(is_even_and,str(i),True)),sep=',')
 ```
 
 ---
@@ -350,6 +367,20 @@ for item in sen:
             digit += 1
 print(f"LETTERS : {alp} \n DIGITS : {digit}")
 ```
+```python
+'''Solution by: hajimalung
+'''
+#using reduce for to count
+from functools import reduce
+
+def count_letters_digits(counters,char_to_check):
+    counters[0] += char_to_check.isalpha()
+    counters[1] += char_to_check.isnumeric()
+    return counters
+
+print('LETTERS {0}\nDIGITS {1}'.format(*reduce(count_letters_digits,input(),[0,0])))
+```
+
 ---
 
 ## Conclusion
