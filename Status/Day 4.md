@@ -184,6 +184,8 @@ print(question_15(inp))
 '''
 a = input()
 print(sum(int(i*a) for i in range(1,5)))
+```
+---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
 
