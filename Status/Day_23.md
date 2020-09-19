@@ -214,9 +214,10 @@ if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
 ```
-**suggula jaswanth**
-
-```python3
+---
+```python
+'''Solution by: suggula jaswanth
+'''
 def rangoli(n):
     # your code goes here
     l1=list(map(chr,range(97,123)))
