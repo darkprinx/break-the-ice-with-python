@@ -207,10 +207,11 @@ print(dictio)
 ---
 ```python
 '''Solution by: yurbika
+   Corrected by: developer-47
 '''
 
 num = int(input("Number: "))
-print(dict(list(enumerate((i * i for i in range(num+1))))))
+print(dict(enumerate([i*i for i in range(1, num+1)], 1)))
 ```
 ---
 ## Conclusion
