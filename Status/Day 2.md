@@ -439,6 +439,19 @@ for line in map(str.upper, user_input()):
     print(line)
 ```
 
+```python
+'''Soltuion by: hajimalung baba
+'''
+def inputs():
+    while True:
+        string = input()
+        if not string:
+            return
+        yield string
+
+print(*(line.upper() for line in inputs()),sep='\n')
+```
+
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
