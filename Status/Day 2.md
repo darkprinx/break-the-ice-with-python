@@ -362,7 +362,12 @@ my_list = input('Enter a comma separated string: ').split(",")
 my_list.sort(key=my_func)
 print(",".join(my_list))
 ```
+ANdre's solution
 
+word_sequence = input("Text:").split(",")
+order = (sorted(word_sequence))
+for i in order:
+    print(i, end=",")
 ---
 
 # Question 9
