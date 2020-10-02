@@ -37,6 +37,13 @@ def printDict():
 
 printDict()
 ```
+---
+```python
+'''Solution by: saurabh618
+'''
+def sq_dict():
+	print(dict(enumerate((i * i for i in range(1,21)),1)))
+```
 
 ---
 
