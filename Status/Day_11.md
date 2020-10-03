@@ -51,8 +51,7 @@ for i in range(5,10):
 print(lst1)
 print(lst2)
 ```
-
-**OR**
+----
 
 ```python
 
@@ -66,8 +65,6 @@ print(tup[:lt], tup[lt:])
 ```
 
 ---
-
-**OR**
 
 ```python
 
@@ -84,6 +81,15 @@ print('The Original Tuple:',tp)
 ```
 
 ---
+```python
+
+'''
+Solution by: saxenaharsh24
+'''
+
+tup = [i for i in range(1, 11)]
+print(f'{tuple(tup[:5])} \n{tuple(tup[5:])}')
+```
 
 # Question 39
 
@@ -227,7 +233,18 @@ li = [1,2,3,4,5,6,7,8,9,10]
 squaredNumbers = map(lambda x: x**2, li)  # returns map type object data
 print(list(squaredNumbers))               # converting the object into list
 ```
+---
+```python
+'''
+Solution by: saxenaharsh24
+'''
+def sqrs(item):
+    return item ** 2
 
+
+lst = [i for i in range(1, 11)]
+print(list(map(sqrs, lst)))
+```
 ---
 
 # Question 42
@@ -267,7 +284,19 @@ li = [1,2,3,4,5,6,7,8,9,10]
 li = map(squer,filter(even,li))   # first filters number by even number and the apply map() on the resultant elements
 print(list(li))
 ```
+---
+```python
+"""
+Solution by: saxenaharsh24
+"""
+def even(item):
+    if item % 2 == 0:
+        return item**2
 
+
+lst = [i for i in range(1, 11)]
+print(list(filter(lambda j: j is not None, list(map(even, lst)))))
+```
 ---
 
 # Question 43

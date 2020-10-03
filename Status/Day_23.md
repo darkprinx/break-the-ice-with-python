@@ -128,8 +128,8 @@ if __name__ == '__main__':
 
 ---
 ```python
-'''Solution by: mishrasunny-coder
-'''
+"""Solution by: mishrasunny-coder
+"""
 import textwrap
 
 string = input()
@@ -139,8 +139,8 @@ print(textwrap.fill(string,width))
 ```
 ---
 ```python
-'''solution by  : Prashanth
-'''
+"""solution by  : Prashanth
+"""
 from textwrap import wrap
 x = str(input(': '))
 w = int(input())
@@ -148,7 +148,14 @@ z = list(wrap(x, w))
 for i in z:
     print(i)
 ```
-
+---
+```python
+"""solution by  : saxenaharsh24
+"""
+import textwrap
+string = input('')
+print('\n'.join(textwrap.wrap(string, width= int(input('')))))
+```
 ---
 # Question 97
 

@@ -157,14 +157,20 @@ print(li)
 ```
 ---
 ```python
-'''Solution by: popomaticbubble
-'''
+"""Solution by: popomaticbubble
+"""
 orig_list = [12,24,35,70,88,120,155]
 new_list = [i for (j, i) in enumerate(orig_list) if j not in range(1,4)]
 print(new_list)
 ```
 ---
-
+```python
+"""Solution by: saxenaharsh24
+"""
+lst = [12,24,35,70,88,120,155]
+print([i for i in lst if lst.index(i) not in range(2,5)])
+```
+---
 # Question 84
 
 ### **Question**
