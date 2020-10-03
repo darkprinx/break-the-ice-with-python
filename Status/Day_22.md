@@ -73,7 +73,29 @@ for i in sorted(set(s)):
     print(f'{i}, {s.count(i)}')
 ```
 ---
+```python 
+'''Solution by: popomaticbubble
+'''
+def character_counter(text):
+	characters_list = list(text)
+	char_count = {}
+	for x in characters_list:
+		if x in char_count.keys():
+			char_count[x] += 1
+		else:
+			char_count[x] = 1
+	return char_count
 
+
+def dict_viewer(dictionary):
+	for x, y in dictionary.items():
+		print(f"{x},{y}")
+
+
+text = input("> ")
+dict_viewer(character_counter(text))
+```
+---
 
 # Question 91
 
@@ -197,7 +219,21 @@ print(ns)
 import itertools
 print list(itertools.permutations([1,2,3]))
 ```
+---
+```python
+"""Solution by: popomaticbubble
+"""
+from itertools import permutations
 
+def permuation_generator(iterable):
+    p = permutations(iterable)
+    for i in p:
+        print(i)
+
+
+x = [1,2,3]
+permuation_generator(x)
+```
 ---
 
 # Question 94
@@ -226,12 +262,40 @@ def solve(numheads,numlegs):
             return i,j
     return ns,ns
 
-numheads=35
-numlegs=94
+numheads = 35
+numlegs = 94
 solutions=solve(numheads,numlegs)
 print solutions
 ```
+---
+```python
+"""Solution by: popomaticbubble
+"""
+import itertools
 
+def animal_counter(lst):
+    chickens = 0	
+    rabbits = 0
+    for i in lst:
+        if i == 2:
+            chickens += 1
+        elif i == 4:
+            rabbits += 1
+    print(f"Number of chickens is {chickens}\nNumber of rabbits is {rabbits}")
+
+
+def animal_calculator(total_legs, total_heads, legs_of_each_species):
+    combinations = itertools.combinations_with_replacement(legs_of_each_species, total_heads)
+    correct_combos = []
+    for i in list(combinations):
+        if sum(i) == total_legs:
+            correct_combos.append(i)
+    print(correct_combos)
+    for i in correct_combos:
+        animal_counter(i)
+
+animal_calculator(94, 35, legs_of_each_species=[2,4])
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_21.md "Day 21")

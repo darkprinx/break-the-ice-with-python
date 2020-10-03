@@ -203,7 +203,24 @@ n = int(input())
 sum = rec(n)
 print(sum)
 ```
+---
+```python
+"""Solution by: popomaticbubble
+"""
+def summer(counter, n, current):
+    if n == 0:
+        return 0
+    if counter == n:
+        return current+n
+    else:
+        current = current + counter
+        counter += 1
+        return summer(counter, n, current)
 
+
+N = int(input("> "))
+print(summer(1, N, 0))
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 23")
