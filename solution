@@ -1,0 +1,19 @@
+#solution to question 35
+def square():
+  print(sorted([x**2 for x in range(1,21)],reverse=True)[:5])
+
+square()
+
+#solution to question 36
+def square():
+ print([x**2 for x in range(1,21)][5:])
+ 
+square()
+
+#solution to question 37
+def square():
+  print(tuple(x**2 for x in range(1,21)))
+ 
+square()
+
+
