@@ -57,6 +57,16 @@ seq = [str(i) for i in seq]   # All the integers are converted to string to be a
 print(",".join(seq))
 ```
 
+
+```python
+'''Solution by: Jack'''
+seq = input().split(',') 
+lst = [int(i) for i in seq]
+def flt(i):                                           #Define a filter function
+    return i % 2 != 0
+result_l = [str(i * i) for i in filter(flt,lst)]      
+print(",".join(result_l))
+```
 ---
 
 **_There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him._**
