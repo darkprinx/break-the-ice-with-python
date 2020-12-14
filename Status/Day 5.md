@@ -67,6 +67,18 @@ def flt(i):                                           #Define a filter function
 result_l = [str(i * i) for i in filter(flt,lst)]      
 print(",".join(result_l))
 ```
+
+```python
+'''Solution by: sunilnayak07'''
+a = input().split(",")
+lst = []
+for odd in a:
+    if int(odd) % 2 != 0:
+        odd = int(odd) ** 2
+        lst.append(str(odd))
+
+print(",".join(lst))
+```
 ---
 
 **_There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him._**
