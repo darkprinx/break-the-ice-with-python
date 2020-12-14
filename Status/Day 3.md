@@ -64,6 +64,14 @@ word = sorted(list(set(input().split())))              #  input string splits ->
 print(" ".join(word))
 ```
 
+**OR**
+
+```python
+words = list(set(input().split()))              #  input string splits -> converting into set() to store unique
+words.sort()                                    #  element -> converting into list to be able to apply sort
+print(" ".join(words))
+```
+
 ---
 ```python
 '''Solution by: Sukanya-Mahapatra
