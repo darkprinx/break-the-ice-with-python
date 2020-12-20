@@ -40,7 +40,7 @@ print " ".join(sorted(list(set(words))))
 word = input().split()
 
 for i in word:
-    if word.count(i) > 1:    #count function returns total repeatation of an element that is send as argument
+    if word.count(i) > 1:    # count function returns the total repetition of an element that is send as argument
         word.remove(i)     # removes exactly one element per call
 
 word.sort()
@@ -59,8 +59,8 @@ print(" ".join(word))
 **OR**
 
 ```python
-word = sorted(list(set(input().split())))              #  input string splits -> converting into set() to store unique
-                                                       #  element -> converting into list to be able to apply sort
+word = sorted(list(set(input().split())))              # input string splits -> converting into set() to store unique
+                                                       # element -> converting into list to be able to apply sort
 print(" ".join(word))
 ```
 
@@ -132,7 +132,7 @@ def check(x):                       # converts binary to integer & returns zero 
         pw*=2
     return total % 5
 
-data = input().split(",")           # inputs taken here and splited in ',' position
+data = input().split(",")           # inputs taken here and split in ',' position
 lst = []
 
 for i in data:
@@ -336,7 +336,7 @@ for i in word:
         letter += 1
     elif i.isnumeric(): # returns True if numeric
         digit += 1
-print(f"LETTERS {letter}\n{digits}") # two different types of formating method is shown in both solution
+print(f"LETTERS {letter}\n{digits}") # two different types of formatting method is shown in both solution
 ```
 ---
 ```python
@@ -385,7 +385,7 @@ print('LETTERS {0}\nDIGITS {1}'.format(*reduce(count_letters_digits,input(),[0,0
 
 ## Conclusion
 
-**_All the above problems are mostly string related problems. Major parts of the solution includes string releted functions and comprehension method to write down the code in more shorter form._**
+**_All the above problems are mostly string related problems. Major parts of the solution includes string related functions and comprehension method to write down the code in more shorter form._**
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2")
 
