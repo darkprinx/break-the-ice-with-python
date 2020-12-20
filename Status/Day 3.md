@@ -367,10 +367,13 @@ for item in sen:
             digit += 1
 print(f"LETTERS : {alp} \n DIGITS : {digit}")
 ```
+---
+
 ```python
 '''Solution by: hajimalung
 '''
-#using reduce for to count
+
+# using reduce for to count
 from functools import reduce
 
 def count_letters_digits(counters,char_to_check):
@@ -379,6 +382,22 @@ def count_letters_digits(counters,char_to_check):
     return counters
 
 print('LETTERS {0}\nDIGITS {1}'.format(*reduce(count_letters_digits,input(),[0,0])))
+```
+
+---
+
+```python
+'''Solution by: dylanbuchi
+'''
+def count_letter_digits(text):
+    letters_count = len([i for i in text if i.isalpha()])
+    digits_count = len([i for i in text if i.isdigit()])
+    result = f'LETTERS {letters_count}\nDIGITS {digits_count}'
+    return result
+
+
+text = input()
+print(count_letter_digits(text))
 ```
 
 ---
