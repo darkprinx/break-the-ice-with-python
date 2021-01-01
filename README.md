@@ -91,5 +91,3 @@
 * **[Day 24](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24 Status")**- ***Question 100-103***
 
 
-----------------------
-### **_Sharing new questions and solutions are warmly welcome. Be a proud contributor of this repository by just making a pull request of your changes._**  
