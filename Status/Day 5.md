@@ -241,6 +241,23 @@ while 1:
     print(f'Your current balance is: {money}')
 ```
 ---
+```python
+'''Solution by: etanios
+'''
+transactions = {
+    'D': 0,
+    'W': 0
+}
+
+while True:
+    line = input()
+    if line:
+        transactions[line.split()[0]] = transactions[line.split()[0]] + int(line.split()[1])
+    else:
+        break
+
+print(transactions['D'] - transactions['W'])
+
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
 
