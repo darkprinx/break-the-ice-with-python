@@ -67,6 +67,11 @@ def flt(i):                                           #Define a filter function
 result_l = [str(i * i) for i in filter(flt,lst)]      
 print(",".join(result_l))
 ```
+
+'''Solution by: mhsiao345'''
+[i**2 for i in [1,2,3,4,5,6,7,8,9] if i % 2 != 0]
+```
+
 ---
 
 **_There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him._**
