@@ -1,4 +1,6 @@
-# Python-programming-exercises
+# Break The Ice With Python
+
+### A journey of 100+ simple yet interesting problems which are explained, solved, discussed in different pythonic ways
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/darkprinx/100-plus-Python-programming-exercises-extended/master?filepath=notebooks%2F)<br>
 [![Deepnote](https://deepnote.com/buttons/try-in-a-jupyter-notebook.svg
