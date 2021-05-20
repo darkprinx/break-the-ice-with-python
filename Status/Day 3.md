@@ -178,6 +178,16 @@ print(','.join(data))
 print(*(binary for binary in input().split(',') if int(binary,base=2)%5==0))
 ```
 
+```python
+
+---
+
+## Single line code ##
+
+print(','.join(list(filter(lambda a: int(a,2)%5==0,input().split(',')))))
+
+```
+
 ---
 
 # Question 12
