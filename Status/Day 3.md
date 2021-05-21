@@ -336,7 +336,7 @@ for i in word:
         letter += 1
     elif i.isnumeric(): # returns True if numeric
         digit += 1
-print(f"LETTERS {letter}\n{digits}") # two different types of formating method is shown in both solution
+print(f"LETTERS {letter}\n{digit}") # two different types of formating method is shown in both solution
 ```
 ---
 ```python
