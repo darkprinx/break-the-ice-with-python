@@ -178,6 +178,30 @@ for i in lst:
         position[1] += int(i.strip('RIGHT '))
 print(round(sqrt(position[1] ** 2 + position[0] ** 2)))
 ```
+
+```python
+'''Solution by: Naveen675
+'''
+
+from math import sqrt
+x,y=0,0
+while True:
+    s = input()
+    if not(s):
+        break
+    if 'UP' in s:
+        print("UP")
+        y = y+int(s.strip('UP '))
+    elif 'DOWN' in s:
+        y = y-int(s.strip('DOWN '))
+        print("down")
+    elif 'LEFT' in s:
+        x = x+int(s.strip('LEFT '))
+        print("left")
+    elif 'RIGHT' in s:
+        x = x-int(s.strip('RIGHT '))
+print(round(math.sqrt(x**2 + y**2)))
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6")
