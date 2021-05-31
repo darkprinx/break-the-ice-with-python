@@ -95,6 +95,18 @@ def dict_viewer(dictionary):
 text = input("> ")
 dict_viewer(character_counter(text))
 ```
+
+```python
+'''Solution by naveen675
+'''
+##  Using Counter ##
+from collections import Counter
+
+s = 'abcdefgabc'
+s = dict(Counter(s))
+for key,value in s.items():
+    print(key+','+str(value))
+```
 ---
 
 # Question 91
