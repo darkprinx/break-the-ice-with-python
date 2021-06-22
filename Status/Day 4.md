@@ -157,7 +157,7 @@ print(total)
 
 ```python
 a = input()
-total = int(a) + int(2*a) + int(3*a) + int(4*a)  # N*a=Na, for example  a="23", 2*a="2323",3*a="232323"
+total = int(d) + int(2*str(d)) + int(3*str(d)) + int(4*str(d))  # N*a=Na, for example  a="23", 2*a="2323",3*a="232323"
 print(total)
 ```
 ---
