@@ -113,7 +113,7 @@ xx.print_string()
 
 > **_Write a program that calculates and prints the value according to the given formula:_**
 
-> **_Q = Square root of [(2 _ C _ D)/H]_**
+> **_Q = Square root of [(2 * C * D)/H]_**
 
 > **_Following are the fixed values of C and H:_**
 
