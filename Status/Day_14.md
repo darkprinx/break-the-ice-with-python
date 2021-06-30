@@ -146,6 +146,14 @@ email = "john@google.com elise@python.com"
 pattern = "(\w+)@\w+.com"
 ans = re.findall(pattern,email)
 print(ans)
+```python
+'''
+Solution by: chinmaybhole
+'''
+a = 'chinmaybhole@python.com'
+x = a.find('@')
+print(f'Username: {a[:x]}')
+
 ```
 
 
