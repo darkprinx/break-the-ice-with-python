@@ -124,7 +124,7 @@ print(f'the factorial of {org} is {fact}')
 ```
 ---
 ```python
-'''Soltuion by: KruthikaSR
+'''Solution by: KruthikaSR
 '''
 from functools import reduce
 
@@ -133,6 +133,23 @@ def fun(acc, item):
 
 num = int(input())
 print(reduce(fun,range(1, num+1), 1))
+```
+---
+
+- **Using Recursion with Memoization**
+
+```python
+'''Solution by: dylanbuchi
+'''
+def fact(n, memo={}):
+    if n in memo:
+        return memo[n]
+    if not n:
+        return 1
+    memo[n] = n * fact(n - 1)
+    return memo[n]
+
+print(fact(8))
 ```
 ---
 
@@ -216,7 +233,7 @@ print(dict(enumerate([i*i for i in range(1, num+1)], 1)))
 ---
 ## Conclusion
 
-**_These was the solved problems of day 1. The above problems are very easy for the basic syntex learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
+**_These was the solved problems of day 1. The above problems are very easy for the basic syntax learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
 
 [**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Next Day")
 
