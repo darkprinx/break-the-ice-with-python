@@ -37,6 +37,13 @@ def printDict():
 
 printDict()
 ```
+---
+```python
+'''Solution by: saurabh618
+'''
+def sq_dict():
+	print(dict(enumerate((i * i for i in range(1,21)),1)))
+```
 
 ---
 
@@ -78,6 +85,16 @@ def printDict():
     print(dict.keys())      # print keys of a dictionary
 
 printDict()
+```
+---
+```python
+'''Solution by: saurabh618
+'''
+def dict_func():
+    my_dict = dict(enumerate((i*i for i in range(1,21)),1))
+    print(my_dict.keys())
+    
+dict_func()
 ```
 
 ---
