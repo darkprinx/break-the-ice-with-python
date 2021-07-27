@@ -135,6 +135,15 @@ num = int(input())
 print(reduce(fun,range(1, num+1), 1))
 ```
 ---
+```python
+'''Solution by: Shikhar Maheshwari
+'''
+from functools import reduce
+
+num = int(input('Enter the number: '))
+print(reduce(lambda acc, item: acc * item, range(1, num), 1))
+```
+---
 
 # Question 3
 
