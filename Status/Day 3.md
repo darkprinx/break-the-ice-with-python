@@ -162,6 +162,18 @@ data = list(filter(lambda i:int(i,2)%5==0,data))    # lambda is an operator that
 print(",".join(data))
 ```
 
+```python
+'''Solution by: sunilnayak07
+'''
+digits = input().split(",")
+lst = []
+for d in digits:
+    if int(d, 2) % 5 == 0:
+        lst.append(d)
+
+print(','.join(lst))
+```
+
 ---
 
 ```python
