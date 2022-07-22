@@ -45,12 +45,30 @@ tpl = tuple(lst)          # tuple method converts list to tuple
 print(lst)
 print(tpl)
 ```
+
 ---
-```python 
+
+```python
 '''solution by: minnielahoti
 '''
 print(tuple(input("Enter a series of numbers separated by a comma :").split(',')))
 ```
+
+```python
+'''solution by:@Bhuwan-web
+'''
+from typing import List, Tuple
+
+raw_nums: str = input("give Comma seperated numbers: ")
+
+mapped_nums: map = map(int, raw_nums.split(","))
+listed_nums: List[int] = list(mapped_nums)
+tuple_nums: Tuple = tuple(listed_nums)
+if __name__ == "__main__":
+    print(listed_nums, tuple_nums, sep="\n")
+
+```
+
 ---
 
 # Question 5
@@ -66,7 +84,7 @@ print(tuple(input("Enter a series of numbers separated by a comma :").split(',')
 
 ### Hints:
 
-> **_Use **init** method to construct some parameters_**
+> **\_Use **init** method to construct some parameters\_**
 
 ---
 
@@ -217,7 +235,9 @@ D = input().split(',')
 D = list(map(calc,D))   # applying calc function on D and storing as a list
 print(",".join(D))
 ```
+
 ---
+
 ```python
 '''Solution by: parian5
 '''
@@ -226,7 +246,9 @@ C, H = 50, 30
 mylist = input().split(',')
 print(*(round(sqrt(2*C*int(D)/H)) for D in mylist), sep=",")
 ```
+
 ---
+
 ```python
 
 '''Solution by: saxenaharsh24
@@ -241,6 +263,7 @@ for D in my_list:
 
 print(','.join(map(str, x)))
 ```
+
 ---
 
 # Question 7
@@ -351,7 +374,9 @@ lst = input().split(',')
 lst.sort()
 print(",".join(lst))
 ```
+
 ---
+
 ```python
 '''Solution by Poonam-glitch
 '''
