@@ -365,6 +365,16 @@ print(",".join(my_list))
 
 ---
 
+---
+
+**My Single line solution : Python 3**
+
+```
+#Solution By priyansh-pj
+print(','.join(sorted(input().split(','))))
+```
+---
+
 # Question 9
 
 ### **Question:**
