@@ -135,6 +135,17 @@ num = int(input())
 print(reduce(fun,range(1, num+1), 1))
 ```
 ---
+```python
+  # Solution by:  claudioaguiarg
+
+  x = int(input('Choose an integer positive number: '))
+  fat = 1
+  for i in range(x, 0, -1):
+      fat *= i
+  print(fat)
+
+  ```
+
 
 # Question 3
 
