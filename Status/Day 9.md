@@ -66,6 +66,19 @@ print(n)
 print(type(n))            # checks the type of the variable
 ```
 
+
+**Solution by VK**
+```python
+def ConvertStrToInt (data):
+    if type(data) == int:
+        return str(data)
+    else:
+        return f'Expected int, received {type(data)}'
+x = 10
+print(type(ConvertStrToInt(x)))
+print(ConvertStrToInt(x))
+```
+
 ---
 
 # Question 28
