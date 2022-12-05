@@ -98,6 +98,27 @@ printValue("3","4") #7
 sum = lambda s1,s2 : int(s1) + int(s2)
 print(sum("10","45"))      # 55
 ```
+**Solution by VK: Python 3**
+
+```python
+def ConvertStrAndSum():
+    counter = 0
+    while counter == 0:
+        try:
+            value = input('Enter 2 value to sum it\n').split()
+            x, y = value
+            try:
+                x, y = int(x), int(y)
+                counter += 1
+                return x + y
+            except ValueError as err:
+                print(err)
+        except ValueError or UnboundLocalError as err:
+            print(err)
+
+print(ConvertStrAndSum())
+```
+
 
 ---
 
