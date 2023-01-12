@@ -69,6 +69,13 @@ print(",".join(result_l))
 ```
 ---
 
+
+```python
+'''Solution by: Acastry'''
+print(*([int(x)**2 for x in (input().split(",")) if not int(x)%2==0]), sep=",")
+```
+---
+
 **_There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him._**
 
 # Question 17
