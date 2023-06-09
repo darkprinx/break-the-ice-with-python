@@ -77,6 +77,12 @@ print(" ".join(sorted(out_string)))
 ```
 ---
 
+```python
+'''Solution by: hrideshmg'''
+print(*sorted(set(input().split(" "))), sep=" ")
+```
+---
+
 # Question 11
 
 ### **Question**
