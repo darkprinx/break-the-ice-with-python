@@ -452,6 +452,18 @@ def inputs():
 print(*(line.upper() for line in inputs()),sep='\n')
 ```
 
+```
+'''Soltuion by: ARYAN GUPTA
+'''
+s= '''''' #using string
+print(s.upper())
+while True:
+    x = input()
+    if len(x)==0:
+        break
+    s+=x +'\n' #adding new line 
+print(s.upper())
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
