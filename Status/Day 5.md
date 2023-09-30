@@ -241,6 +241,22 @@ while 1:
     print(f'Your current balance is: {money}')
 ```
 ---
+'''
+'''TJ'''
+import re
+amount = 0
+while True:
+    ipt = input()
+    if re.match('D', ipt):
+        amount += int(ipt[2::])
+    if re.match('W', ipt):
+        amount -= int(ipt[2::])
+    if ipt == '':
+        break
+print(amount)
+'''
+
+---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
 
