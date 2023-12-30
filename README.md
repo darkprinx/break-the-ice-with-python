@@ -93,3 +93,11 @@
 * **[Day 24](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24 Status")**- ***Question 100-103***
 
 
+
+---
+
+## 🌱 Empower dedication with your generosity
+#### Every single coffee boosts towards greater motivation, turning compassion into action. Show your kind support with just a little click! 😃
+
+<a href="https://www.buymeacoffee.com/darkprinx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
