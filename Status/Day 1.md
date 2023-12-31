@@ -42,6 +42,26 @@ print("\b")
 ```python
 print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep=",")
 ```
+---
+
+**Solution by: sanyog-chavhan**
+- **Using generators**
+
+```python
+def my_gen(n1,n2):
+    for i in range(n1,n2+1):
+        if i%7==0 and i%5!=0:
+            yield i
+
+res = my_gen(2000,3200)
+while True:
+    try:
+        print(next(res),end=',')
+    except StopIteration:
+        break
+```
+
+---
 # Question 2
 
 ### **Question:**
