@@ -196,6 +196,15 @@ func = lambda a,b: print(max((a,b),key=len)) if len(a)!=len(b) else print(a+'\n'
 
 ---
 
+'''python
+'''Solution by: chinmaybhole'''
+a,b = input().split(',')
+max_len = lambda a,b: a+b if len(a)==len(b) else a if len(a)> len(b) else b
+print(max_len(a,b))
+'''
+
+---
+
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 9")
 
 [**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_10.md "Day 10")
