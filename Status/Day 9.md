@@ -133,6 +133,17 @@ sum = lambda s1,s2 : s1 + s2
 print(sum("10","45"))        # 1045
 ```
 
+**Solution from VK**
+
+```python
+def concatenate_str(*args):
+    result_str = ''
+    for n in args:
+        result_str += n
+    return print(result_str)
+concatenate_str('05', '12', '2', '0', '2', '2')
+```
+
 ---
 
 # Question 30
