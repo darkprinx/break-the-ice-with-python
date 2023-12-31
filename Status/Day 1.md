@@ -46,7 +46,7 @@ print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep=",")
 
 ### **Question:**
 
-> **_Write a program which can compute the factorial of a given numbers.The results should be printed in a comma-separated sequence on a single line.Suppose the following input is supplied to the program: 8
+> **_Write a program which can compute the factorial of a given number. Suppose the following input is supplied to the program: 8
 > Then, the output should be:40320_**
 
 ---
@@ -93,7 +93,7 @@ print fact(x)
       fact = fact * i
   print(fact)
   ```
-- **Using Lambda Function**
+- **Using a Function**
 
   ```python
   # Solution by:  harshraj22
@@ -135,6 +135,20 @@ num = int(input())
 print(reduce(fun,range(1, num+1), 1))
 ```
 ---
+
+- **Using Lambda Function and Reduce**
+```python 
+'''Soltuion by: go1337
+'''
+from functools import reduce
+
+input_nr = int(input("Enter number to get its factorial: "))
+
+factorial = reduce(lambda x, y: x * y, range(1, input_nr + 1))
+print(factorial)
+```
+---
+
 
 # Question 3
 
