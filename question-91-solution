@@ -1,0 +1,8 @@
+Adding a solution for question 91 that works. Unfortunately I cannot push to a different branch other than master and create a pull request since I get 403
+
+l = []
+string = input("Enter the string: ").split(' ')
+for i in range(len(string)):
+
+    l.append(string[len(string)-i-1][::-1])
+a = ' '.join(l)
