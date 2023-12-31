@@ -177,7 +177,24 @@ def displayer(groups):
 
 displayer(grouper(string, width_length))
 ```
+
+```python
+"""solution by  : Arutrr0
+"""
+def splitter(word, width):
+    while len(word) > 0:
+        snippet = ""
+        if len(word) < width:
+            width = len(word)
+        for i in range(width):
+            snippet += word[i]
+        print(snippet)
+        word = word[width:]
+
+splitter("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4)
+"""
 ---
+
 # Question 97
 
 ### **Question**
