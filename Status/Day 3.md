@@ -381,6 +381,22 @@ def count_letters_digits(counters,char_to_check):
 print('LETTERS {0}\nDIGITS {1}'.format(*reduce(count_letters_digits,input(),[0,0])))
 ```
 
+```python
+'''Solution by: Naveen
+
+#using filter function
+
+def check_letter(i):
+    if i.isalpha():
+        return i
+def check_number(i):
+    if i.isdigit():
+        return i
+
+ l = list(input())
+    print("Letter "+ str(len(list(filter(check_letter,l)  ) ) ) )
+ l = list(input())
+    print("Letter "+ str(len(list(filter(check_letter,l)  ) ) ) )
 ---
 
 ## Conclusion
