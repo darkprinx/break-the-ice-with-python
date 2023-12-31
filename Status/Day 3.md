@@ -263,6 +263,18 @@ def is_even_and(bool_to_compare,num_as_char):
 print(*(i for i in range(1000,3001) if reduce(is_even_and,str(i),True)),sep=',')
 ```
 
+```python
+'''Solution by: Naveen
+'''
+# code without loops only by using pure functions
+
+  a,b= input().split(',')
+  l = [*range(int(a),int(b)+1)]            #will generate a list of elements from a to b
+  
+  print(','.join(list(map(str,(filter(lambda a:a%2==0,l)))))) 
+  
+```
+
 ---
 
 # Question 13
