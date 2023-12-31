@@ -182,6 +182,14 @@ li = [12, 24, 35, 24, 88, 120, 155, 88, 120, 155]
 ans = list(removeDuplicate(li))
 print(ans)
 ```
+**OR**
+```python
+li=[12,24,35,24,88,120,155,88,120,155]
+a={}
+for i in li:
+    a[i]=0
+li=list(a.keys())
+print(li)
 
 ---
 
