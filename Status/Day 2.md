@@ -242,6 +242,18 @@ for D in my_list:
 print(','.join(map(str, x)))
 ```
 ---
+```python
+'''Solution by: prasanth
+'''
+
+
+C, H = 50,30
+D = input("Enter comma seperated values")
+temp = [item for item in D.split(',')]
+res = (list(map(lambda item: math.floor(math.sqrt(2*C*float(item)/H)), temp)))
+print(','.join(map(str,res)))
+```
+---
 
 # Question 7
 
