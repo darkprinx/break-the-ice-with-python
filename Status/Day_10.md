@@ -26,6 +26,7 @@ def printDict():
 printDict()
 ```
 
+
 ---
 
 **My Solution: Python 3**
@@ -37,7 +38,14 @@ def printDict():
 
 printDict()
 ```
+```python
+'''solution by Naveen
+'''
 
+## Using Map ##
+
+print(dict(map(lambda x: (x,x**2),[*range(1,21)])))
+```
 ---
 
 # Question 32
