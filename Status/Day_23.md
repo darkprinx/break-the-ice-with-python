@@ -177,6 +177,14 @@ def displayer(groups):
 
 displayer(grouper(string, width_length))
 ```
+```Solution by Thong Nguyen
+def func96():
+    msg = input()
+    width = int(input())
+    for i in range(0,len(msg),width):
+        print(msg[i:i+width])
+    
+```
 ---
 # Question 97
 
