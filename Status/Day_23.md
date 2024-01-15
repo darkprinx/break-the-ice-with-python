@@ -77,7 +77,23 @@ runnerup = max(lst)
 print(runnerup)
 ```
 ---
+```Solution by: Thong Nguyen
+def func95():
+    scores = [int(x) for x in input().split(' ')]
+    max_score = -1
+    runner_up = -1
+    for s in scores:
+        if max_score == -1:
+            max_score = s
+        elif max_score < s:
+            runner_up, max_score = max_score, s
+        elif max_score > s:
+            if runner_up < s:
+                runner_up = s
 
+    return runner_up
+
+```
 # Question 96
 
 ### **Question**
