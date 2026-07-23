@@ -186,7 +186,7 @@ print(total)
 '''
 from functools import reduce
 x = input('please enter a digit:')
-reduce(lambda x, y: int(x) + int(y), [x*i for i in range(1,5)])
+print(reduce(lambda x, y: int(x) + int(y), [x*i for i in range(1,5)]))
 ```
 ---
 ```python
