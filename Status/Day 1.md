@@ -105,7 +105,7 @@ print fact(x)
       fact = fact * i
   print(fact)
   ```
-- **Using a Function**
+- **Using recursion**
 
   ```python
   # Solution by:  harshraj22
@@ -114,6 +114,12 @@ print fact(x)
   def shortFact(x): return 1 if x <= 1 else x*shortFact(x-1)
   print(shortFact(n))
 
+  ```
+- **Using lambda function**
+  ```python
+  n = int(input())
+  fact = lambda n : 1 if n <= 1 else n * fact(n - 1)
+  print(fact(n))
   ```
 ---
 ```python
