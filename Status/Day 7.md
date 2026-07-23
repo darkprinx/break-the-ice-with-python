@@ -63,7 +63,31 @@ for number in generator:
     print(number)
 
 ```
+```python
+'''Solution by: Viktor
+'''
+class MyGen():
+    current = 0
 
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if MyGen.current < self.last:
+            num = MyGen.current
+            MyGen.current += 7
+            return num
+        raise StopIteration
+
+
+for i in MyGen(0, 100):
+    print(i)
+
+```
 ---
 
 # Question 21
