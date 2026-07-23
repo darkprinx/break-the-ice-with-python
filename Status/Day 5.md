@@ -92,6 +92,16 @@ print([i**2 for i in [1,2,3,4,5,6,7,8,9] if i % 2 != 0])
 ```
 ---
 
+```python
+'''Solution by: AmirhosseinEnayat
+'''
+lst = [int(x) for x in input().split(',')]
+a = list(filter((lambda x : x%2 !=0), lst))
+a = list(map((lambda a:a**2), a))
+print(','.join(map(str, a)))
+```
+---
+
 **_There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him._**
 
 # Question 17
