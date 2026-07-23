@@ -102,3 +102,5 @@ ENV/
 .mypy_cache/
 
 clean_files.py
+# macOS
+.DS_Store
