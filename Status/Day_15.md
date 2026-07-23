@@ -261,6 +261,17 @@ def question_59(n):
 
 question_59(5)
 ```
+
+```python
+'''Solution by: naveen675
+'''
+###   List Comprehension ###
+print(round((sum(i/(i+1) for i in range(1,int(input())+1))),2))
+
+                        ## OR  ##
+
+print(round(sum(map(lambda i:i/(i+1),[*range(1,int(input())+1)])),2))
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
