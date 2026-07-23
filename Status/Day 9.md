@@ -240,6 +240,27 @@ func = lambda a,b: print(max((a,b),key=len)) if len(a)!=len(b) else print(a+'\n'
 ```
 
 ---
+---
+
+```python
+'''Solution by: VK'''
+def str_len():
+    x = []
+    new_li = []
+    while True:
+        y = input('Enter text\n')
+        if not y:
+            break
+        x.append(y)
+    man_len = max(x, key=len)
+    for i in x:
+        if len(man_len) == len(i):
+            new_li.append(i)
+    print('\n'.join(new_li))
+str_len()
+```
+
+---
 
 '''python
 '''Solution by: chinmaybhole'''
