@@ -477,6 +477,17 @@ while True:
     s+=x +'\n' #adding new line 
 print(s.upper())
 ```
+
+```python
+'''Solution by: Cheeseycat
+'''
+list = input("list:")
+lst = []
+for i in list:
+    lst.append(i.upper())
+lst = "".join(lst)
+print(lst)
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
