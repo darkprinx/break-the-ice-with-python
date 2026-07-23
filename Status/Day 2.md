@@ -217,6 +217,8 @@ D = input().split(',')
 D = list(map(calc,D))   # applying calc function on D and storing as a list
 print(",".join(D))
 ```
+
+
 ---
 ```python
 '''Solution by: parian5
@@ -241,6 +243,19 @@ for D in my_list:
 
 print(','.join(map(str, x)))
 ```
+---
+```python
+'''Solution by: mouhazba
+'''
+from math import sqrt
+C = 50
+H = 30
+x = input('Type : => ').split(',')
+rsp = list(map(lambda D: str(round(sqrt(2*C*int(D)/H))), x))
+
+print(','.join(rsp))
+```
+
 ---
 
 # Question 7
