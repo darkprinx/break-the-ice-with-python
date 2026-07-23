@@ -121,6 +121,17 @@ for item in list_of_tuples:
 ```
 
 ---
+---
+
+```python
+'''Solution by: marceljonesraymond'''
+a=input()
+c=sorted((set(a)))
+for i in c[::-1]:
+  print("{} {}".format(i,a.count(i)))
+```
+
+---
 
 # Question 102
 
