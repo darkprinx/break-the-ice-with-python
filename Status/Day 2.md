@@ -345,6 +345,23 @@ print(lst)
 
 ---
 
+```python
+'''Solution by: bfarber2011
+'''
+def buid_array(x, y):
+    main = []
+    for i in range(x):
+        main.append([])
+        for j in range(y):
+            main[i].append(i*j)
+    print(main)
+
+x, y = map(int, input().split(','))
+buid_array(x, y)
+```
+
+---
+
 # Question 8
 
 ### **Question:**
