@@ -240,21 +240,23 @@ print(ans)
 ---
 ```python
 '''Solution by: minnielahoti
-   Corrected by: TheNobleKnight 
+   Corrected by: TheNobleKnight
+   Corrected by: VijayDinnimani	 
 '''
 
 try:
-    num = int(input("Enter a number: "))
-except ValueError as err:
-    print(err)
+    
+    new_num = int(input("Enter a number: "))
+    
+    square_dict = {}
 
-dictio = dict()
-for item in range(num+1):
-    if item == 0:
-        continue
-    else:
-	dictio[item] = item * item
-print(dictio)
+    for i in range(1, new_num + 1):  
+        square_dict[i] = i ** 2  
+
+    print(square_dict)
+
+except ValueError as error:
+    print(f"Input Error: {error}")
 ```
 ---
 ```python
