@@ -183,6 +183,10 @@ ans = list(removeDuplicate(li))
 print(ans)
 ```
 
+```python Solution by - Utkarsh4697
+li = [12,24,35,24,88,120,155,88,120,155]
+print(sorted(list(set(li))))
+```
 ---
 
 # Question 89
