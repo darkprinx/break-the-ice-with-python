@@ -67,6 +67,14 @@ def flt(i):                                           #Define a filter function
 result_l = [str(i * i) for i in filter(flt,lst)]      
 print(",".join(result_l))
 ```
+
+```python
+''' Solution by: Naveen'''
+## Using filter and map function ##
+
+print(','.join(list(map(lambda x:str(int(x)**2),filter(lambda x: int(x)%2 != 0 ,input().split(','))))))
+
+```
 ---
 
 **_There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him._**
