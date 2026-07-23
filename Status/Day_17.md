@@ -156,7 +156,7 @@ def binary_search_Ascending(array, target):
     print('Array Length:',upper)
     while lower < upper:
         x = (lower + upper) // 2
-        print('Middle Value:',x)
+        print('Middle Index:',x)
         value = array[x]
         if target == value:
             return x
