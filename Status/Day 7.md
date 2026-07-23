@@ -90,6 +90,21 @@ for i in MyGen(0, 100):
 ```
 ---
 
+```python
+'''Solution by: AmirhosseinEnayat
+'''
+class DivisibleBySeven:
+    def by_seven(self, n):
+        for number in range(0, n + 1):
+            if number % 7 == 0:
+                yield number
+
+d = DivisibleBySeven()
+for number in d.by_seven(int(input("please enter the number : "))):
+    print(number)
+```
+---
+
 # Question 21
 
 ### **Question:**
