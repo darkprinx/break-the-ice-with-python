@@ -270,6 +270,16 @@ squares(20)
 ```
 
 ---
+```python
+'''Solution by: slim147
+'''
+def square():
+    print(sorted([x**2 for x in range(1,21)],reverse=True)[:5])
+
+square()
+```
+
+---
 
 # Question 36
 
@@ -308,6 +318,16 @@ def printList():
         print(lst[i])
 
 printList()
+```
+
+---
+```python
+'''Solution by: slim147
+'''
+def square():
+    print([x**2 for x in range(1,21)][5:])
+
+square()
 ```
 
 ---
@@ -362,6 +382,16 @@ def square_of_numbers():
     return tuple(i ** 2 for i in range(1, 21))
 
 print(square_of_numbers())
+```
+
+---
+```python
+'''Solution by: slim147
+'''
+def square():
+    print(tuple(x**2 for x in range(1,21)))
+
+square()
 ```
 
 ---
