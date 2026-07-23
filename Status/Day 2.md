@@ -368,6 +368,14 @@ word_sequence = input("Text:").split(",")
 order = (sorted(word_sequence))
 for i in order:
     print(i, end=",")
+
+---
+```python
+'''Solution by 0KvinayK0
+'''
+li = input().split(',')
+print(','.join(sorted(li)))
+```
 ---
 
 # Question 9
