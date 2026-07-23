@@ -99,6 +99,26 @@ print("UPPER CASE: ", upper)
 print("LOWER CASE: ", lower)
 ```
 
+**OR**
+
+```python
+# solution by VK
+
+my_input = input('Enter data:\n')
+
+def summ_upper_low(some_str):
+    upper_case = 0
+    lower_case = 0
+    for i in some_str:
+        if i.isalpha() and i.islower():
+            lower_case += 1
+        elif i.isalpha() and i.isupper():
+            upper_case += 1
+    print(f'Upper case {upper_case} \nLower case {lower_case}')
+
+summ_upper_low(my_input)
+```
+
 ---
 
 # Question 15
