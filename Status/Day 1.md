@@ -348,6 +348,19 @@ for i in range(1, num + 1):
 print(result)
 ```
 ---
+
+```python
+'''Solution by: bfarber2011
+'''
+def my_dict(n):
+    my_dict = {}
+    for i in range(1, n+1):
+        my_dict.update({i: i*i})
+    print(my_dict)
+
+my_dict(int(input()))
+```
+---
 ## Conclusion
 
 **_These was the solved problems of day 1. The above problems are very easy for the basic syntax learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
