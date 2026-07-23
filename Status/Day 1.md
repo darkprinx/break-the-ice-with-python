@@ -92,7 +92,7 @@ print fact(x)
   fact = 1
   i = 1
   while i <= n:
-      fact = fact * i;
+      fact = fact * i
       i = i + 1
   print(fact)
   ```
@@ -214,6 +214,32 @@ for x in factorial_numbers(5, 6, 2, 1, 8, 0, -5):
 ```
 ---
 
+```python
+'''Solution by: plmfacanha
+'''
+import math
+number = input("Enter a number: ")
+factorial = math.factorial(int(number))
+print(factorial)
+```
+---
+
+```python
+'''Solution by: bfarber2011
+'''
+from math import factorial
+
+def my_factorials(*nums):
+    li = []
+    for i in nums:
+        li.append(str(factorial(i)))
+    results = ','.join((li))
+    print(results)
+
+my_factorials(*[int(x) for x in input("Enter comma-separated numbers: ").split(',')])
+```
+---
+
 # Question 3
 
 ### **Question:**
@@ -294,14 +320,33 @@ num = int(input("Number: "))
 print(dict(enumerate([i*i for i in range(1, num+1)], 1)))
 ```
 ---
-'''Python
+```python
 '''Solution by: Vineeth Kedasu
 '''
 d = {}
 i = int(input())
 for j in range (1,i+1):
-    dict[j] = j**2
-print(dict)
+    d[j] = j**2
+print(d)
+```
+---
+
+```python
+'''Solution by: RajdeepVerma
+'''
+print({num: num**2 for num in range(1, int(input('Enter the number : ')) + 1)})
+```
+---
+
+```python
+'''Solution by: Zachary-Wu
+'''
+num = int(input())
+result = {}
+for i in range(1, num + 1):
+    result.setdefault(i, i * i)
+print(result)
+```
 ---
 ## Conclusion
 
