@@ -527,6 +527,22 @@ for i in list:
 lst = "".join(lst)
 print(lst)
 ```
+
+---
+
+```python
+'''Solution by: Euan-J-Austin
+'''
+lines = []
+print("Enter your text, when finished type 'end_and_print':\n")
+while True:
+    line = input()
+    if line != 'end_and_print':
+        lines.append(line)
+    else:
+        break
+print('\n'.join(lines).upper())
+```
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
