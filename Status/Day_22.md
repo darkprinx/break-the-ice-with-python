@@ -153,6 +153,18 @@ print(s)
 ```
 
 ---
+```python
+'''Solution by: mishrasunny-coder
+'''
+l = []
+string = input("Enter the string: ").split(' ')
+for i in range(len(string)):
+    l.append(string[len(string)-i-1][::-1])
+a = ' '.join(l)
+print(a)
+```
+
+---
 
 # Question 92
 
