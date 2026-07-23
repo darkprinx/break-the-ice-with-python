@@ -180,6 +180,14 @@ print(*(binary for binary in input().split(',') if int(binary,base=2)%5==0),sep=
 
 ---
 
+## Single line code ##
+
+```python
+print(','.join(list(filter(lambda a: int(a,2)%5==0,input().split(',')))))
+```
+
+---
+
 # Question 12
 
 ### **Question:**
