@@ -430,6 +430,17 @@ print(count_letter_digits(text))
 
 ---
 
+```python
+'''Solution by: Naveen
+'''
+#Using List Comprehension
+
+l = list(input())
+print("LETTERS: " + str(len([i for i in l if i.isalpha()])))
+print("DIGITS "+ str(len([i for i in l if i.isdigit()])))
+```
+---
+
 ## Conclusion
 
 **_All the above problems are mostly string related problems. Major parts of the solution includes string related functions and comprehension method to write down the code in more shorter form._**
