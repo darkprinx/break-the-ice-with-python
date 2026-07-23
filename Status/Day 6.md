@@ -184,6 +184,20 @@ patterns = [r"[a-z]", r"[A-Z]", r"[0-9]", r"[$|#|@]"]
 print(multiple(patterns, x))
 ```
 
+```python
+''' Solution by Naveen
+'''
+## Using list comprehension ##
+
+import re
+
+#First method
+pattern = re.compile(r"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[$#@]).{6,12}$")        
+print(','.join([i for i in input().split(',') if pattern.fullmatch(i)]))
+
+#Second method
+print(','.join([i for i in input().split(',') if len(i) >=6 and  len(i) <= 12 and re.search('[a-z]',i) and re.search('[A-Z]',i) and re.search("[$#@]",i)]))   
+```
 ---
 
 # Question 19
