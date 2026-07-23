@@ -136,6 +136,8 @@ print aSquare.area()
 
 **My Solution: Python 3**
 
+* The following solution is incorrect. The parent class's area method can be accessed if the child class does not have a method by the same name. Here, because we are instantiating the child class and setting the default length value to zero, it is printing out zero and has no relation with the area of the parent class being zero. If we need to access the parent class method, the child class should not have the same name. The interpreter looks for the method in the current class before moving up the hierarchy.
+
 ```python
 class Shape():
     def __init__(self):
@@ -157,7 +159,25 @@ print(Asqr.area())      # prints 25 as given argument
 
 print(Square().area())  # prints zero as default area
 ```
+```python
+''' Solution by 0KvinayK0
+'''
+class Shape():
+    def area(self):
+        return 0
 
+class Square(Shape):
+    def __init__(self, length):
+        super().__init__()
+        self.length = length
+
+    def area(self):
+        return self.length ** 2
+
+sq = Square(5)
+print(sq.area())  # Output: 25
+print(super(Square, sq).area())  # Output: 0
+```
 ---
 
 # Question 50
