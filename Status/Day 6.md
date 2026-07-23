@@ -200,6 +200,17 @@ print(','.join([i for i in input().split(',') if len(i) >=6 and  len(i) <= 12 an
 ```
 ---
 
+```python
+'''Solution by: Jiashuhuang100
+'''
+import re
+lst = input().split(',')
+for thing in lst:
+    if re.fullmatch(r'(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$#@]).{6,12}', thing):
+        print(thing)
+```
+---
+
 # Question 19
 
 ### **Question:**
