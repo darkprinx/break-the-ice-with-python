@@ -146,6 +146,8 @@ email = "john@google.com elise@python.com"
 pattern = "(\w+)@\w+.com"
 ans = re.findall(pattern,email)
 print(ans)
+```
+
 ```python
 '''
 Solution by: chinmaybhole
@@ -153,7 +155,18 @@ Solution by: chinmaybhole
 a = 'chinmaybhole@python.com'
 x = a.find('@')
 print(f'Username: {a[:x]}')
+```
 
+```python
+'''Solution by: AmirhosseinEnayat
+'''
+c = []
+account = input('please enter the username : ')
+for i in account:
+    c.append(i)
+    if i == '@':
+        break
+print("".join(c[0:c.index(i)]))
 ```
 
 
