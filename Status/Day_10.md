@@ -127,6 +127,15 @@ def printList():
 printList()
 ```
 
+```python
+'''Solution by Naveen
+'''
+### Using Map function ###
+
+print(list(map(lambda x: x**2,[* range(1,21)])))
+
+```
+
 ---
 
 **My Solution: Python 3**
