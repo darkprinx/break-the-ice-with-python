@@ -188,6 +188,16 @@ print(','.join(list(filter(lambda a: int(a,2)%5==0,input().split(',')))))
 
 ---
 
+```python
+'''Solution by: sparshk1-bit
+'''
+num = input().split(",")
+for i in num:
+    if int(i,2)%5==0:
+        print(i)
+```
+---
+
 # Question 12
 
 ### **Question:**
@@ -280,6 +290,19 @@ a,b= input().split(',')
 l = [*range(int(a),int(b)+1)]            #will generate a list of elements from a to b
 
 print(','.join(list(map(str,(filter(lambda a:a%2==0,l))))))
+```
+
+---
+
+```python
+'''Solution by: bfarber2011
+'''
+li = []
+for i in range(1000, 3001):
+    if all(int(j) % 2 == 0 for j in str(i)):
+        li.append(str(i))
+
+print(','.join(li))
 ```
 
 ---
@@ -446,6 +469,16 @@ print(count_letter_digits(text))
 l = list(input())
 print("LETTERS: " + str(len([i for i in l if i.isalpha()])))
 print("DIGITS "+ str(len([i for i in l if i.isdigit()])))
+```
+---
+
+```python
+'''Solution by: Euan-J-Austin
+'''
+def count_ld(x):
+    return print(f'LETTERS {len([v for v in x if ord(v) in range(65, 91) or ord(v) in range(97, 123)])}\nDIGITS {len([v for v in x if ord(v) in range(48, 58)])}')
+
+count_ld(input("ENTER: "))
 ```
 ---
 
