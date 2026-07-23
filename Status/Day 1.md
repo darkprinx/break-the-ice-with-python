@@ -187,6 +187,26 @@ print(factorial)
 ```
 ---
 
+```python
+'''Soltuion by: pstrings
+'''
+def factorial(num):
+    if (num < 0):
+        return "Dude provide whole numbers"
+    if (num <= 1):
+        return 1
+    return (num * factorial(num - 1))
+
+
+def factorial_numbers(*args):
+    for i in args:
+        yield factorial(i)
+
+
+for x in factorial_numbers(5, 6, 2, 1, 8, 0, -5):
+    print(x)
+```
+---
 
 # Question 3
 
