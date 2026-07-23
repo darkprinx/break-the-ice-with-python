@@ -39,9 +39,9 @@ print " ".join(sorted(list(set(words))))
 ```python
 word = input().split()
 
-for i in word:
-    if word.count(i) > 1:    # count function returns the total repetition of an element that is send as argument
-        word.remove(i)     # removes exactly one element per call
+for i in set(word):    # iterate over unique words, not the list being mutated
+    while word.count(i) > 1:    # count function returns the total repetition of an element that is send as argument
+        word.remove(i)     # keep removing until only one copy is left
 
 word.sort()
 print(" ".join(word))
@@ -51,7 +51,7 @@ print(" ".join(word))
 
 ```python
 word = input().split()
-[word.remove(i) for i in word if word.count(i) > 1 ]   # removal operation with comprehension method
+[word.remove(i) for i in set(word) for _ in range(word.count(i) - 1)]   # removal operation with comprehension method
 word.sort()
 print(" ".join(word))
 ```
