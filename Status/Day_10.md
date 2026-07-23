@@ -26,6 +26,7 @@ def printDict():
 printDict()
 ```
 
+
 ---
 
 **My Solution: Python 3**
@@ -45,6 +46,15 @@ def sq_dict():
 	print(dict(enumerate((i * i for i in range(1,21)),1)))
 ```
 
+---
+```python
+'''solution by Naveen
+'''
+
+## Using Map ##
+
+print(dict(map(lambda x: (x,x**2),[*range(1,21)])))
+```
 ---
 
 # Question 32
