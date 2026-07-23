@@ -266,6 +266,15 @@ num = int(input("Number: "))
 print(dict(enumerate([i*i for i in range(1, num+1)], 1)))
 ```
 ---
+'''Python
+'''Solution by: Vineeth Kedasu
+'''
+d = {}
+i = int(input())
+for j in range (1,i+1):
+    dict[j] = j**2
+print(dict)
+---
 ## Conclusion
 
 **_These was the solved problems of day 1. The above problems are very easy for the basic syntax learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
