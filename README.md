@@ -17,6 +17,8 @@
 
 ***Want to add your own solution or fix something? See [CONTRIBUTING.md](CONTRIBUTING.md) for a quick guide.***
 
+***See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the list of everyone who has contributed a solution via a merged pull request.***
+
 ***A Big Thanks to [apurvmishra99](https://github.com/apurvmishra99) for contributing the repository by cleaning up the formatting of all Days_.md files. fixing some random errors, fixing some variable naming with PEP8 conventions, and adding a whole new folder of [jupyter](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/tree/master/notebooks) notebook of all 24 days.***
 
 ----------------
