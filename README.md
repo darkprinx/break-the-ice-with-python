@@ -7,6 +7,26 @@
 )](https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fdarkprinx%2F100-plus-Python-programming-exercises-extended%2Fblob%2Fmaster%2Fnotebooks%2FDay_01.ipynb)
 
 ---------------------
+## **Website & Autofill Extension**
+
+[![Apply to jobs in seconds with Zapply.](assets/zaply/apply-faster-banner.png)](https://app.zapply.jobs/onboarding/?ref=github-cta-darkprinx)
+
+Explore Zapply’s website and check out:
+
+- Our Chrome extension, which autofills job applications in seconds.
+- A dedicated job board featuring the latest openings across various roles.
+- User accounts with multiple profiles for different resume types and roles.
+- Job application tracking with streaks and commitment awards.
+
+Experience an advanced career journey with us! 🚀
+
+<p align="center">
+<a href="https://app.zapply.jobs/onboarding/?ref=github-cta-darkprinx">
+<img src="assets/zaply/get-started-button.png" alt="Visit Zapply" width="700">
+</a>
+</p>
+<p align="right"><sub>Sponsored by Zapply</sub></p>
+
 ##	Introduction 
 
 ***The exercise text contents of this repository was collected from GitHub account of [zhiwehu](https://github.com/zhiwehu/Python-programming-exercises). I collected it to practice and solve all the listed problems with python. Even after these collected problems are all set up, I will try to add more problems in near future. If you are a very beginner with python then I hope this 100+ exercise will help you a lot to get your hands free with python.***
@@ -95,13 +115,3 @@
 * **[Day 23](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_23.md "Day 23 Status")**- ***Question 95-99***
 
 * **[Day 24](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24 Status")**- ***Question 100-103***
-
-
-
----
-
-## 🌱 Empower dedication with your generosity
-#### Every single coffee boosts towards greater motivation, turning compassion into action. Show your kind support with just a little click! 😃
-
-<a href="https://www.buymeacoffee.com/darkprinx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
