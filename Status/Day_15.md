@@ -35,6 +35,9 @@ google
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -57,6 +60,9 @@ pattern = "\w+@(\w+).com"
 ans = re.findall(pattern,email)
 print(ans)
 ```
+
+
+</details>
 
 ---
 
@@ -88,6 +94,9 @@ print(ans)
 > **_Use re.findall() to find all substring using regex._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -129,6 +138,9 @@ ans = [word for word in email if word.isdigit()]  # using list comprehension met
 print(ans)
 ```
 
+
+</details>
+
 ---
 
 # Question 56
@@ -145,12 +157,18 @@ print(ans)
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
 unicodeString = u"hello world!"
 print unicodeString
 ```
+
+
+</details>
 
 ---
 
@@ -167,6 +185,9 @@ print unicodeString
 > **_Use unicode()/encode() function to convert._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -186,6 +207,9 @@ u = s.encode('utf-8')
 print(u)
 ```
 
+
+</details>
+
 ---
 
 # Question 58
@@ -202,11 +226,17 @@ print(u)
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
 # -*- coding: utf-8 -*-
 ```
+
+
+</details>
 
 ---
 
@@ -238,6 +268,9 @@ print(u)
 > **_Use float() to convert an integer to a float.Even if not converted it wont cause a problem because python by default understands the data type of a value_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -280,6 +313,9 @@ print(round((sum(i/(i+1) for i in range(1,int(input())+1))),2))
 
 print(round(sum(map(lambda i:i/(i+1),[*range(1,int(input())+1)])),2))
 ```
+
+</details>
+
 ---
 
 <!-- day-nav:bottom -->

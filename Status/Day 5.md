@@ -30,6 +30,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -112,6 +115,9 @@ print(','.join(map(str, a)))
 
 **_There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him._**
 
+</details>
+
+
 # Question 17
 
 ### **Question:**
@@ -147,6 +153,9 @@ D 100
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -316,6 +325,9 @@ while True:
 
 print(transactions['D'] - transactions['W'])
 ```
+
+</details>
+
 
 <!-- day-nav:bottom -->
 <p align="center">

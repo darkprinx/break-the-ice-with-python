@@ -20,6 +20,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -37,6 +40,7 @@ li = [li[i] for i in range(len(li)) if i not in (0,4,5)]
 print(li)
 ```
 ---
+
 ```python
 '''Solution by: pratikb0501
 '''
@@ -44,6 +48,9 @@ li = [12, 24, 35, 70, 88, 120, 155]
 print(list(j for i, j in enumerate(li) if i != 0 and i != 4 and i != 5))
 
 ```
+
+
+</details>
 
 ---
 
@@ -60,6 +67,9 @@ print(list(j for i, j in enumerate(li) if i != 0 and i != 4 and i != 5))
 > **_Use list's remove method to delete a value._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -79,6 +89,9 @@ li.remove(24)  # this will remove only the first occurrence of 24
 print(li)
 ```
 
+
+</details>
+
 ---
 
 # Question 87
@@ -94,6 +107,9 @@ print(li)
 > **_Use set() and "&=" to do set intersection operation._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -130,6 +146,9 @@ intersection = set.intersection(set1,set2)
 print(intersection)
 ```
 
+
+</details>
+
 ---
 
 # Question 88
@@ -145,6 +164,9 @@ print(intersection)
 > **_Use set() to store a number of values without duplicate._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -191,6 +213,7 @@ ans = list(removeDuplicate(li))
 print(ans)
 ```
 **OR**
+
 ```python
 li=[12,24,35,24,88,120,155,88,120,155]
 a={}
@@ -201,10 +224,15 @@ print(li)
 ```
 
 ---
-```python Solution by - Utkarsh4697
+
+```python
+'''Solution by: Utkarsh4697'''
 li = [12,24,35,24,88,120,155,88,120,155]
 print(sorted(list(set(li))))
 ```
+
+</details>
+
 ---
 
 # Question 89
@@ -220,6 +248,9 @@ print(sorted(list(set(li))))
 > **_Use Subclass(Parentclass) to define a child class._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -242,6 +273,7 @@ print aMale.getGender()
 print aFemale.getGender()
 ```
 ---
+
 ```python
 '''Solution by: popomaticbubble
 '''
@@ -266,6 +298,9 @@ sharon.getGender()
 doug.getGender()
 
 ```
+
+</details>
+
 ---
 
 <!-- day-nav:bottom -->

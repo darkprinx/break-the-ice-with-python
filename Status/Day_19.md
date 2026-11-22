@@ -20,12 +20,18 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
 import random
 print random.randrange(7,16)
 ```
+
+
+</details>
 
 ---
 
@@ -42,6 +48,9 @@ print random.randrange(7,16)
 > **_Use zlib.compress() and zlib.decompress() to compress and decompress a string._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -63,6 +72,9 @@ x = zlib.compress(y)
 print(x)
 print(zlib.decompress(x))
 ```
+
+</details>
+
 ---
 
 # Question 77
@@ -78,6 +90,9 @@ print(zlib.decompress(x))
 > **_Use timeit() function to measure the running time._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -116,6 +131,9 @@ execution_time = after - before
 print(execution_time)
 ```
 
+
+</details>
+
 ---
 
 # Question 78
@@ -131,6 +149,9 @@ print(execution_time)
 > **_Use shuffle() function to shuffle a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -167,6 +188,9 @@ random.Random(seed).shuffle(lst)
 print(lst)
 ```
 
+
+</details>
+
 ---
 
 # Question 79
@@ -182,6 +206,9 @@ print(lst)
 > **_Use list[index] notation to get a element from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -243,6 +270,9 @@ def question_79():
 
 question_79()
 ```
+
+
+</details>
 
 ---
 

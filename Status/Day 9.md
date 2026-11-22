@@ -20,6 +20,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -38,6 +41,9 @@ sum = lambda n1,n2 : n1 + n2      # here lambda is use to define little function
 print(sum(1,2))
 ```
 
+
+</details>
+
 ---
 
 # Question 27
@@ -53,6 +59,9 @@ print(sum(1,2))
 > **_Use str() to convert a number to string._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -87,6 +96,9 @@ print(type(ConvertStrToInt(x)))
 print(ConvertStrToInt(x))
 ```
 
+
+</details>
+
 ---
 
 # Question 28
@@ -102,6 +114,9 @@ print(ConvertStrToInt(x))
 > **_Use int() to convert a string to integer._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -141,6 +156,9 @@ print(ConvertStrAndSum())
 ```
 
 
+
+</details>
+
 ---
 
 # Question 29
@@ -156,6 +174,9 @@ print(ConvertStrAndSum())
 > **_Use + sign to concatenate the strings._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -186,6 +207,9 @@ def concatenate_str(*args):
 concatenate_str('05', '12', '2', '0', '2', '2')
 ```
 
+
+</details>
+
 ---
 
 # Question 30
@@ -201,6 +225,9 @@ concatenate_str('05', '12', '2', '0', '2', '2')
 > **_Use len() function to get the length of a string._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -276,6 +303,9 @@ a,b = input().split(',')
 max_len = lambda a,b: a+b if len(a)==len(b) else a if len(a)> len(b) else b
 print(max_len(a,b))
 '''
+
+
+</details>
 
 ---
 

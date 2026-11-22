@@ -21,6 +21,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -62,6 +65,9 @@ def num_check(num):
 print(list(filter(num_check, range(2000, 3201))))
 ```
 
+</details>
+
+
 # Question 2
 
 ### **Question:**
@@ -76,6 +82,9 @@ print(list(filter(num_check, range(2000, 3201))))
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -94,6 +103,7 @@ print fact(x)
 **My Solution: Python 3**
 
 - **Using While Loop**
+
   ```python
   n = int(input()) #input() function takes input as string type
                    #int() converts it to integer type
@@ -105,6 +115,7 @@ print fact(x)
   print(fact)
   ```
 - **Using For Loop**
+
   ```python
   n = int(input()) #input() function takes input as string type
                   #int() converts it to integer type
@@ -124,12 +135,14 @@ print fact(x)
 
   ```
 - **Using lambda function**
+
   ```python
   n = int(input())
   fact = lambda n : 1 if n <= 1 else n * fact(n - 1)
   print(fact(n))
   ```
 ---
+
 ```python
 '''Solution by: minnielahoti
 '''
@@ -149,6 +162,7 @@ while num:
 print(f'the factorial of {org} is {fact}')
 ```
 ---
+
 ```python
 '''Solution by: KruthikaSR
 '''
@@ -161,6 +175,7 @@ num = int(input())
 print(reduce(fun,range(1, num+1), 1))
 ```
 ---
+
 ```python
 '''Solution by: Shikhar Maheshwari
 '''
@@ -189,6 +204,7 @@ print(fact(8))
 ---
 
 - **Using Lambda Function and Reduce**
+
 ```python 
 '''Soltuion by: go1337
 '''
@@ -246,6 +262,9 @@ def my_factorials(*nums):
 
 my_factorials(*[int(x) for x in input("Enter comma-separated numbers: ").split(',')])
 ```
+
+</details>
+
 ---
 
 # Question 3
@@ -267,6 +286,9 @@ my_factorials(*[int(x) for x in input("Enter comma-separated numbers: ").split('
 > **_In case of input data being supplied to the question, it should be assumed to be a console input.Consider use dict()_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -298,6 +320,7 @@ ans={i : i*i for i in range(1,n+1)}
 print(ans)
 ```
 ---
+
 ```python
 '''Solution by: minnielahoti
    Corrected by: TheNobleKnight
@@ -319,6 +342,7 @@ except ValueError as error:
     print(f"Input Error: {error}")
 ```
 ---
+
 ```python
 '''Solution by: yurbika
    Corrected by: developer-47
@@ -328,6 +352,7 @@ num = int(input("Number: "))
 print(dict(enumerate([i*i for i in range(1, num+1)], 1)))
 ```
 ---
+
 ```python
 '''Solution by: Vineeth Kedasu
 '''
@@ -368,6 +393,9 @@ def my_dict(n):
 
 my_dict(int(input()))
 ```
+
+</details>
+
 ---
 ## Conclusion
 

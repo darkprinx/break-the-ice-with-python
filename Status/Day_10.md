@@ -22,6 +22,9 @@ Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to ge
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main Author's Solution: Python 2**
 
 ```python
@@ -63,6 +66,9 @@ def sq_dict():
 
 print(dict(map(lambda x: (x,x**2),[*range(1,21)])))
 ```
+
+</details>
+
 ---
 
 # Question 32
@@ -80,6 +86,9 @@ Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to ge
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -115,6 +124,9 @@ def dict_func():
 dict_func()
 ```
 
+
+</details>
+
 ---
 
 # Question 33
@@ -132,6 +144,9 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -166,6 +181,9 @@ def printList():
 printList()
 ```
 
+
+</details>
+
 ---
 
 # Question 34
@@ -183,6 +201,9 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -225,6 +246,9 @@ squares(20)
 func = lambda :print([i**2 for i in range(1,21)][:5])
 ```
 
+
+</details>
+
 ---
 
 # Question 35
@@ -242,6 +266,9 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -287,6 +314,9 @@ def square():
 square()
 ```
 
+
+</details>
+
 ---
 
 # Question 36
@@ -302,6 +332,9 @@ Hints: Use ** operator to get power of a number.Use range() for loops.Use list.a
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -338,6 +371,9 @@ def square():
 square()
 ```
 
+
+</details>
+
 ---
 
 # Question 37
@@ -355,6 +391,9 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -407,6 +446,9 @@ square()
 ### Comment
 
 **_Problems of this section is very much easy and all of those are of a modification of same type problem which mainly focused on using some commonly used function works with list,dictionary, tupple.In my entire solutions, I havn't tried to solve problems in efficient way.Rather I tried to solve in a different way that I can.This will help a beginner to know how simplest problems can be solved in different ways._**
+
+</details>
+
 
 <!-- day-nav:bottom -->
 <p align="center">

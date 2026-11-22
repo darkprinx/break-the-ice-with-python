@@ -45,6 +45,9 @@ ABd1234@1
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -217,6 +220,9 @@ for thing in lst:
     if re.fullmatch(r'(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$#@]).{6,12}', thing):
         print(thing)
 ```
+
+</details>
+
 ---
 
 # Question 19
@@ -255,6 +261,9 @@ Json,21,85
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -285,6 +294,9 @@ while True:
 lst.sort(key= lambda x:(x[0],int(x[1]),int(x[2])))  # here key is defined by lambda and the data is sorted by element priority 0>1>2 in accending order
 print(lst)
 ```
+
+
+</details>
 
 ---
 

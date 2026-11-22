@@ -32,6 +32,9 @@ again and hello makes perfect practice world
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -83,6 +86,9 @@ for words in inp_string:
         out_string.append(words)
 print(" ".join(sorted(out_string)))
 ```
+
+</details>
+
 ---
 
 # Question 11
@@ -112,6 +118,9 @@ print(" ".join(sorted(out_string)))
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -204,6 +213,9 @@ for i in num:
     if int(i,2)%5==0:
         print(i)
 ```
+
+</details>
+
 ---
 
 # Question 12
@@ -219,6 +231,9 @@ for i in num:
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -313,6 +328,9 @@ for i in range(1000, 3001):
 print(','.join(li))
 ```
 
+
+</details>
+
 ---
 
 # Question 13
@@ -341,6 +359,9 @@ DIGITS 3
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -488,6 +509,9 @@ def count_ld(x):
 
 count_ld(input("ENTER: "))
 ```
+
+</details>
+
 ---
 
 ## Conclusion

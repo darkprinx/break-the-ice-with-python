@@ -19,6 +19,9 @@
 
 ----------------------
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 ```python
 def throws():
@@ -47,6 +50,9 @@ except:
     print("Any other exception")
 
 ```
+
+</details>
+
 ---------------------
 
 
@@ -61,6 +67,9 @@ except:
 > ***To define a custom exception, we need to define a class inherited from Exception.***
 
 ----------------------
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 ```python
@@ -103,6 +112,9 @@ except CustomException as ce:
     print("The error raised: " + ce.message)
 
 ```
+
+</details>
+
 ---------------------
 
 
@@ -129,6 +141,9 @@ john
 > ***Use \w to match letters.***
 
 ----------------------
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 ```python
@@ -176,6 +191,9 @@ for i in account:
         break
 print("".join(c[0:c.index(i)]))
 ```
+
+</details>
+
 
 
 <!-- day-nav:bottom -->

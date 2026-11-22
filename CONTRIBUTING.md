@@ -9,8 +9,8 @@ everyone.
 Every question lives in a `Status/Day_XX.md` file (Day 1–9 are named
 `Day 1.md`, `Day 2.md`, ... with a space; Day 10 onward are named
 `Day_10.md`, `Day_11.md`, ... with an underscore — that's just a historical
-inconsistency, not a mistake). The [README's Practice Status
-table](README.md) maps question numbers to the day file that contains them.
+inconsistency, not a mistake). The [README's list of the 24
+days](README.md#days) maps question numbers to the day file that contains them.
 
 Most days also have a matching notebook in `notebooks/Day_XX.ipynb` with the
 same content in Jupyter form. If you're adding a solution, please add it to
@@ -19,9 +19,10 @@ so they don't drift apart.
 
 ## Adding an alternate solution
 
-Find the question's section in the day file, and add a new fenced code block
-right after the existing solutions for that question (before the `---`
-separator), following the pattern already used in the file:
+Find the question's section in the day file. Its solutions are folded inside a
+`<details markdown="1">` block (the "Show solutions" toggle). Add a new fenced
+code block right after the existing solutions, **before the `</details>`
+line**, following the pattern already used in the file:
 
 ```python
 '''Solution by: your-github-username
@@ -36,6 +37,12 @@ A few things that keep solutions easy to read and merge cleanly:
   the bottom — into a code block. Before opening a PR, preview the rendered
   Markdown (or just double check your diff has a closing ` ``` ` for every
   opening one) to make sure the fence balances.
+- **Leave a blank line above each opening fence, and nothing after the
+  language.** Write ` ```python ` on its own line with an empty line before
+  it, and put credits in the code (`'''Solution by: ...'''`), not after
+  ` ```python `. GitHub forgives both, but the
+  [GitHub Pages site](https://darkprinx.github.io/break-the-ice-with-python/)
+  doesn't, and the rest of the page breaks there.
 - **Only put code inside the fence.** Markdown headings, `---` separators,
   or prose don't belong inside a ` ```python ` block — they'll render as
   literal text and can make the block invalid Python.

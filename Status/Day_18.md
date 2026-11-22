@@ -20,6 +20,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -38,6 +41,9 @@ resp = [i for i in range(0,11,2)]
 print(random.choice(resp))
 ```
 
+
+</details>
+
 ---
 
 # Question 71
@@ -53,6 +59,9 @@ print(random.choice(resp))
 > **_Use random.choice() to a random element from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -71,6 +80,9 @@ resp = [i for i in range(10,151) if i % 35 == 0 ]
 print(random.choice(resp))
 ```
 
+
+</details>
+
 ---
 
 # Question 72
@@ -86,6 +98,9 @@ print(random.choice(resp))
 > **_Use random.sample() to generate a list of random values._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -105,6 +120,9 @@ resp = random.sample(range(100,201),5)
 print(resp)
 ```
 
+
+</details>
+
 ---
 
 # Question 73
@@ -120,6 +138,9 @@ print(resp)
 > **_Use random.sample() to generate a list of random values._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -140,6 +161,9 @@ resp = random.sample(range(100,201,2),5)
 print(resp)
 ```
 
+
+</details>
+
 ---
 
 # Question 74
@@ -155,6 +179,9 @@ print(resp)
 > **_Use random.sample() to generate a list of random values._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -174,6 +201,9 @@ lst = [i for i in range(1,1001) if i%35 == 0]
 resp = random.sample(lst,5)
 print(resp)
 ```
+
+
+</details>
 
 ---
 

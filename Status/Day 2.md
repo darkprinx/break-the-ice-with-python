@@ -29,6 +29,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -77,6 +80,9 @@ if __name__ == "__main__":
 
 ```
 
+
+</details>
+
 ---
 
 # Question 5
@@ -95,6 +101,9 @@ if __name__ == "__main__":
 > **_Use **init** method to construct some parameters_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -131,6 +140,9 @@ xx.get_string()
 xx.print_string()
 ```
 
+
+</details>
+
 ---
 
 # Question 6
@@ -165,6 +177,9 @@ xx.print_string()
 > **_If the output received is in decimal form, it should be rounded off to its nearest value (for example, if the output received is 26.0, it should be printed as 26).In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -286,6 +301,9 @@ rsp = list(map(lambda D: str(round(sqrt(2*C*int(D)/H))), x))
 print(','.join(rsp))
 ```
 
+
+</details>
+
 ---
 
 # Question 7
@@ -309,6 +327,9 @@ print(','.join(rsp))
 > **_Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -368,6 +389,9 @@ x, y = map(int, input().split(','))
 buid_array(x, y)
 ```
 
+
+</details>
+
 ---
 
 # Question 8
@@ -395,6 +419,9 @@ bag,hello,without,world
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -440,6 +467,9 @@ for i in order:
 li = input().split(',')
 print(','.join(sorted(li)))
 ```
+
+</details>
+
 ---
 
 # Question 9
@@ -469,6 +499,9 @@ PRACTICE MAKES PERFECT
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -568,6 +601,9 @@ while True:
         break
 print('\n'.join(lines).upper())
 ```
+
+</details>
+
 ---
 
 <!-- day-nav:bottom -->

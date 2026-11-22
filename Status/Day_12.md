@@ -20,6 +20,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main Author's Solution: Python 2**
 
 ```python
@@ -39,6 +42,9 @@ squaredNumbers = list(map(sqr, range(1,21)))
 print (squaredNumbers)
 ```
 
+
+</details>
+
 ---
 
 # Question 45
@@ -54,6 +60,9 @@ print (squaredNumbers)
 > **_Use @staticmethod decorator to define class static method.There are also two more methods.To know more, go to this [link](https://realpython.com/blog/python/instance-class-and-static-methods-demystified/)._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -86,6 +95,9 @@ American.printNationality()   # this will run even though the @staticmethod
                               # does not decorate printNationality()
 ```
 
+
+</details>
+
 ---
 
 # Question 46
@@ -101,6 +113,9 @@ American.printNationality()   # this will run even though the @staticmethod
 > **Use class Subclass(ParentClass) to define a subclass.\***
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -134,6 +149,9 @@ newyorker = NewYorker()
 print(american)
 print(newyorker)
 ```
+
+
+</details>
 
 ---
 

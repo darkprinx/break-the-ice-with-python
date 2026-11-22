@@ -33,6 +33,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **My Solution: Python 3**
 
 ```python
@@ -84,6 +87,9 @@ else:
 runnerup = max(lst)
 print(runnerup)
 ```
+
+</details>
+
 ---
 
 # Question 96
@@ -117,6 +123,9 @@ print(runnerup)
 > **_Use wrap function of textwrap module_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **My Solution: Python 3**
 
@@ -201,6 +210,9 @@ def splitter(word, width):
 
 splitter("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4)
 ```
+
+</details>
+
 ---
 
 # Question 97
@@ -238,6 +250,9 @@ splitter("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4)
 > **_First print the half of the Rangoli in the given way and save each line in a list. Then print the list in reverse order to get the rest._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **My Solution: Python 3**
 
@@ -284,6 +299,9 @@ rangoli(5)
 
 ```
 
+
+</details>
+
 ---
 
 # Question 98
@@ -316,6 +334,9 @@ rangoli(5)
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
@@ -326,6 +347,9 @@ month, day, year = map(int, input().split())
 dayId = calendar.weekday(year, month, day)
 print(calendar.day_name[dayId].upper())
 ```
+
+
+</details>
 
 ---
 
@@ -365,6 +389,9 @@ print(calendar.day_name[dayId].upper())
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
@@ -380,6 +407,9 @@ if __name__ == '__main__':
     for i in ans:
         print(i)
 ```
+
+
+</details>
 
 ---
 

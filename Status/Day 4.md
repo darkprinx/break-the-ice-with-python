@@ -33,6 +33,9 @@ LOWER CASE 9
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -127,6 +130,9 @@ def summ_upper_low(some_str):
 summ_upper_low(my_input)
 ```
 
+
+</details>
+
 ---
 
 # Question 15
@@ -154,6 +160,9 @@ summ_upper_low(my_input)
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -218,6 +227,9 @@ print(sum(int(i*a) for i in range(1,5)))
 num = int(input('input a number: '))
 sum = num + (num * 11) + (num * 111) + (num * 1111)
 print(sum)
+
+</details>
+
 
 <!-- day-nav:bottom -->
 <p align="center">

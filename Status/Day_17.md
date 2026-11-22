@@ -20,6 +20,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -37,6 +40,9 @@ data = [2,4,5,6]
 for i in data:
     assert i%2 == 0, "{} is not an even number".format(i)
 ```
+
+
+</details>
 
 ---
 
@@ -67,6 +73,9 @@ for i in data:
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -84,6 +93,9 @@ ans = eval(expression)
 print(ans)
 ```
 
+
+</details>
+
 ---
 
 # Question 67
@@ -99,6 +111,9 @@ print(ans)
 > **_Use if/elif to deal with conditions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -201,6 +216,9 @@ print(bs(66,[1,5,8,10,12,13,55,66,73,78,82,85,88,99,100]))
 
 ```
 
+
+</details>
+
 ---
 
 # Question 68
@@ -216,6 +234,9 @@ print(bs(66,[1,5,8,10,12,13,55,66,73,78,82,85,88,99,100]))
 > **_Use random.random() to generate a random float in [0,1]._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -234,6 +255,9 @@ rand_num = random.uniform(10,100)
 print(rand_num)
 ```
 
+
+</details>
+
 ---
 
 # Question 69
@@ -249,6 +273,9 @@ print(rand_num)
 > **_Use random.random() to generate a random float in [0,1]._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -266,6 +293,9 @@ import random
 rand_num = random.uniform(5,95)
 print(rand_num)
 ```
+
+
+</details>
 
 ---
 

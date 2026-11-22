@@ -20,6 +20,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -49,6 +52,9 @@ lst = list(filter(lambda n:n%2!=0,li))
 print(lst)
 ```
 
+
+</details>
+
 ---
 
 # Question 81
@@ -64,6 +70,9 @@ print(lst)
 > **_Use list comprehension to delete a bunch of element from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -83,6 +92,9 @@ li = [x for x in li if x % 35!=0]
 print(li)
 ```
 
+
+</details>
+
 ---
 
 # Question 82
@@ -99,6 +111,9 @@ print(li)
 > Use enumerate() to get (index, value) tuple._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -128,6 +143,9 @@ indices = [0, 2, 4, 6]
 new_list = [i for (j, i) in enumerate(orig_lst) if j not in indices]
 print(new_list)
 ```
+
+</details>
+
 ---
 
 # Question 83
@@ -144,6 +162,9 @@ print(new_list)
 > Use enumerate() to get (index, value) tuple._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -178,6 +199,9 @@ print(new_list)
 lst = [12,24,35,70,88,120,155]
 print([i for i in lst if lst.index(i) not in range(2,5)])
 ```
+
+</details>
+
 ---
 # Question 84
 
@@ -193,12 +217,18 @@ print([i for i in lst if lst.index(i) not in range(2,5)])
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
 array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
 print array
 ```
+
+
+</details>
 
 ---
 

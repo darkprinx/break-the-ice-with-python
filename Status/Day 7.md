@@ -33,6 +33,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 #### **_The solution code for this problem was not as reltive to as the problem mentioned and there was a typing mistake while calling the function._**
@@ -111,6 +114,9 @@ d = DivisibleBySeven()
 for number in d.by_seven(int(input("please enter the number : "))):
     print(number)
 ```
+
+</details>
+
 ---
 
 # Question 21
@@ -150,6 +156,9 @@ RIGHT 2
 > **_In case of input data being supplied to the question, it should be assumed to be a console input.Here distance indicates to euclidean distance.Import math module to use sqrt function._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -249,6 +258,9 @@ while True:
         x = x-int(s.strip('RIGHT '))
 print(round(math.sqrt(x**2 + y**2)))
 ```
+
+</details>
+
 ---
 
 <!-- day-nav:bottom -->

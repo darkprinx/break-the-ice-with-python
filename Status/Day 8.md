@@ -42,6 +42,9 @@ to:1
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -115,6 +118,9 @@ p=input().split()
 pprint({i:p.count(i) for i in p})
 ```
 
+
+</details>
+
 ---
 
 # Question 23
@@ -132,6 +138,9 @@ Using the ** operator which can be written as n**p where means n^p
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -152,6 +161,9 @@ n=int(input())
 print(n**2)
 ```
 
+
+</details>
+
 ---
 
 # Question 24
@@ -171,6 +183,9 @@ The built-in document method is __doc__
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -211,6 +226,9 @@ print(pow(3,4))
 print(pow.__doc__)
 ```
 
+
+</details>
+
 ---
 
 # Question 25
@@ -228,6 +246,9 @@ Define an instance parameter, need add it in __init__ method.You can init an obj
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -266,6 +287,9 @@ toyota=Car()
 toyota.name="Toyota"
 print("%s name is %s"%(Car.name,toyota.name))
 ```
+
+
+</details>
 
 ---
 

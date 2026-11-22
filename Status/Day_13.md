@@ -20,6 +20,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -51,6 +54,9 @@ circle = Circle(5)
 print(circle.area())
 ```
 
+
+</details>
+
 ---
 
 # Question 48
@@ -66,6 +72,9 @@ print(circle.area())
 > **_Use def methodName(self) to define a method._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -102,6 +111,9 @@ print(rect.area())
 
 ```
 
+
+</details>
+
 ---
 
 # Question 49
@@ -117,6 +129,9 @@ print(rect.area())
 > **_To override a method in super class, we can define a method with the same name in the super class._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -186,6 +201,9 @@ sq = Square(5)
 print(sq.area())  # Output: 25
 print(super(Square, sq).area())  # Output: 0
 ```
+
+</details>
+
 ---
 
 # Question 50
@@ -202,11 +220,17 @@ print(super(Square, sq).area())  # Output: 0
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
 raise RuntimeError('something wrong')
 ```
+
+
+</details>
 
 ---
 

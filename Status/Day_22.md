@@ -38,6 +38,9 @@ f,1
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -115,6 +118,9 @@ s = dict(Counter(s))
 for key,value in s.items():
     print(key+','+str(value))
 ```
+
+</details>
+
 ---
 
 # Question 91
@@ -141,6 +147,9 @@ ris etov ot esir
 > **_Use list[::-1] to iterate a list in a reverse order._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -172,6 +181,9 @@ a = ' '.join(l)
 print(a)
 ```
 
+
+</details>
+
 ---
 
 # Question 92
@@ -198,6 +210,9 @@ Helloworld
 > **_Use list[::2] to iterate a list by step 2._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -228,6 +243,9 @@ for i in range(len(s)):
 print(ns)
 ```
 
+
+</details>
+
 ---
 
 # Question 93
@@ -243,6 +261,9 @@ print(ns)
 > **_Use itertools.permutations() to get permutations of list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -266,6 +287,9 @@ def permuation_generator(iterable):
 x = [1,2,3]
 permuation_generator(x)
 ```
+
+</details>
+
 ---
 
 # Question 94
@@ -282,6 +306,9 @@ permuation_generator(x)
 > **_Use for loop to iterate all possible solutions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -328,6 +355,9 @@ def animal_calculator(total_legs, total_heads, legs_of_each_species):
 
 animal_calculator(94, 35, legs_of_each_species=[2,4])
 ```
+
+</details>
+
 ---
 
 <!-- day-nav:bottom -->

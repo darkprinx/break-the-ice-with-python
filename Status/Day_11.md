@@ -20,6 +20,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main Author's Solution: Python 2**
 
 ```python
@@ -111,6 +114,9 @@ print(tpl[0:len(tpl) // 2])
 print(tpl[len(tpl) // 2:len(tpl)])
 ```
 
+</details>
+
+
 # Question 39
 
 ### **Question:**
@@ -124,6 +130,9 @@ print(tpl[len(tpl) // 2:len(tpl)])
 > **_Use "for" to iterate the tuple. Use tuple() to generate a tuple from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -157,6 +166,9 @@ tpl1 = tuple(filter(lambda x : x%2==0,tpl))  # Lambda function returns True if f
 print(tpl1)
 ```
 
+
+</details>
+
 ---
 
 # Question 40
@@ -172,6 +184,9 @@ print(tpl1)
 > **_Use if statement to judge condition._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -218,6 +233,9 @@ if x == 'yes':
 else:
     print('No')
 ```
+
+</details>
+
 --------
 
 # Question 41
@@ -233,6 +251,9 @@ else:
 > **_Use map() to generate a list.Use lambda to define anonymous functions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -265,6 +286,9 @@ def sqrs(item):
 lst = [i for i in range(1, 11)]
 print(list(map(sqrs, lst)))
 ```
+
+</details>
+
 ---
 
 # Question 42
@@ -280,6 +304,9 @@ print(list(map(sqrs, lst)))
 > **_Use map() to generate a list.Use filter() to filter elements of a list.Use lambda to define anonymous functions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -317,6 +344,9 @@ def even(item):
 lst = [i for i in range(1, 11)]
 print(list(filter(lambda j: j is not None, list(map(even, lst)))))
 ```
+
+</details>
+
 ---
 
 # Question 43
@@ -332,6 +362,9 @@ print(list(filter(lambda j: j is not None, list(map(even, lst)))))
 > **_Use filter() to filter elements of a list.Use lambda to define anonymous functions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -351,6 +384,9 @@ def even(x):
 evenNumbers = filter(even, range(1,21))
 print(list(evenNumbers))
 ```
+
+
+</details>
 
 ---
 

@@ -42,6 +42,9 @@ and f(0)=0
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -79,6 +82,9 @@ f = lambda x: f(x-1)+100 if x > 0 else 0
 print(f(n))
 
 ```
+
+
+</details>
 
 ---
 
@@ -119,6 +125,9 @@ f(n)=f(n-1)+f(n-2) if n>1
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -156,6 +165,9 @@ f = lambda x: 0 if x == 0 else 1 if x == 1 else f(x-1)+f(x-2)
 print(','.join([str(f(x)) for x in range(0, n+1)]))
 
 ```
+
+</details>
+
 ---
 
 # Question 62
@@ -196,6 +208,9 @@ f(n)=f(n-1)+f(n-2) if n>1
 > Use string.join() to join a list of strings._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -268,6 +283,9 @@ def question_62(n):
 
 print(question_62(10))
 ```
+
+</details>
+
 ---
 
 # Question 63
@@ -298,6 +316,9 @@ print(question_62(10))
 > **_Use yield to produce the next value in generator._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -332,6 +353,9 @@ for i in range(0, n+1, 2):
     print(i)
 ```
 
+
+</details>
+
 ---
 
 # Question 64
@@ -362,6 +386,9 @@ for i in range(0, n+1, 2):
 > **_Use yield to produce the next value in generator._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -394,6 +421,9 @@ resp = [str(i) for i in generate(n)]
 print(",".join(resp))
 
 ```
+
+
+</details>
 
 ---
 
