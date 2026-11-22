@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="60" viewBox="0 0 420 60">
+  <rect x="1" y="1" width="418" height="58" rx="8" fill="none" stroke="#8b949e" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="10" y="10" width="120" height="40" rx="4" fill="none" stroke="#2f81f7" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="70" y="27" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#2f81f7">YOUR LOGO</text>
+  <text x="70" y="41" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#2f81f7">120 × 40 px</text>
+  <text x="144" y="26" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#8b949e">DAY PAGE SPONSOR</text>
+  <text x="144" y="43" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Your one-line message (up to 60 characters) →</text>
+</svg>

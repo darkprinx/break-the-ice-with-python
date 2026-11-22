@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-06"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-06">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day%205.md">← Day 5</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day%207.md">Day 7 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 18
 
 ### **Question:**
@@ -36,6 +44,9 @@ ABd1234@1
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -209,6 +220,9 @@ for thing in lst:
     if re.fullmatch(r'(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$#@]).{6,12}', thing):
         print(thing)
 ```
+
+</details>
+
 ---
 
 # Question 19
@@ -247,6 +261,9 @@ Json,21,85
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -278,14 +295,21 @@ lst.sort(key= lambda x:(x[0],int(x[1]),int(x[2])))  # here key is defined by lam
 print(lst)
 ```
 
+
+</details>
+
 ---
 
 ## Conclusion
 
 **_Before the above problems, I didn't even know about re(regular expression) module and its use. I didn't even know how to sort by multiple keys. To solve those problems in different ways I had to explore and learn those syntax. There are a lots of interesting stuffs in re module though I faced quite a bit hardship to understand many of them._**
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day%207.md"><img src="../assets/days/day-07.svg" width="240" alt="Day 7, questions 20 to 21: Generators &amp; robot moves"></a><br>
+<a href="Day%205.md">← Day 5</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

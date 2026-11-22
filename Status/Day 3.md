@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-03"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-03">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day%202.md">← Day 2</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day%204.md">Day 4 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 10
 
 ### **Question**
@@ -23,6 +31,9 @@ again and hello makes perfect practice world
 > **_In case of input data being supplied to the question, it should be assumed to be a console input.We use set container to remove duplicated data automatically and then use sorted() to sort the data._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -75,6 +86,9 @@ for words in inp_string:
         out_string.append(words)
 print(" ".join(sorted(out_string)))
 ```
+
+</details>
+
 ---
 
 # Question 11
@@ -104,6 +118,9 @@ print(" ".join(sorted(out_string)))
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -196,6 +213,9 @@ for i in num:
     if int(i,2)%5==0:
         print(i)
 ```
+
+</details>
+
 ---
 
 # Question 12
@@ -211,6 +231,9 @@ for i in num:
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -305,6 +328,9 @@ for i in range(1000, 3001):
 print(','.join(li))
 ```
 
+
+</details>
+
 ---
 
 # Question 13
@@ -333,6 +359,9 @@ DIGITS 3
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -480,14 +509,21 @@ def count_ld(x):
 
 count_ld(input("ENTER: "))
 ```
+
+</details>
+
 ---
 
 ## Conclusion
 
 **_All the above problems are mostly string related problems. Major parts of the solution includes string related functions and comprehension method to write down the code in more shorter form._**
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day%204.md"><img src="../assets/days/day-04.svg" width="240" alt="Day 4, questions 14 to 15: Counting letters &amp; digits"></a><br>
+<a href="Day%202.md">← Day 2</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

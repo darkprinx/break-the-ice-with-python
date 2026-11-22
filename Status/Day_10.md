@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-10"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-10">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day%209.md">← Day 9</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_11.md">Day 11 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 31
 
 ### **Question:**
@@ -13,6 +21,9 @@ Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to ge
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -55,6 +66,9 @@ def sq_dict():
 
 print(dict(map(lambda x: (x,x**2),[*range(1,21)])))
 ```
+
+</details>
+
 ---
 
 # Question 32
@@ -72,6 +86,9 @@ Use dict[key]=value pattern to put entry into a dictionary.Use ** operator to ge
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -107,6 +124,9 @@ def dict_func():
 dict_func()
 ```
 
+
+</details>
+
 ---
 
 # Question 33
@@ -124,6 +144,9 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -158,6 +181,9 @@ def printList():
 printList()
 ```
 
+
+</details>
+
 ---
 
 # Question 34
@@ -175,6 +201,9 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -217,6 +246,9 @@ squares(20)
 func = lambda :print([i**2 for i in range(1,21)][:5])
 ```
 
+
+</details>
+
 ---
 
 # Question 35
@@ -234,6 +266,9 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -279,6 +314,9 @@ def square():
 square()
 ```
 
+
+</details>
+
 ---
 
 # Question 36
@@ -294,6 +332,9 @@ Hints: Use ** operator to get power of a number.Use range() for loops.Use list.a
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -330,6 +371,9 @@ def square():
 square()
 ```
 
+
+</details>
+
 ---
 
 # Question 37
@@ -347,6 +391,9 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -400,8 +447,15 @@ square()
 
 **_Problems of this section is very much easy and all of those are of a modification of same type problem which mainly focused on using some commonly used function works with list,dictionary, tupple.In my entire solutions, I havn't tried to solve problems in efficient way.Rather I tried to solve in a different way that I can.This will help a beginner to know how simplest problems can be solved in different ways._**
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%209.md "Day 9")
+</details>
 
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_11.md "Day 11")
+
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_11.md"><img src="../assets/days/day-11.svg" width="240" alt="Day 11, questions 38 to 43: Tuples, map &amp; filter"></a><br>
+<a href="Day%209.md">← Day 9</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-09"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-09">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day%208.md">← Day 8</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_10.md">Day 10 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 26
 
 ### **Question:**
@@ -11,6 +19,9 @@
 > **_Define a function with two numbers as arguments. You can compute the sum in the function and return the value._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -30,6 +41,9 @@ sum = lambda n1,n2 : n1 + n2      # here lambda is use to define little function
 print(sum(1,2))
 ```
 
+
+</details>
+
 ---
 
 # Question 27
@@ -45,6 +59,9 @@ print(sum(1,2))
 > **_Use str() to convert a number to string._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -79,6 +96,9 @@ print(type(ConvertStrToInt(x)))
 print(ConvertStrToInt(x))
 ```
 
+
+</details>
+
 ---
 
 # Question 28
@@ -94,6 +114,9 @@ print(ConvertStrToInt(x))
 > **_Use int() to convert a string to integer._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -133,6 +156,9 @@ print(ConvertStrAndSum())
 ```
 
 
+
+</details>
+
 ---
 
 # Question 29
@@ -148,6 +174,9 @@ print(ConvertStrAndSum())
 > **_Use + sign to concatenate the strings._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -178,6 +207,9 @@ def concatenate_str(*args):
 concatenate_str('05', '12', '2', '0', '2', '2')
 ```
 
+
+</details>
+
 ---
 
 # Question 30
@@ -193,6 +225,9 @@ concatenate_str('05', '12', '2', '0', '2', '2')
 > **_Use len() function to get the length of a string._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -269,10 +304,17 @@ max_len = lambda a,b: a+b if len(a)==len(b) else a if len(a)> len(b) else b
 print(max_len(a,b))
 '''
 
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 9")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_10.md "Day 10")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_10.md"><img src="../assets/days/day-10.svg" width="240" alt="Day 10, questions 31 to 37: Dicts &amp; lists in functions"></a><br>
+<a href="Day%208.md">← Day 8</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

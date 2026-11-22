@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-20"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-20">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_19.md">← Day 19</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_21.md">Day 21 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 80
 
 ### **Question**
@@ -11,6 +19,9 @@
 > **_Use list comprehension to delete a bunch of element from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -41,6 +52,9 @@ lst = list(filter(lambda n:n%2!=0,li))
 print(lst)
 ```
 
+
+</details>
+
 ---
 
 # Question 81
@@ -56,6 +70,9 @@ print(lst)
 > **_Use list comprehension to delete a bunch of element from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -75,6 +92,9 @@ li = [x for x in li if x % 35!=0]
 print(li)
 ```
 
+
+</details>
+
 ---
 
 # Question 82
@@ -91,6 +111,9 @@ print(li)
 > Use enumerate() to get (index, value) tuple._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -120,6 +143,9 @@ indices = [0, 2, 4, 6]
 new_list = [i for (j, i) in enumerate(orig_lst) if j not in indices]
 print(new_list)
 ```
+
+</details>
+
 ---
 
 # Question 83
@@ -136,6 +162,9 @@ print(new_list)
 > Use enumerate() to get (index, value) tuple._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -170,6 +199,9 @@ print(new_list)
 lst = [12,24,35,70,88,120,155]
 print([i for i in lst if lst.index(i) not in range(2,5)])
 ```
+
+</details>
+
 ---
 # Question 84
 
@@ -185,6 +217,9 @@ print([i for i in lst if lst.index(i) not in range(2,5)])
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
@@ -192,10 +227,17 @@ array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
 print array
 ```
 
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_19.md "Day 19")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_21.md "Day 21")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_21.md"><img src="../assets/days/day-21.svg" width="240" alt="Day 21, questions 85 to 89: Sets, sorting &amp; inheritance"></a><br>
+<a href="Day_19.md">← Day 19</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

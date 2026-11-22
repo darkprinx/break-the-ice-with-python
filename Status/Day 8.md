@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-08"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-08">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day%207.md">← Day 7</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day%209.md">Day 9 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 22
 
 ### **Question:**
@@ -33,6 +41,9 @@ to:1
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -107,6 +118,9 @@ p=input().split()
 pprint({i:p.count(i) for i in p})
 ```
 
+
+</details>
+
 ---
 
 # Question 23
@@ -124,6 +138,9 @@ Using the ** operator which can be written as n**p where means n^p
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -144,6 +161,9 @@ n=int(input())
 print(n**2)
 ```
 
+
+</details>
+
 ---
 
 # Question 24
@@ -163,6 +183,9 @@ The built-in document method is __doc__
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -203,6 +226,9 @@ print(pow(3,4))
 print(pow.__doc__)
 ```
 
+
+</details>
+
 ---
 
 # Question 25
@@ -220,6 +246,9 @@ Define an instance parameter, need add it in __init__ method.You can init an obj
 ```
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -259,10 +288,17 @@ toyota.name="Toyota"
 print("%s name is %s"%(Car.name,toyota.name))
 ```
 
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%209.md "Day 9")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day%209.md"><img src="../assets/days/day-09.svg" width="240" alt="Day 9, questions 26 to 30: Your first functions"></a><br>
+<a href="Day%207.md">← Day 7</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

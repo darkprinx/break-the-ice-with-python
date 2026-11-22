@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-01"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-01">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day%202.md">Day 2 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 1
 
 ### **Question:**
@@ -12,6 +20,9 @@
 > **_Consider use range(#begin, #end) method._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -54,6 +65,9 @@ def num_check(num):
 print(list(filter(num_check, range(2000, 3201))))
 ```
 
+</details>
+
+
 # Question 2
 
 ### **Question:**
@@ -68,6 +82,9 @@ print(list(filter(num_check, range(2000, 3201))))
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -86,6 +103,7 @@ print fact(x)
 **My Solution: Python 3**
 
 - **Using While Loop**
+
   ```python
   n = int(input()) #input() function takes input as string type
                    #int() converts it to integer type
@@ -97,6 +115,7 @@ print fact(x)
   print(fact)
   ```
 - **Using For Loop**
+
   ```python
   n = int(input()) #input() function takes input as string type
                   #int() converts it to integer type
@@ -116,12 +135,14 @@ print fact(x)
 
   ```
 - **Using lambda function**
+
   ```python
   n = int(input())
   fact = lambda n : 1 if n <= 1 else n * fact(n - 1)
   print(fact(n))
   ```
 ---
+
 ```python
 '''Solution by: minnielahoti
 '''
@@ -141,6 +162,7 @@ while num:
 print(f'the factorial of {org} is {fact}')
 ```
 ---
+
 ```python
 '''Solution by: KruthikaSR
 '''
@@ -153,6 +175,7 @@ num = int(input())
 print(reduce(fun,range(1, num+1), 1))
 ```
 ---
+
 ```python
 '''Solution by: Shikhar Maheshwari
 '''
@@ -181,6 +204,7 @@ print(fact(8))
 ---
 
 - **Using Lambda Function and Reduce**
+
 ```python 
 '''Soltuion by: go1337
 '''
@@ -238,6 +262,9 @@ def my_factorials(*nums):
 
 my_factorials(*[int(x) for x in input("Enter comma-separated numbers: ").split(',')])
 ```
+
+</details>
+
 ---
 
 # Question 3
@@ -259,6 +286,9 @@ my_factorials(*[int(x) for x in input("Enter comma-separated numbers: ").split('
 > **_In case of input data being supplied to the question, it should be assumed to be a console input.Consider use dict()_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -290,6 +320,7 @@ ans={i : i*i for i in range(1,n+1)}
 print(ans)
 ```
 ---
+
 ```python
 '''Solution by: minnielahoti
    Corrected by: TheNobleKnight
@@ -311,6 +342,7 @@ except ValueError as error:
     print(f"Input Error: {error}")
 ```
 ---
+
 ```python
 '''Solution by: yurbika
    Corrected by: developer-47
@@ -320,6 +352,7 @@ num = int(input("Number: "))
 print(dict(enumerate([i*i for i in range(1, num+1)], 1)))
 ```
 ---
+
 ```python
 '''Solution by: Vineeth Kedasu
 '''
@@ -360,11 +393,20 @@ def my_dict(n):
 
 my_dict(int(input()))
 ```
+
+</details>
+
 ---
 ## Conclusion
 
 **_These was the solved problems of day 1. The above problems are very easy for the basic syntax learners.I have shown some easy ways of coding in my solutions. Lets see how to face and attack new problems in the next day._**
 
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Next Day")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day%202.md"><img src="../assets/days/day-02.svg" width="240" alt="Day 2, questions 4 to 9: Input parsing &amp; classes"></a><br>
+<a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

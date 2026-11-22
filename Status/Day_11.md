@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-11"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-11">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_10.md">← Day 10</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_12.md">Day 12 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 38
 
 ### **Question:**
@@ -11,6 +19,9 @@
 > **_Use [n1:n2] notation to get a slice from a tuple._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -103,6 +114,9 @@ print(tpl[0:len(tpl) // 2])
 print(tpl[len(tpl) // 2:len(tpl)])
 ```
 
+</details>
+
+
 # Question 39
 
 ### **Question:**
@@ -116,6 +130,9 @@ print(tpl[len(tpl) // 2:len(tpl)])
 > **_Use "for" to iterate the tuple. Use tuple() to generate a tuple from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -149,6 +166,9 @@ tpl1 = tuple(filter(lambda x : x%2==0,tpl))  # Lambda function returns True if f
 print(tpl1)
 ```
 
+
+</details>
+
 ---
 
 # Question 40
@@ -164,6 +184,9 @@ print(tpl1)
 > **_Use if statement to judge condition._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -210,6 +233,9 @@ if x == 'yes':
 else:
     print('No')
 ```
+
+</details>
+
 --------
 
 # Question 41
@@ -225,6 +251,9 @@ else:
 > **_Use map() to generate a list.Use lambda to define anonymous functions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -257,6 +286,9 @@ def sqrs(item):
 lst = [i for i in range(1, 11)]
 print(list(map(sqrs, lst)))
 ```
+
+</details>
+
 ---
 
 # Question 42
@@ -272,6 +304,9 @@ print(list(map(sqrs, lst)))
 > **_Use map() to generate a list.Use filter() to filter elements of a list.Use lambda to define anonymous functions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -309,6 +344,9 @@ def even(item):
 lst = [i for i in range(1, 11)]
 print(list(filter(lambda j: j is not None, list(map(even, lst)))))
 ```
+
+</details>
+
 ---
 
 # Question 43
@@ -324,6 +362,9 @@ print(list(filter(lambda j: j is not None, list(map(even, lst)))))
 > **_Use filter() to filter elements of a list.Use lambda to define anonymous functions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main Author's Solution: Python 2**
 
@@ -344,10 +385,17 @@ evenNumbers = filter(even, range(1,21))
 print(list(evenNumbers))
 ```
 
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_10.md "Day 10")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_12.md "Day 12")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_12.md"><img src="../assets/days/day-12.svg" width="240" alt="Day 12, questions 44 to 46: Static methods &amp; subclasses"></a><br>
+<a href="Day_10.md">← Day 10</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

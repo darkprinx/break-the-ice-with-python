@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-14"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-14">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_13.md">← Day 13</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_15.md">Day 15 →</a></p>
+<!-- /day-nav:top -->
+
 
 # Question 51
 
@@ -10,6 +18,9 @@
 > ***Use try/except to catch exceptions.***
 
 ----------------------
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 ```python
@@ -39,6 +50,9 @@ except:
     print("Any other exception")
 
 ```
+
+</details>
+
 ---------------------
 
 
@@ -53,6 +67,9 @@ except:
 > ***To define a custom exception, we need to define a class inherited from Exception.***
 
 ----------------------
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 ```python
@@ -95,6 +112,9 @@ except CustomException as ce:
     print("The error raised: " + ce.message)
 
 ```
+
+</details>
+
 ---------------------
 
 
@@ -121,6 +141,9 @@ john
 > ***Use \w to match letters.***
 
 ----------------------
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 ```python
@@ -169,9 +192,16 @@ for i in account:
 print("".join(c[0:c.index(i)]))
 ```
 
+</details>
 
-[***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_13.md "Day 13")
 
-[***go to next day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15")
+
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_15.md"><img src="../assets/days/day-15.svg" width="240" alt="Day 15, questions 54 to 59: Regex, unicode &amp; series"></a><br>
+<a href="Day_13.md">← Day 13</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [***Discussion***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

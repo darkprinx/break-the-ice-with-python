@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-24"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-24">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_23.md">← Day 23</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a></p>
+<!-- /day-nav:top -->
+
 # Question 100
 
 ### **Question**
@@ -27,6 +35,9 @@
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **My Solution: Python 3**
 
 ```python
@@ -45,6 +56,9 @@ print(len(word_list))
 for word in word_list:
     print(word_dict[word], end=' ')
 ```
+
+
+</details>
 
 ---
 
@@ -75,6 +89,9 @@ for word in word_list:
 > **_Count frequency with dictionary and sort by Value from dictionary Items_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **My Solution: Python 3**
 
@@ -131,6 +148,9 @@ for i in c[::-1]:
   print("{} {}".format(i,a.count(i)))
 ```
 
+
+</details>
+
 ---
 
 # Question 102
@@ -160,6 +180,9 @@ for i in c[::-1]:
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
@@ -172,6 +195,9 @@ for char in word:
 print('Digit -',digit)
 print('Letter -',letter)
 ```
+
+
+</details>
 
 ---
 
@@ -200,6 +226,9 @@ print('Letter -',letter)
 > **_Make a recursive function to get the sum_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -232,9 +261,17 @@ def summer(counter, n, current):
 N = int(input("> "))
 print(summer(1, N, 0))
 ```
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 23")
+<!-- day-nav:bottom -->
+<p align="center">
+🎉 <b>You finished all 24 days!</b> Share your own solutions in the discussion below.<br>
+<a href="Day_23.md">← Day 23</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
 

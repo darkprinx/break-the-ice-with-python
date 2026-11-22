@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-02"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-02">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day%201.md">← Day 1</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day%203.md">Day 3 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 4
 
 ### **Question:**
@@ -20,6 +28,9 @@
 > **_In case of input data being supplied to the question, it should be assumed to be a console input.tuple() method can convert list to tuple_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -69,6 +80,9 @@ if __name__ == "__main__":
 
 ```
 
+
+</details>
+
 ---
 
 # Question 5
@@ -87,6 +101,9 @@ if __name__ == "__main__":
 > **_Use **init** method to construct some parameters_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -123,6 +140,9 @@ xx.get_string()
 xx.print_string()
 ```
 
+
+</details>
+
 ---
 
 # Question 6
@@ -157,6 +177,9 @@ xx.print_string()
 > **_If the output received is in decimal form, it should be rounded off to its nearest value (for example, if the output received is 26.0, it should be printed as 26).In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -278,6 +301,9 @@ rsp = list(map(lambda D: str(round(sqrt(2*C*int(D)/H))), x))
 print(','.join(rsp))
 ```
 
+
+</details>
+
 ---
 
 # Question 7
@@ -301,6 +327,9 @@ print(','.join(rsp))
 > **_Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -360,6 +389,9 @@ x, y = map(int, input().split(','))
 buid_array(x, y)
 ```
 
+
+</details>
+
 ---
 
 # Question 8
@@ -387,6 +419,9 @@ bag,hello,without,world
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -432,6 +467,9 @@ for i in order:
 li = input().split(',')
 print(','.join(sorted(li)))
 ```
+
+</details>
+
 ---
 
 # Question 9
@@ -461,6 +499,9 @@ PRACTICE MAKES PERFECT
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -560,10 +601,17 @@ while True:
         break
 print('\n'.join(lines).upper())
 ```
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day%203.md"><img src="../assets/days/day-03.svg" width="240" alt="Day 3, questions 10 to 13: Sorting words &amp; binary"></a><br>
+<a href="Day%201.md">← Day 1</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

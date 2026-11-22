@@ -27,91 +27,106 @@ Experience an advanced career journey with us! 🚀
 </p>
 <p align="right"><sub>Sponsored by Zapply</sub></p>
 
-##	Introduction 
+---
 
-***The exercise text contents of this repository was collected from GitHub account of [zhiwehu](https://github.com/zhiwehu/Python-programming-exercises). I collected it to practice and solve all the listed problems with python. Even after these collected problems are all set up, I will try to add more problems in near future. If you are a very beginner with python then I hope this 100+ exercise will help you a lot to get your hands free with python.***
+## 🚀 Start here
 
-***One will find the given problems very simple and easy to understand. A beginner can try 3-5 problems a day which will take a little time to solve but definitely will learn a couple of new stuff (no matter how lazy you are :P ). And after regular practice of only a month, one can find himself solved more than 100++ problems which are obviously not a deniable achievement.***
+- Every day has a few problems, each with a **question**, **hints** and **solutions** (the original Python 2 one and mine in Python 3).
+- Try **3-5 problems a day**. After a month you will have solved 100+ problems.
+- Prefer notebooks? Every day is also a [Jupyter notebook](notebooks/). Run it in your browser with the Binder or Deepnote button above.
 
-***In this repository, I will be gradually updating the codebase of the given problems with my own solutions. Also, I may try to explain the code and tell my opinion about the problem if needed. Main Authors solutions are in python 2 & my solutions will be in python 3. Every problem is divided into a template format which is discussed below. There is a [discussion](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3) section so don't forget to share your opinion, ideas and feel free to discuss anything wrong or mistake***
+---
 
-***Want to add your own solution or fix something? See [CONTRIBUTING.md](CONTRIBUTING.md) for a quick guide.***
+<a name="days"></a>
 
-***See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the list of everyone who has contributed a solution via a merged pull request.***
+## 📅 The 24 days
 
-***A Big Thanks to [apurvmishra99](https://github.com/apurvmishra99) for contributing the repository by cleaning up the formatting of all Days_.md files. fixing some random errors, fixing some variable naming with PEP8 conventions, and adding a whole new folder of [jupyter](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/tree/master/notebooks) notebook of all 24 days.***
+<p align="center">Follow the path stage by stage, or jump to any day. New here? Begin with <a href="Status/Day%201.md"><b>Day 1</b></a>.</p>
 
-----------------
+<p align="center">
+<img src="assets/days/stage-1.svg" width="728" alt="Stage 1: Warm-up, days 1 to 6">
+<br>
+<a href="Status/Day%201.md"><img src="assets/days/day-01.svg" width="240" alt="Day 1, questions 1 to 3: Loops, factorial & dicts"></a>
+<a href="Status/Day%202.md"><img src="assets/days/day-02.svg" width="240" alt="Day 2, questions 4 to 9: Input parsing & classes"></a>
+<a href="Status/Day%203.md"><img src="assets/days/day-03.svg" width="240" alt="Day 3, questions 10 to 13: Sorting words & binary"></a>
+<br>
+<a href="Status/Day%204.md"><img src="assets/days/day-04.svg" width="240" alt="Day 4, questions 14 to 15: Counting letters & digits"></a>
+<a href="Status/Day%205.md"><img src="assets/days/day-05.svg" width="240" alt="Day 5, questions 16 to 17: Comprehensions & bank log"></a>
+<a href="Status/Day%206.md"><img src="assets/days/day-06.svg" width="240" alt="Day 6, questions 18 to 19: Password check & sorting"></a>
+</p>
 
-# 100+ Python challenging programming exercises
+<p align="center">
+<img src="assets/days/stage-2.svg" width="728" alt="Stage 2: Functions & data, days 7 to 12">
+<br>
+<a href="Status/Day%207.md"><img src="assets/days/day-07.svg" width="240" alt="Day 7, questions 20 to 21: Generators & robot moves"></a>
+<a href="Status/Day%208.md"><img src="assets/days/day-08.svg" width="240" alt="Day 8, questions 22 to 25: Word frequency & docs"></a>
+<a href="Status/Day%209.md"><img src="assets/days/day-09.svg" width="240" alt="Day 9, questions 26 to 30: Your first functions"></a>
+<br>
+<a href="Status/Day_10.md"><img src="assets/days/day-10.svg" width="240" alt="Day 10, questions 31 to 37: Dicts & lists in functions"></a>
+<a href="Status/Day_11.md"><img src="assets/days/day-11.svg" width="240" alt="Day 11, questions 38 to 43: Tuples, map & filter"></a>
+<a href="Status/Day_12.md"><img src="assets/days/day-12.svg" width="240" alt="Day 12, questions 44 to 46: Static methods & subclasses"></a>
+</p>
 
+<p align="center">
+<img src="assets/days/stage-3.svg" width="728" alt="Stage 3: Classes, errors & modules, days 13 to 18">
+<br>
+<a href="Status/Day_13.md"><img src="assets/days/day-13.svg" width="240" alt="Day 13, questions 47 to 50: Classes & exceptions"></a>
+<a href="Status/Day_14.md"><img src="assets/days/day-14.svg" width="240" alt="Day 14, questions 51 to 53: try/except & regex"></a>
+<a href="Status/Day_15.md"><img src="assets/days/day-15.svg" width="240" alt="Day 15, questions 54 to 59: Regex, unicode & series"></a>
+<br>
+<a href="Status/Day_16.md"><img src="assets/days/day-16.svg" width="240" alt="Day 16, questions 60 to 64: Recursion & Fibonacci"></a>
+<a href="Status/Day_17.md"><img src="assets/days/day-17.svg" width="240" alt="Day 17, questions 65 to 69: assert, eval & binary search"></a>
+<a href="Status/Day_18.md"><img src="assets/days/day-18.svg" width="240" alt="Day 18, questions 70 to 74: The random module"></a>
+</p>
 
-## 1. Problem Template
+<p align="center">
+<img src="assets/days/stage-4.svg" width="728" alt="Stage 4: Challenge mode, days 19 to 24">
+<br>
+<a href="Status/Day_19.md"><img src="assets/days/day-19.svg" width="240" alt="Day 19, questions 75 to 79: zlib, timeit & shuffle"></a>
+<a href="Status/Day_20.md"><img src="assets/days/day-20.svg" width="240" alt="Day 20, questions 80 to 84: List comprehension filters"></a>
+<a href="Status/Day_21.md"><img src="assets/days/day-21.svg" width="240" alt="Day 21, questions 85 to 89: Sets, sorting & inheritance"></a>
+<br>
+<a href="Status/Day_22.md"><img src="assets/days/day-22.svg" width="240" alt="Day 22, questions 90 to 94: Permutations & a puzzle"></a>
+<a href="Status/Day_23.md"><img src="assets/days/day-23.svg" width="240" alt="Day 23, questions 95 to 99: Rangoli, dates & sets"></a>
+<a href="Status/Day_24.md"><img src="assets/days/day-24.svg" width="240" alt="Day 24, questions 100 to 103: Word counts & recursion"></a>
+</p>
 
-* ***Question***
-* ***Hints***
-* ***Solution***
+<p align="center"><sub>⭐ If this helped you, a star helps other learners find it.</sub></p>
 
------------------
+---
 
-## 2. Practice Status
+## ❤️ Sponsors
 
-* **[Day 1](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1 Status")**- ***Question 1-3***
+<!-- Gold and Silver slots: empty, so nothing is shown. Sponsors see the full grid
+     on sponsors/readme-preview.md. When a slot is sold, add its heading and table here.
 
-* **[Day 2](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2 Status")**- ***Question 4-9***
+     Gold, up to 6 in rows of 3 (logo 240x80 px, send 480x160, tagline up to 60 characters):
+     ### Gold sponsors
+     <div align="center"><table><tr>
+     <td align="center"><a href="URL?ref=github-readme-gold"><img src="assets/sponsors/NAME.png" width="240" height="80" alt="NAME"></a><br><sub>Tagline</sub></td>
+     </tr></table></div>
 
-* **[Day 3](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3 Status")**- ***Question 10-13***
+     Silver, up to 8 in rows of 4 (logo 160x50 px, send 320x100, no tagline):
+     ### Silver sponsors
+     <div align="center"><table><tr>
+     <td align="center"><a href="URL?ref=github-readme-silver"><img src="assets/sponsors/NAME.png" width="160" height="50" alt="NAME"></a></td>
+     </tr></table></div>
+-->
 
+<p align="center">Want your product in front of Python learners? <b><a href="SPONSORS.md">Become a sponsor →</a></b><br><sub>Get in touch: <a href="mailto:rctushar07@gmail.com?subject=Sponsorship%20-%20Break%20The%20Ice%20With%20Python">rctushar07@gmail.com</a></sub></p>
 
-* **[Day 4](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4 Status")**- ***Question 14-15***
+---
 
+## About
 
-* **[Day 5](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5 Status")**- ***Question 16-17***
+The exercise texts in this repository were collected from [zhiwehu](https://github.com/zhiwehu/Python-programming-exercises)'s GitHub account. I collected them to practise and solve all of them in Python, and I'm adding more over time. The main author's solutions are in Python 2 and mine are in Python 3. I also explain the code and give my opinion on a problem where it helps.
 
+Found a mistake or have an idea? Join the [discussion](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3).
 
-* **[Day 6](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6 Status")**- ***Question 18-19***
+## Contributing
 
-* **[Day 7](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7 Status")**- ***Question 20-21***
+Want to add your own solution or fix something? See [CONTRIBUTING.md](CONTRIBUTING.md) for a quick guide, and [CONTRIBUTORS.md](CONTRIBUTORS.md) for everyone who has contributed a solution through a merged pull request.
 
+## Acknowledgements
 
-* **[Day 8](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 8 Status")**- ***Question 22-25***
-
-
-* **[Day 9](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%209.md "Day 9 Status")**- ***Question 26-30***
-
-
-* **[Day 10](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_10.md "Day 10 Status")**- ***Question 31-37***
-
-* **[Day 11](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_11.md "Day 11 Status")**- ***Question 38-43***
-
-* **[Day 12](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_12.md "Day 12 Status")**- ***Question 44-46***
-
-
-* **[Day 13](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_13.md "Day 13 Status")**- ***Question 47-50***
-
-
-* **[Day 14](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14 Status")**- ***Question 51-53***
-
-* **[Day 15](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15 Status")**- ***Question 54-59***
-
-* **[Day 16](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_16.md "Day 16 Status")**- ***Question 60-64***
-
-
-* **[Day 17](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17 Status")**- ***Question 65-69***
-
-
-* **[Day 18](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_18.md "Day 18 Status")**- ***Question 70-74***
-
-
-* **[Day 19](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_19.md "Day 19 Status")**- ***Question 75-79***
-
-
-* **[Day 20](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_20.md "Day 20 Status")**- ***Question 80-84***
-
-* **[Day 21](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_21.md "Day 21 Status")**- ***Question 85-89***
-
-* **[Day 22](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22 Status")**- ***Question 90-94***
-
-* **[Day 23](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_23.md "Day 23 Status")**- ***Question 95-99***
-
-* **[Day 24](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24 Status")**- ***Question 100-103***
+A big thanks to [apurvmishra99](https://github.com/apurvmishra99) for cleaning up the formatting of all the Day files, fixing errors, renaming variables to follow PEP 8, and adding a [Jupyter notebook](notebooks/) for each of the 24 days.

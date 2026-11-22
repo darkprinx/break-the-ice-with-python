@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-15"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-15">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_14.md">← Day 14</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_16.md">Day 16 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 54
 
 ### **Question**
@@ -27,6 +35,9 @@ google
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -49,6 +60,9 @@ pattern = "\w+@(\w+).com"
 ans = re.findall(pattern,email)
 print(ans)
 ```
+
+
+</details>
 
 ---
 
@@ -80,6 +94,9 @@ print(ans)
 > **_Use re.findall() to find all substring using regex._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -121,6 +138,9 @@ ans = [word for word in email if word.isdigit()]  # using list comprehension met
 print(ans)
 ```
 
+
+</details>
+
 ---
 
 # Question 56
@@ -137,12 +157,18 @@ print(ans)
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
 unicodeString = u"hello world!"
 print unicodeString
 ```
+
+
+</details>
 
 ---
 
@@ -159,6 +185,9 @@ print unicodeString
 > **_Use unicode()/encode() function to convert._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -178,6 +207,9 @@ u = s.encode('utf-8')
 print(u)
 ```
 
+
+</details>
+
 ---
 
 # Question 58
@@ -194,11 +226,17 @@ print(u)
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
 # -*- coding: utf-8 -*-
 ```
+
+
+</details>
 
 ---
 
@@ -230,6 +268,9 @@ print(u)
 > **_Use float() to convert an integer to a float.Even if not converted it wont cause a problem because python by default understands the data type of a value_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -272,10 +313,17 @@ print(round((sum(i/(i+1) for i in range(1,int(input())+1))),2))
 
 print(round(sum(map(lambda i:i/(i+1),[*range(1,int(input())+1)])),2))
 ```
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_16.md "Day 16")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_16.md"><img src="../assets/days/day-16.svg" width="240" alt="Day 16, questions 60 to 64: Recursion &amp; Fibonacci"></a><br>
+<a href="Day_14.md">← Day 14</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

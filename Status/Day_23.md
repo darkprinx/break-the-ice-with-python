@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-23"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-23">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_22.md">← Day 22</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_24.md">Day 24 →</a></p>
+<!-- /day-nav:top -->
+
 # The extended part of the repository starts from this page. Previous 94 problems were collected from the repository mentioned in intro. The following problems are collected from Hackerrank and other resources from internet.All the given solutions are in python 3.
 
 # Question 95
@@ -24,6 +32,9 @@
 > **_Make the scores unique and then find 2nd best number_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **My Solution: Python 3**
 
@@ -76,6 +87,9 @@ else:
 runnerup = max(lst)
 print(runnerup)
 ```
+
+</details>
+
 ---
 
 # Question 96
@@ -109,6 +123,9 @@ print(runnerup)
 > **_Use wrap function of textwrap module_**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **My Solution: Python 3**
 
@@ -193,6 +210,9 @@ def splitter(word, width):
 
 splitter("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4)
 ```
+
+</details>
+
 ---
 
 # Question 97
@@ -230,6 +250,9 @@ splitter("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4)
 > **_First print the half of the Rangoli in the given way and save each line in a list. Then print the list in reverse order to get the rest._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **My Solution: Python 3**
 
@@ -276,6 +299,9 @@ rangoli(5)
 
 ```
 
+
+</details>
+
 ---
 
 # Question 98
@@ -308,6 +334,9 @@ rangoli(5)
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
@@ -318,6 +347,9 @@ month, day, year = map(int, input().split())
 dayId = calendar.weekday(year, month, day)
 print(calendar.day_name[dayId].upper())
 ```
+
+
+</details>
 
 ---
 
@@ -357,6 +389,9 @@ print(calendar.day_name[dayId].upper())
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
@@ -373,10 +408,17 @@ if __name__ == '__main__':
         print(i)
 ```
 
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_24.md"><img src="../assets/days/day-24.svg" width="240" alt="Day 24, questions 100 to 103: Word counts &amp; recursion"></a><br>
+<a href="Day_22.md">← Day 22</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

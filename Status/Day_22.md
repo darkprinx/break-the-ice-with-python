@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-22"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-22">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_21.md">← Day 21</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_23.md">Day 23 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 90
 
 ### **Question**
@@ -29,6 +37,9 @@ f,1
 > Use dict.get() method to lookup a key with default value._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -107,6 +118,9 @@ s = dict(Counter(s))
 for key,value in s.items():
     print(key+','+str(value))
 ```
+
+</details>
+
 ---
 
 # Question 91
@@ -133,6 +147,9 @@ ris etov ot esir
 > **_Use list[::-1] to iterate a list in a reverse order._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -164,6 +181,9 @@ a = ' '.join(l)
 print(a)
 ```
 
+
+</details>
+
 ---
 
 # Question 92
@@ -190,6 +210,9 @@ Helloworld
 > **_Use list[::2] to iterate a list by step 2._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -220,6 +243,9 @@ for i in range(len(s)):
 print(ns)
 ```
 
+
+</details>
+
 ---
 
 # Question 93
@@ -235,6 +261,9 @@ print(ns)
 > **_Use itertools.permutations() to get permutations of list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -258,6 +287,9 @@ def permuation_generator(iterable):
 x = [1,2,3]
 permuation_generator(x)
 ```
+
+</details>
+
 ---
 
 # Question 94
@@ -274,6 +306,9 @@ permuation_generator(x)
 > **_Use for loop to iterate all possible solutions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -320,10 +355,17 @@ def animal_calculator(total_legs, total_heads, legs_of_each_species):
 
 animal_calculator(94, 35, legs_of_each_species=[2,4])
 ```
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_21.md "Day 21")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_23.md "Day 23")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_23.md"><img src="../assets/days/day-23.svg" width="240" alt="Day 23, questions 95 to 99: Rangoli, dates &amp; sets"></a><br>
+<a href="Day_21.md">← Day 21</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

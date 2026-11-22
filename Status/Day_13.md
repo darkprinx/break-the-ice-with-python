@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-13"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-13">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_12.md">← Day 12</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_14.md">Day 14 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 47
 
 ### **Question**
@@ -11,6 +19,9 @@
 > **_Use def methodName(self) to define a method._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -43,6 +54,9 @@ circle = Circle(5)
 print(circle.area())
 ```
 
+
+</details>
+
 ---
 
 # Question 48
@@ -58,6 +72,9 @@ print(circle.area())
 > **_Use def methodName(self) to define a method._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -94,6 +111,9 @@ print(rect.area())
 
 ```
 
+
+</details>
+
 ---
 
 # Question 49
@@ -109,6 +129,9 @@ print(rect.area())
 > **_To override a method in super class, we can define a method with the same name in the super class._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -178,6 +201,9 @@ sq = Square(5)
 print(sq.area())  # Output: 25
 print(super(Square, sq).area())  # Output: 0
 ```
+
+</details>
+
 ---
 
 # Question 50
@@ -194,11 +220,17 @@ print(super(Square, sq).area())  # Output: 0
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Solution:**
 
 ```python
 raise RuntimeError('something wrong')
 ```
+
+
+</details>
 
 ---
 
@@ -206,8 +238,12 @@ raise RuntimeError('something wrong')
 
 **_Well It seems that the above problems are very much focused on basic concpets and implimantation of object oriented programming.As the concepts are not about to solve any functional problem rather design the structure , so both codes are very much similar in there implimantation part._**
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_12.md "Day 12")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_14.md"><img src="../assets/days/day-14.svg" width="240" alt="Day 14, questions 51 to 53: try/except &amp; regex"></a><br>
+<a href="Day_12.md">← Day 12</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

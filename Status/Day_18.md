@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-18"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-18">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_17.md">← Day 17</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_19.md">Day 19 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 70
 
 ### **Question**
@@ -11,6 +19,9 @@
 > **_Use random.choice() to a random element from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -30,6 +41,9 @@ resp = [i for i in range(0,11,2)]
 print(random.choice(resp))
 ```
 
+
+</details>
+
 ---
 
 # Question 71
@@ -45,6 +59,9 @@ print(random.choice(resp))
 > **_Use random.choice() to a random element from a list._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -63,6 +80,9 @@ resp = [i for i in range(10,151) if i % 35 == 0 ]
 print(random.choice(resp))
 ```
 
+
+</details>
+
 ---
 
 # Question 72
@@ -78,6 +98,9 @@ print(random.choice(resp))
 > **_Use random.sample() to generate a list of random values._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -97,6 +120,9 @@ resp = random.sample(range(100,201),5)
 print(resp)
 ```
 
+
+</details>
+
 ---
 
 # Question 73
@@ -112,6 +138,9 @@ print(resp)
 > **_Use random.sample() to generate a list of random values._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -132,6 +161,9 @@ resp = random.sample(range(100,201,2),5)
 print(resp)
 ```
 
+
+</details>
+
 ---
 
 # Question 74
@@ -147,6 +179,9 @@ print(resp)
 > **_Use random.sample() to generate a list of random values._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -167,10 +202,17 @@ resp = random.sample(lst,5)
 print(resp)
 ```
 
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_19.md "Day 19")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_19.md"><img src="../assets/days/day-19.svg" width="240" alt="Day 19, questions 75 to 79: zlib, timeit &amp; shuffle"></a><br>
+<a href="Day_17.md">← Day 17</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

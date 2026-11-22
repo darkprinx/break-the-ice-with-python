@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-17"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-17">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_16.md">← Day 16</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_18.md">Day 18 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 65
 
 ### **Question**
@@ -11,6 +19,9 @@
 > **_Use "assert expression" to make assertion._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -29,6 +40,9 @@ data = [2,4,5,6]
 for i in data:
     assert i%2 == 0, "{} is not an even number".format(i)
 ```
+
+
+</details>
 
 ---
 
@@ -59,6 +73,9 @@ for i in data:
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -76,6 +93,9 @@ ans = eval(expression)
 print(ans)
 ```
 
+
+</details>
+
 ---
 
 # Question 67
@@ -91,6 +111,9 @@ print(ans)
 > **_Use if/elif to deal with conditions._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -193,6 +216,9 @@ print(bs(66,[1,5,8,10,12,13,55,66,73,78,82,85,88,99,100]))
 
 ```
 
+
+</details>
+
 ---
 
 # Question 68
@@ -208,6 +234,9 @@ print(bs(66,[1,5,8,10,12,13,55,66,73,78,82,85,88,99,100]))
 > **_Use random.random() to generate a random float in [0,1]._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -226,6 +255,9 @@ rand_num = random.uniform(10,100)
 print(rand_num)
 ```
 
+
+</details>
+
 ---
 
 # Question 69
@@ -241,6 +273,9 @@ print(rand_num)
 > **_Use random.random() to generate a random float in [0,1]._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -259,10 +294,17 @@ rand_num = random.uniform(5,95)
 print(rand_num)
 ```
 
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_16.md "Day 16")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_18.md "Day 18")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_18.md"><img src="../assets/days/day-18.svg" width="240" alt="Day 18, questions 70 to 74: The random module"></a><br>
+<a href="Day_16.md">← Day 16</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

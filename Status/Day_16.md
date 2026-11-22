@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-16"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-16">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_15.md">← Day 15</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_17.md">Day 17 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 60
 
 ### **Question**
@@ -33,6 +41,9 @@ and f(0)=0
 > **_We can define recursive function in Python._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -71,6 +82,9 @@ f = lambda x: f(x-1)+100 if x > 0 else 0
 print(f(n))
 
 ```
+
+
+</details>
 
 ---
 
@@ -111,6 +125,9 @@ f(n)=f(n-1)+f(n-2) if n>1
 
 ---
 
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
+
 **Main author's Solution: Python 2**
 
 ```python
@@ -148,6 +165,9 @@ f = lambda x: 0 if x == 0 else 1 if x == 1 else f(x-1)+f(x-2)
 print(','.join([str(f(x)) for x in range(0, n+1)]))
 
 ```
+
+</details>
+
 ---
 
 # Question 62
@@ -188,6 +208,9 @@ f(n)=f(n-1)+f(n-2) if n>1
 > Use string.join() to join a list of strings._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -260,6 +283,9 @@ def question_62(n):
 
 print(question_62(10))
 ```
+
+</details>
+
 ---
 
 # Question 63
@@ -290,6 +316,9 @@ print(question_62(10))
 > **_Use yield to produce the next value in generator._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -324,6 +353,9 @@ for i in range(0, n+1, 2):
     print(i)
 ```
 
+
+</details>
+
 ---
 
 # Question 64
@@ -354,6 +386,9 @@ for i in range(0, n+1, 2):
 > **_Use yield to produce the next value in generator._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -387,10 +422,17 @@ print(",".join(resp))
 
 ```
 
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_17.md"><img src="../assets/days/day-17.svg" width="240" alt="Day 17, questions 65 to 69: assert, eval &amp; binary search"></a><br>
+<a href="Day_15.md">← Day 15</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

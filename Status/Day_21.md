@@ -1,3 +1,11 @@
+<!-- Day page sponsor slot: empty, so nothing is shown. When sold, add the line below
+     right under this comment. Logo 120x40 px (send 240x80), text up to 60 characters:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-21"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-21">One-line message →</a></p> -->
+
+<!-- day-nav:top -->
+<p align="center"><a href="Day_20.md">← Day 20</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_22.md">Day 22 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 85
 
 ### **Question**
@@ -11,6 +19,9 @@
 > **_Use list comprehension to delete a bunch of element from a list.Use enumerate() to get (index, value) tuple._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -29,6 +40,7 @@ li = [li[i] for i in range(len(li)) if i not in (0,4,5)]
 print(li)
 ```
 ---
+
 ```python
 '''Solution by: pratikb0501
 '''
@@ -36,6 +48,9 @@ li = [12, 24, 35, 70, 88, 120, 155]
 print(list(j for i, j in enumerate(li) if i != 0 and i != 4 and i != 5))
 
 ```
+
+
+</details>
 
 ---
 
@@ -52,6 +67,9 @@ print(list(j for i, j in enumerate(li) if i != 0 and i != 4 and i != 5))
 > **_Use list's remove method to delete a value._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -71,6 +89,9 @@ li.remove(24)  # this will remove only the first occurrence of 24
 print(li)
 ```
 
+
+</details>
+
 ---
 
 # Question 87
@@ -86,6 +107,9 @@ print(li)
 > **_Use set() and "&=" to do set intersection operation._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -122,6 +146,9 @@ intersection = set.intersection(set1,set2)
 print(intersection)
 ```
 
+
+</details>
+
 ---
 
 # Question 88
@@ -137,6 +164,9 @@ print(intersection)
 > **_Use set() to store a number of values without duplicate._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Main author's Solution: Python 2**
 
@@ -183,6 +213,7 @@ ans = list(removeDuplicate(li))
 print(ans)
 ```
 **OR**
+
 ```python
 li=[12,24,35,24,88,120,155,88,120,155]
 a={}
@@ -193,10 +224,15 @@ print(li)
 ```
 
 ---
-```python Solution by - Utkarsh4697
+
+```python
+'''Solution by: Utkarsh4697'''
 li = [12,24,35,24,88,120,155,88,120,155]
 print(sorted(list(set(li))))
 ```
+
+</details>
+
 ---
 
 # Question 89
@@ -212,6 +248,9 @@ print(sorted(list(set(li))))
 > **_Use Subclass(Parentclass) to define a child class._**
 
 ---
+
+<details markdown="1">
+<summary><b>💡 Show solutions</b> (try it yourself first!)</summary>
 
 **Solution:**
 
@@ -234,6 +273,7 @@ print aMale.getGender()
 print aFemale.getGender()
 ```
 ---
+
 ```python
 '''Solution by: popomaticbubble
 '''
@@ -258,10 +298,17 @@ sharon.getGender()
 doug.getGender()
 
 ```
+
+</details>
+
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_20.md "Day 20")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_22.md"><img src="../assets/days/day-22.svg" width="240" alt="Day 22, questions 90 to 94: Permutations &amp; a puzzle"></a><br>
+<a href="Day_20.md">← Day 20</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
