@@ -90,8 +90,6 @@ Experience an advanced career journey with us! 🚀
 
 ## ❤️ Sponsors
 
-These sponsors help keep this project free for everyone.
-
 ### Gold sponsors
 
 <!-- 6 slots: 2 rows x 3 columns. Logo shown at 240x80 px (send 480x160 for sharp
