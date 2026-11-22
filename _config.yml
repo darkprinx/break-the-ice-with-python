@@ -4,6 +4,10 @@ title: Break The Ice With Python
 tagline: 100+ Python exercises for beginners
 description: 100+ Python exercises for beginners, with hints and solutions explained in different ways. Practise a few a day for 24 days.
 
+# Google Search Console ownership check. Keep it, or verification lapses.
+webmaster_verifications:
+  google: qGKh2tZBRsX85DBZDmQmreTienjvnNC0MP4SjXwlWSM
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
