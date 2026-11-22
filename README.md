@@ -97,52 +97,23 @@ Experience an advanced career journey with us! 🚀
 
 ## ❤️ Sponsors
 
-### Gold sponsors
+<!-- Gold and Silver slots: empty, so nothing is shown. Sponsors see the full grid
+     on sponsors/readme-preview.md. When a slot is sold, add its heading and table here.
 
-<!-- 6 slots: 2 rows x 3 columns. Logo shown at 240x80 px (send 480x160 for sharp
-     display), light + dark versions via <picture>, tagline up to 60 characters.
-     Replace one placeholder cell per sponsor and link with ?ref=github-readme-gold. -->
-<div align="center">
+     Gold, up to 6 in rows of 3 (logo 240x80 px, send 480x160, tagline up to 60 characters):
+     ### Gold sponsors
+     <div align="center"><table><tr>
+     <td align="center"><a href="URL?ref=github-readme-gold"><img src="assets/sponsors/NAME.png" width="240" height="80" alt="NAME"></a><br><sub>Tagline</sub></td>
+     </tr></table></div>
 
-<table>
-<tr>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
-</tr>
-<tr>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
-</tr>
-</table>
+     Silver, up to 8 in rows of 4 (logo 160x50 px, send 320x100, no tagline):
+     ### Silver sponsors
+     <div align="center"><table><tr>
+     <td align="center"><a href="URL?ref=github-readme-silver"><img src="assets/sponsors/NAME.png" width="160" height="50" alt="NAME"></a></td>
+     </tr></table></div>
+-->
 
-</div>
-
-### Silver sponsors
-
-<!-- 8 slots: 2 rows x 4 columns. Logo shown at 160x50 px (send 320x100), no tagline.
-     Replace one placeholder cell per sponsor and link with ?ref=github-readme-silver. -->
-<div align="center">
-
-<table>
-<tr>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
-</tr>
-<tr>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
-<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
-</tr>
-</table>
-
-</div>
-
-<p align="center"><b><a href="SPONSORS.md">Become a sponsor →</a></b><br><sub>Get in touch: <a href="mailto:rctushar07@gmail.com?subject=Sponsorship%20-%20Break%20The%20Ice%20With%20Python">rctushar07@gmail.com</a></sub></p>
+<p align="center">Want your product in front of Python learners? <b><a href="SPONSORS.md">Become a sponsor →</a></b><br><sub>Get in touch: <a href="mailto:rctushar07@gmail.com?subject=Sponsorship%20-%20Break%20The%20Ice%20With%20Python">rctushar07@gmail.com</a></sub></p>
 
 ---
 

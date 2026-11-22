@@ -54,14 +54,17 @@ Each Day page (24 pages)
 └──────────────────────────────────────────────────────────────┘
 ```
 
-You can see the Gold and Silver placeholders in the [README's Sponsors section](README.md), and **[a preview of a sponsored Day page](sponsors/day-page-preview.md)**.
+See exactly how your slot will look:
+
+- **[README Sponsors section preview](sponsors/readme-preview.md)**: Gold and Silver slots, right below the exercise list
+- **[Day page preview](sponsors/day-page-preview.md)**: the logo and text slot at the top of a Day page
 
 ## Placements
 
 | Placement | Where | Slots | Size on the page | What you send |
 |---|---|---|---|---|
-| **Gold** | Sponsors section, right below the exercise list | 6 (2 rows × 3) | Logo **240 × 80 px** + one-line tagline | Logo at 480 × 160 px (PNG or SVG), light and dark versions, tagline up to 60 characters, link |
-| **Silver** | Sponsors section, below Gold | 8 (2 rows × 4) | Logo **160 × 50 px** | Logo at 320 × 100 px (PNG or SVG), light and dark versions, link |
+| **Gold** | Sponsors section, right below the exercise list ([preview](sponsors/readme-preview.md)) | 6 (2 rows × 3) | Logo **240 × 80 px** + one-line tagline | Logo at 480 × 160 px (PNG or SVG), light and dark versions, tagline up to 60 characters, link |
+| **Silver** | Sponsors section, below Gold ([preview](sponsors/readme-preview.md)) | 8 (2 rows × 4) | Logo **160 × 50 px** | Logo at 320 × 100 px (PNG or SVG), light and dark versions, link |
 | **Day page** | Top of a Day page, the first thing visitors from search see ([preview](sponsors/day-page-preview.md)) | 1 per page, 24 pages | Logo **120 × 40 px** + one line of text | Logo at 240 × 80 px (PNG or SVG), message up to 60 characters, link |
 
 The banner at the top of the README is reserved for our current headline sponsor.
