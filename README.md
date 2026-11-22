@@ -39,50 +39,55 @@ Experience an advanced career journey with us! 🚀
 
 ## 📅 The 24 days
 
-<p align="center">Pick a day and start solving. New here? Begin with <a href="Status/Day%201.md"><b>Day 1</b></a>.</p>
+<p align="center">Follow the path stage by stage, or jump to any day. New here? Begin with <a href="Status/Day%201.md"><b>Day 1</b></a>.</p>
 
-<div align="center">
+<p align="center">
+<img src="assets/days/stage-1.svg" width="728" alt="Stage 1: Warm-up, days 1 to 6">
+<br>
+<a href="Status/Day%201.md"><img src="assets/days/day-01.svg" width="240" alt="Day 1, questions 1 to 3: Loops, factorial & dicts"></a>
+<a href="Status/Day%202.md"><img src="assets/days/day-02.svg" width="240" alt="Day 2, questions 4 to 9: Input parsing & classes"></a>
+<a href="Status/Day%203.md"><img src="assets/days/day-03.svg" width="240" alt="Day 3, questions 10 to 13: Sorting words & binary"></a>
+<br>
+<a href="Status/Day%204.md"><img src="assets/days/day-04.svg" width="240" alt="Day 4, questions 14 to 15: Counting letters & digits"></a>
+<a href="Status/Day%205.md"><img src="assets/days/day-05.svg" width="240" alt="Day 5, questions 16 to 17: Comprehensions & bank log"></a>
+<a href="Status/Day%206.md"><img src="assets/days/day-06.svg" width="240" alt="Day 6, questions 18 to 19: Password check & sorting"></a>
+</p>
 
-<table>
-<tr>
-<td align="center"><a href="Status/Day%201.md"><img src="https://img.shields.io/badge/Day_1-Q_1--3-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 1: questions 1-3"></a></td>
-<td align="center"><a href="Status/Day%202.md"><img src="https://img.shields.io/badge/Day_2-Q_4--9-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 2: questions 4-9"></a></td>
-<td align="center"><a href="Status/Day%203.md"><img src="https://img.shields.io/badge/Day_3-Q_10--13-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 3: questions 10-13"></a></td>
-<td align="center"><a href="Status/Day%204.md"><img src="https://img.shields.io/badge/Day_4-Q_14--15-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 4: questions 14-15"></a></td>
-</tr>
-<tr>
-<td align="center"><a href="Status/Day%205.md"><img src="https://img.shields.io/badge/Day_5-Q_16--17-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 5: questions 16-17"></a></td>
-<td align="center"><a href="Status/Day%206.md"><img src="https://img.shields.io/badge/Day_6-Q_18--19-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 6: questions 18-19"></a></td>
-<td align="center"><a href="Status/Day%207.md"><img src="https://img.shields.io/badge/Day_7-Q_20--21-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 7: questions 20-21"></a></td>
-<td align="center"><a href="Status/Day%208.md"><img src="https://img.shields.io/badge/Day_8-Q_22--25-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 8: questions 22-25"></a></td>
-</tr>
-<tr>
-<td align="center"><a href="Status/Day%209.md"><img src="https://img.shields.io/badge/Day_9-Q_26--30-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 9: questions 26-30"></a></td>
-<td align="center"><a href="Status/Day_10.md"><img src="https://img.shields.io/badge/Day_10-Q_31--37-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 10: questions 31-37"></a></td>
-<td align="center"><a href="Status/Day_11.md"><img src="https://img.shields.io/badge/Day_11-Q_38--43-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 11: questions 38-43"></a></td>
-<td align="center"><a href="Status/Day_12.md"><img src="https://img.shields.io/badge/Day_12-Q_44--46-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 12: questions 44-46"></a></td>
-</tr>
-<tr>
-<td align="center"><a href="Status/Day_13.md"><img src="https://img.shields.io/badge/Day_13-Q_47--50-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 13: questions 47-50"></a></td>
-<td align="center"><a href="Status/Day_14.md"><img src="https://img.shields.io/badge/Day_14-Q_51--53-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 14: questions 51-53"></a></td>
-<td align="center"><a href="Status/Day_15.md"><img src="https://img.shields.io/badge/Day_15-Q_54--59-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 15: questions 54-59"></a></td>
-<td align="center"><a href="Status/Day_16.md"><img src="https://img.shields.io/badge/Day_16-Q_60--64-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 16: questions 60-64"></a></td>
-</tr>
-<tr>
-<td align="center"><a href="Status/Day_17.md"><img src="https://img.shields.io/badge/Day_17-Q_65--69-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 17: questions 65-69"></a></td>
-<td align="center"><a href="Status/Day_18.md"><img src="https://img.shields.io/badge/Day_18-Q_70--74-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 18: questions 70-74"></a></td>
-<td align="center"><a href="Status/Day_19.md"><img src="https://img.shields.io/badge/Day_19-Q_75--79-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 19: questions 75-79"></a></td>
-<td align="center"><a href="Status/Day_20.md"><img src="https://img.shields.io/badge/Day_20-Q_80--84-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 20: questions 80-84"></a></td>
-</tr>
-<tr>
-<td align="center"><a href="Status/Day_21.md"><img src="https://img.shields.io/badge/Day_21-Q_85--89-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 21: questions 85-89"></a></td>
-<td align="center"><a href="Status/Day_22.md"><img src="https://img.shields.io/badge/Day_22-Q_90--94-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 22: questions 90-94"></a></td>
-<td align="center"><a href="Status/Day_23.md"><img src="https://img.shields.io/badge/Day_23-Q_95--99-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 23: questions 95-99"></a></td>
-<td align="center"><a href="Status/Day_24.md"><img src="https://img.shields.io/badge/Day_24-Q_100--103-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Day 24: questions 100-103"></a></td>
-</tr>
-</table>
+<p align="center">
+<img src="assets/days/stage-2.svg" width="728" alt="Stage 2: Functions & data, days 7 to 12">
+<br>
+<a href="Status/Day%207.md"><img src="assets/days/day-07.svg" width="240" alt="Day 7, questions 20 to 21: Generators & robot moves"></a>
+<a href="Status/Day%208.md"><img src="assets/days/day-08.svg" width="240" alt="Day 8, questions 22 to 25: Word frequency & docs"></a>
+<a href="Status/Day%209.md"><img src="assets/days/day-09.svg" width="240" alt="Day 9, questions 26 to 30: Your first functions"></a>
+<br>
+<a href="Status/Day_10.md"><img src="assets/days/day-10.svg" width="240" alt="Day 10, questions 31 to 37: Dicts & lists in functions"></a>
+<a href="Status/Day_11.md"><img src="assets/days/day-11.svg" width="240" alt="Day 11, questions 38 to 43: Tuples, map & filter"></a>
+<a href="Status/Day_12.md"><img src="assets/days/day-12.svg" width="240" alt="Day 12, questions 44 to 46: Static methods & subclasses"></a>
+</p>
 
-</div>
+<p align="center">
+<img src="assets/days/stage-3.svg" width="728" alt="Stage 3: Classes, errors & modules, days 13 to 18">
+<br>
+<a href="Status/Day_13.md"><img src="assets/days/day-13.svg" width="240" alt="Day 13, questions 47 to 50: Classes & exceptions"></a>
+<a href="Status/Day_14.md"><img src="assets/days/day-14.svg" width="240" alt="Day 14, questions 51 to 53: try/except & regex"></a>
+<a href="Status/Day_15.md"><img src="assets/days/day-15.svg" width="240" alt="Day 15, questions 54 to 59: Regex, unicode & series"></a>
+<br>
+<a href="Status/Day_16.md"><img src="assets/days/day-16.svg" width="240" alt="Day 16, questions 60 to 64: Recursion & Fibonacci"></a>
+<a href="Status/Day_17.md"><img src="assets/days/day-17.svg" width="240" alt="Day 17, questions 65 to 69: assert, eval & binary search"></a>
+<a href="Status/Day_18.md"><img src="assets/days/day-18.svg" width="240" alt="Day 18, questions 70 to 74: The random module"></a>
+</p>
+
+<p align="center">
+<img src="assets/days/stage-4.svg" width="728" alt="Stage 4: Challenge mode, days 19 to 24">
+<br>
+<a href="Status/Day_19.md"><img src="assets/days/day-19.svg" width="240" alt="Day 19, questions 75 to 79: zlib, timeit & shuffle"></a>
+<a href="Status/Day_20.md"><img src="assets/days/day-20.svg" width="240" alt="Day 20, questions 80 to 84: List comprehension filters"></a>
+<a href="Status/Day_21.md"><img src="assets/days/day-21.svg" width="240" alt="Day 21, questions 85 to 89: Sets, sorting & inheritance"></a>
+<br>
+<a href="Status/Day_22.md"><img src="assets/days/day-22.svg" width="240" alt="Day 22, questions 90 to 94: Permutations & a puzzle"></a>
+<a href="Status/Day_23.md"><img src="assets/days/day-23.svg" width="240" alt="Day 23, questions 95 to 99: Rangoli, dates & sets"></a>
+<a href="Status/Day_24.md"><img src="assets/days/day-24.svg" width="240" alt="Day 24, questions 100 to 103: Word counts & recursion"></a>
+</p>
 
 <p align="center"><sub>⭐ If this helped you, a star helps other learners find it.</sub></p>
 
