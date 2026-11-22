@@ -1,6 +1,7 @@
-<!-- Day page sponsor slot: replace the line below with one line for this
-     page's sponsor, linked with ?ref=github-day-17 -->
-<p align="right"><sub><a href="../SPONSORS.md">📣 Sponsor this page</a></sub></p>
+<!-- Day page sponsor slot: logo 120x40 px (send 240x80) + one line of text up to
+     60 characters. When sold, replace the <p> below with:
+     <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-17"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-17">One-line message →</a></p> -->
+<p align="right"><a href="../SPONSORS.md"><img src="../assets/sponsors/day-slot.svg" width="420" alt="Sponsor this page: your logo and one line of text"></a></p>
 
 # Question 65
 

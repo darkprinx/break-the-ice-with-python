@@ -20,7 +20,7 @@ README
 ┌──────────────────────────────────────────────────────────────┐
 │  Title, badges, headline sponsor (reserved)                  │
 │  Start here                                                  │
-│  The 24 days  (exercise table)                               │
+│  The 24 days  (learning path of day cards)                   │
 ├──────────────────────────────────────────────────────────────┤
 │  Sponsors                                                    │
 │                                                              │
@@ -47,7 +47,9 @@ README
 
 Each Day page (24 pages)
 ┌──────────────────────────────────────────────────────────────┐
-│                          Sponsored · Your product: one line ◄│  top of page
+│                    ┌──────────┐                              │
+│                    │ 120 × 40 │  Your one-line message →     │  top of page
+│                    └──────────┘                              │
 │  # Question 1 ...                                            │
 └──────────────────────────────────────────────────────────────┘
 ```
@@ -60,7 +62,7 @@ You can see the live placeholders in the [README's Sponsors section](README.md).
 |---|---|---|---|---|
 | **Gold** | Sponsors section, right below the exercise list | 6 (2 rows × 3) | Logo **240 × 80 px** + one-line tagline | Logo at 480 × 160 px (PNG or SVG), light and dark versions, tagline up to 60 characters, link |
 | **Silver** | Sponsors section, below Gold | 8 (2 rows × 4) | Logo **160 × 50 px** | Logo at 320 × 100 px (PNG or SVG), light and dark versions, link |
-| **Day page** | First line at the top of a Day page, where visitors from search land | 1 per page, 24 pages | One line of text | Text up to 80 characters, link |
+| **Day page** | Top of a Day page, the first thing visitors from search see | 1 per page, 24 pages | Logo **120 × 40 px** + one line of text | Logo at 240 × 80 px (PNG or SVG), message up to 60 characters, link |
 
 The banner at the top of the README is reserved for our current headline sponsor.
 
