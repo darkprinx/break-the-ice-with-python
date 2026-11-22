@@ -2,116 +2,85 @@
 
 ### A journey of 100+ simple yet interesting problems which are explained, solved, discussed in different pythonic ways
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/darkprinx/100-plus-Python-programming-exercises-extended/master?filepath=notebooks%2F)<br>
-[![Deepnote](https://deepnote.com/buttons/try-in-a-jupyter-notebook.svg
-)](https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fdarkprinx%2F100-plus-Python-programming-exercises-extended%2Fblob%2Fmaster%2Fnotebooks%2FDay_01.ipynb)
-
----------------------
-## **Website & Autofill Extension**
-
-[![Apply to jobs in seconds with Zapply.](assets/zaply/apply-faster-banner.png)](https://app.zapply.jobs/onboarding/?ref=github-cta-darkprinx)
-
-Explore Zapply’s website and check out:
-
-- Our Chrome extension, which autofills job applications in seconds.
-- A dedicated job board featuring the latest openings across various roles.
-- User accounts with multiple profiles for different resume types and roles.
-- Job application tracking with streaks and commitment awards.
-
-Experience an advanced career journey with us! 🚀
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/darkprinx/100-plus-Python-programming-exercises-extended/master?filepath=notebooks%2F)
+[![Deepnote](https://deepnote.com/buttons/try-in-a-jupyter-notebook.svg)](https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fdarkprinx%2F100-plus-Python-programming-exercises-extended%2Fblob%2Fmaster%2Fnotebooks%2FDay_01.ipynb)
+[![GitHub stars](https://img.shields.io/github/stars/darkprinx/100-plus-Python-programming-exercises-extended?style=social)](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/stargazers)
 
 <p align="center">
-<a href="https://app.zapply.jobs/onboarding/?ref=github-cta-darkprinx">
-<img src="assets/zaply/get-started-button.png" alt="Visit Zapply" width="700">
+<a href="https://app.zapply.jobs/onboarding/?ref=github-readme-top">
+<img src="assets/zaply/apply-faster-banner.png" alt="Zapply: apply to jobs in seconds with the autofill Chrome extension" width="100%">
 </a>
+<br>
+<sub>Sponsored by <a href="https://app.zapply.jobs/onboarding/?ref=github-readme-top">Zapply</a> · <a href="#sponsors">See all sponsors</a></sub>
 </p>
-<p align="right"><sub>Sponsored by Zapply</sub></p>
 
-##	Introduction 
+---
 
-***The exercise text contents of this repository was collected from GitHub account of [zhiwehu](https://github.com/zhiwehu/Python-programming-exercises). I collected it to practice and solve all the listed problems with python. Even after these collected problems are all set up, I will try to add more problems in near future. If you are a very beginner with python then I hope this 100+ exercise will help you a lot to get your hands free with python.***
+## 🚀 Start here
 
-***One will find the given problems very simple and easy to understand. A beginner can try 3-5 problems a day which will take a little time to solve but definitely will learn a couple of new stuff (no matter how lazy you are :P ). And after regular practice of only a month, one can find himself solved more than 100++ problems which are obviously not a deniable achievement.***
+- Every day has a few problems, each with a **question**, **hints** and **solutions** (the original Python 2 one and mine in Python 3).
+- Try **3-5 problems a day**. After a month you will have solved 100+ problems.
+- Prefer notebooks? Every day is also a [Jupyter notebook](notebooks/). Run it in your browser with the Binder or Deepnote button above.
 
-***In this repository, I will be gradually updating the codebase of the given problems with my own solutions. Also, I may try to explain the code and tell my opinion about the problem if needed. Main Authors solutions are in python 2 & my solutions will be in python 3. Every problem is divided into a template format which is discussed below. There is a [discussion](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3) section so don't forget to share your opinion, ideas and feel free to discuss anything wrong or mistake***
+---
 
-***Want to add your own solution or fix something? See [CONTRIBUTING.md](CONTRIBUTING.md) for a quick guide.***
+## 📅 The 24 days
 
-***See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the list of everyone who has contributed a solution via a merged pull request.***
+| | | | |
+|---|---|---|---|
+| [**Day 1**](Status/Day%201.md)<br><sub>Q 1-3</sub> | [**Day 2**](Status/Day%202.md)<br><sub>Q 4-9</sub> | [**Day 3**](Status/Day%203.md)<br><sub>Q 10-13</sub> | [**Day 4**](Status/Day%204.md)<br><sub>Q 14-15</sub> |
+| [**Day 5**](Status/Day%205.md)<br><sub>Q 16-17</sub> | [**Day 6**](Status/Day%206.md)<br><sub>Q 18-19</sub> | [**Day 7**](Status/Day%207.md)<br><sub>Q 20-21</sub> | [**Day 8**](Status/Day%208.md)<br><sub>Q 22-25</sub> |
+| [**Day 9**](Status/Day%209.md)<br><sub>Q 26-30</sub> | [**Day 10**](Status/Day_10.md)<br><sub>Q 31-37</sub> | [**Day 11**](Status/Day_11.md)<br><sub>Q 38-43</sub> | [**Day 12**](Status/Day_12.md)<br><sub>Q 44-46</sub> |
+| [**Day 13**](Status/Day_13.md)<br><sub>Q 47-50</sub> | [**Day 14**](Status/Day_14.md)<br><sub>Q 51-53</sub> | [**Day 15**](Status/Day_15.md)<br><sub>Q 54-59</sub> | [**Day 16**](Status/Day_16.md)<br><sub>Q 60-64</sub> |
+| [**Day 17**](Status/Day_17.md)<br><sub>Q 65-69</sub> | [**Day 18**](Status/Day_18.md)<br><sub>Q 70-74</sub> | [**Day 19**](Status/Day_19.md)<br><sub>Q 75-79</sub> | [**Day 20**](Status/Day_20.md)<br><sub>Q 80-84</sub> |
+| [**Day 21**](Status/Day_21.md)<br><sub>Q 85-89</sub> | [**Day 22**](Status/Day_22.md)<br><sub>Q 90-94</sub> | [**Day 23**](Status/Day_23.md)<br><sub>Q 95-99</sub> | [**Day 24**](Status/Day_24.md)<br><sub>Q 100-103</sub> |
 
-***A Big Thanks to [apurvmishra99](https://github.com/apurvmishra99) for contributing the repository by cleaning up the formatting of all Days_.md files. fixing some random errors, fixing some variable naming with PEP8 conventions, and adding a whole new folder of [jupyter](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/tree/master/notebooks) notebook of all 24 days.***
+<p align="center"><sub>⭐ If this helped you, a star helps other learners find it.</sub></p>
 
-----------------
+---
 
-# 100+ Python challenging programming exercises
+## ❤️ Sponsors
 
+These sponsors help keep this project free for everyone.
 
-## 1. Problem Template
+### Headline sponsor
 
-* ***Question***
-* ***Hints***
-* ***Solution***
+<p align="center">
+<a href="https://app.zapply.jobs/onboarding/?ref=github-readme-sponsors">
+<img src="assets/zaply/get-started-button.png" alt="Zapply" width="400">
+</a>
+<br>
+<sub><b>Zapply</b>: a Chrome extension that autofills job applications, plus a job board and application tracking.</sub>
+</p>
 
------------------
+### Gold sponsors
 
-## 2. Practice Status
+<!-- Up to 4 slots. Logos 300x100, light + dark versions via <picture>. -->
+<p align="center">
+<a href="SPONSORS.md"><sub>Your logo here</sub></a>
+</p>
 
-* **[Day 1](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1 Status")**- ***Question 1-3***
+### Silver sponsors
 
-* **[Day 2](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Day 2 Status")**- ***Question 4-9***
+<!-- Up to 8 slots. Logos 200x60. -->
+<p align="center">
+<a href="SPONSORS.md"><sub>Your logo here</sub></a>
+</p>
 
-* **[Day 3](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3 Status")**- ***Question 10-13***
+<p align="center"><b><a href="SPONSORS.md">Become a sponsor →</a></b></p>
 
+---
 
-* **[Day 4](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4 Status")**- ***Question 14-15***
+## About
 
+The exercise texts in this repository were collected from [zhiwehu](https://github.com/zhiwehu/Python-programming-exercises)'s GitHub account. I collected them to practise and solve all of them in Python, and I'm adding more over time. The main author's solutions are in Python 2 and mine are in Python 3. I also explain the code and give my opinion on a problem where it helps.
 
-* **[Day 5](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5 Status")**- ***Question 16-17***
+Found a mistake or have an idea? Join the [discussion](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3).
 
+## Contributing
 
-* **[Day 6](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%206.md "Day 6 Status")**- ***Question 18-19***
+Want to add your own solution or fix something? See [CONTRIBUTING.md](CONTRIBUTING.md) for a quick guide, and [CONTRIBUTORS.md](CONTRIBUTORS.md) for everyone who has contributed a solution through a merged pull request.
 
-* **[Day 7](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7 Status")**- ***Question 20-21***
+## Acknowledgements
 
-
-* **[Day 8](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%208.md "Day 8 Status")**- ***Question 22-25***
-
-
-* **[Day 9](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%209.md "Day 9 Status")**- ***Question 26-30***
-
-
-* **[Day 10](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_10.md "Day 10 Status")**- ***Question 31-37***
-
-* **[Day 11](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_11.md "Day 11 Status")**- ***Question 38-43***
-
-* **[Day 12](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_12.md "Day 12 Status")**- ***Question 44-46***
-
-
-* **[Day 13](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_13.md "Day 13 Status")**- ***Question 47-50***
-
-
-* **[Day 14](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14 Status")**- ***Question 51-53***
-
-* **[Day 15](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_15.md "Day 15 Status")**- ***Question 54-59***
-
-* **[Day 16](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_16.md "Day 16 Status")**- ***Question 60-64***
-
-
-* **[Day 17](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_17.md "Day 17 Status")**- ***Question 65-69***
-
-
-* **[Day 18](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_18.md "Day 18 Status")**- ***Question 70-74***
-
-
-* **[Day 19](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_19.md "Day 19 Status")**- ***Question 75-79***
-
-
-* **[Day 20](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_20.md "Day 20 Status")**- ***Question 80-84***
-
-* **[Day 21](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_21.md "Day 21 Status")**- ***Question 85-89***
-
-* **[Day 22](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22 Status")**- ***Question 90-94***
-
-* **[Day 23](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_23.md "Day 23 Status")**- ***Question 95-99***
-
-* **[Day 24](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24 Status")**- ***Question 100-103***
+A big thanks to [apurvmishra99](https://github.com/apurvmishra99) for cleaning up the formatting of all the Day files, fixing errors, renaming variables to follow PEP 8, and adding a [Jupyter notebook](notebooks/) for each of the 24 days.
