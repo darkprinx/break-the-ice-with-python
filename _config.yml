@@ -1,9 +1,8 @@
 theme: jekyll-theme-slate
 title: Break The Ice With Python
+# Short line shown after the title on the home page
+tagline: 100+ Python exercises for beginners
 description: 100+ Python exercises for beginners, with hints and solutions explained in different ways. Practise a few a day for 24 days.
-
-# Shown when a link to the site is shared (same as the repo's social preview)
-image: /assets/social-preview.jpg
 
 plugins:
   - jekyll-seo-tag
@@ -13,6 +12,11 @@ exclude:
   - scripts
 
 defaults:
+  # Image shown when any page of the site is shared (same as the repo's social preview)
+  - scope:
+      path: ""
+    values:
+      image: /assets/social-preview.jpg
   # Sponsor preview pages are for sponsors only, so keep them out of search
   - scope:
       path: "sponsors"
@@ -22,121 +26,121 @@ defaults:
   - scope:
       path: "Status/Day 1.md"
     values:
-      title: "Day 1: Loops, factorial & dicts | Python exercises 1-3"
+      title: "Day 1: Loops, factorial & dicts (Python exercises 1-3)"
       description: "Python exercises 1 to 3 with hints and explained solutions: Loops, factorial & dicts. Day 1 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day 2.md"
     values:
-      title: "Day 2: Input parsing & classes | Python exercises 4-9"
+      title: "Day 2: Input parsing & classes (Python exercises 4-9)"
       description: "Python exercises 4 to 9 with hints and explained solutions: Input parsing & classes. Day 2 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day 3.md"
     values:
-      title: "Day 3: Sorting words & binary | Python exercises 10-13"
+      title: "Day 3: Sorting words & binary (Python exercises 10-13)"
       description: "Python exercises 10 to 13 with hints and explained solutions: Sorting words & binary. Day 3 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day 4.md"
     values:
-      title: "Day 4: Counting letters & digits | Python exercises 14-15"
+      title: "Day 4: Counting letters & digits (Python exercises 14-15)"
       description: "Python exercises 14 to 15 with hints and explained solutions: Counting letters & digits. Day 4 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day 5.md"
     values:
-      title: "Day 5: Comprehensions & bank log | Python exercises 16-17"
+      title: "Day 5: Comprehensions & bank log (Python exercises 16-17)"
       description: "Python exercises 16 to 17 with hints and explained solutions: Comprehensions & bank log. Day 5 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day 6.md"
     values:
-      title: "Day 6: Password check & sorting | Python exercises 18-19"
+      title: "Day 6: Password check & sorting (Python exercises 18-19)"
       description: "Python exercises 18 to 19 with hints and explained solutions: Password check & sorting. Day 6 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day 7.md"
     values:
-      title: "Day 7: Generators & robot moves | Python exercises 20-21"
+      title: "Day 7: Generators & robot moves (Python exercises 20-21)"
       description: "Python exercises 20 to 21 with hints and explained solutions: Generators & robot moves. Day 7 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day 8.md"
     values:
-      title: "Day 8: Word frequency & docs | Python exercises 22-25"
+      title: "Day 8: Word frequency & docs (Python exercises 22-25)"
       description: "Python exercises 22 to 25 with hints and explained solutions: Word frequency & docs. Day 8 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day 9.md"
     values:
-      title: "Day 9: Your first functions | Python exercises 26-30"
+      title: "Day 9: Your first functions (Python exercises 26-30)"
       description: "Python exercises 26 to 30 with hints and explained solutions: Your first functions. Day 9 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_10.md"
     values:
-      title: "Day 10: Dicts & lists in functions | Python exercises 31-37"
+      title: "Day 10: Dicts & lists in functions (Python exercises 31-37)"
       description: "Python exercises 31 to 37 with hints and explained solutions: Dicts & lists in functions. Day 10 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_11.md"
     values:
-      title: "Day 11: Tuples, map & filter | Python exercises 38-43"
+      title: "Day 11: Tuples, map & filter (Python exercises 38-43)"
       description: "Python exercises 38 to 43 with hints and explained solutions: Tuples, map & filter. Day 11 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_12.md"
     values:
-      title: "Day 12: Static methods & subclasses | Python exercises 44-46"
+      title: "Day 12: Static methods & subclasses (Python exercises 44-46)"
       description: "Python exercises 44 to 46 with hints and explained solutions: Static methods & subclasses. Day 12 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_13.md"
     values:
-      title: "Day 13: Classes & exceptions | Python exercises 47-50"
+      title: "Day 13: Classes & exceptions (Python exercises 47-50)"
       description: "Python exercises 47 to 50 with hints and explained solutions: Classes & exceptions. Day 13 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_14.md"
     values:
-      title: "Day 14: try/except & regex | Python exercises 51-53"
+      title: "Day 14: try/except & regex (Python exercises 51-53)"
       description: "Python exercises 51 to 53 with hints and explained solutions: try/except & regex. Day 14 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_15.md"
     values:
-      title: "Day 15: Regex, unicode & series | Python exercises 54-59"
+      title: "Day 15: Regex, unicode & series (Python exercises 54-59)"
       description: "Python exercises 54 to 59 with hints and explained solutions: Regex, unicode & series. Day 15 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_16.md"
     values:
-      title: "Day 16: Recursion & Fibonacci | Python exercises 60-64"
+      title: "Day 16: Recursion & Fibonacci (Python exercises 60-64)"
       description: "Python exercises 60 to 64 with hints and explained solutions: Recursion & Fibonacci. Day 16 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_17.md"
     values:
-      title: "Day 17: assert, eval & binary search | Python exercises 65-69"
+      title: "Day 17: assert, eval & binary search (Python exercises 65-69)"
       description: "Python exercises 65 to 69 with hints and explained solutions: assert, eval & binary search. Day 17 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_18.md"
     values:
-      title: "Day 18: The random module | Python exercises 70-74"
+      title: "Day 18: The random module (Python exercises 70-74)"
       description: "Python exercises 70 to 74 with hints and explained solutions: The random module. Day 18 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_19.md"
     values:
-      title: "Day 19: zlib, timeit & shuffle | Python exercises 75-79"
+      title: "Day 19: zlib, timeit & shuffle (Python exercises 75-79)"
       description: "Python exercises 75 to 79 with hints and explained solutions: zlib, timeit & shuffle. Day 19 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_20.md"
     values:
-      title: "Day 20: List comprehension filters | Python exercises 80-84"
+      title: "Day 20: List comprehension filters (Python exercises 80-84)"
       description: "Python exercises 80 to 84 with hints and explained solutions: List comprehension filters. Day 20 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_21.md"
     values:
-      title: "Day 21: Sets, sorting & inheritance | Python exercises 85-89"
+      title: "Day 21: Sets, sorting & inheritance (Python exercises 85-89)"
       description: "Python exercises 85 to 89 with hints and explained solutions: Sets, sorting & inheritance. Day 21 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_22.md"
     values:
-      title: "Day 22: Permutations & a puzzle | Python exercises 90-94"
+      title: "Day 22: Permutations & a puzzle (Python exercises 90-94)"
       description: "Python exercises 90 to 94 with hints and explained solutions: Permutations & a puzzle. Day 22 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_23.md"
     values:
-      title: "Day 23: Rangoli, dates & sets | Python exercises 95-99"
+      title: "Day 23: Rangoli, dates & sets (Python exercises 95-99)"
       description: "Python exercises 95 to 99 with hints and explained solutions: Rangoli, dates & sets. Day 23 of 24 in Break The Ice With Python."
   - scope:
       path: "Status/Day_24.md"
     values:
-      title: "Day 24: Word counts & recursion | Python exercises 100-103"
+      title: "Day 24: Word counts & recursion (Python exercises 100-103)"
       description: "Python exercises 100 to 103 with hints and explained solutions: Word counts & recursion. Day 24 of 24 in Break The Ice With Python."
 # day-pages:end
