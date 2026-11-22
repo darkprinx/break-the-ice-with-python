@@ -6,10 +6,11 @@ This repository helps beginners learn Python through 100+ exercises with hints a
 
 ## Audience
 
-<!-- TODO: fill in from Insights → Traffic (export regularly, GitHub keeps only 14 days) -->
-- Stars: ![stars](https://img.shields.io/github/stars/darkprinx/100-plus-Python-programming-exercises-extended?style=flat)
-- Monthly views: TODO
-- Top referrers: TODO
+<!-- Update from Insights → Traffic now and then. GitHub only keeps the last 14 days. -->
+- **Stars and forks:** ![stars](https://img.shields.io/github/stars/darkprinx/break-the-ice-with-python?style=flat) ![forks](https://img.shields.io/github/forks/darkprinx/break-the-ice-with-python?style=flat)
+- **Traffic:** about 1,800 page views a month (841 views from 256 unique visitors in the 14 days to 22 November 2026)
+- **Where visitors come from:** GitHub, Zero To Mastery Academy, Google, Bing and Reddit
+- **Most visited:** the README, then the Day 1 page, which is where most learners start
 
 ## Where your logo appears
 
