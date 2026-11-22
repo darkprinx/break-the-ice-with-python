@@ -2,6 +2,9 @@ theme: jekyll-theme-slate
 title: Break The Ice With Python
 description: 100+ Python exercises for beginners, with hints and solutions explained in different ways. Practise a few a day for 24 days.
 
+# Shown when a link to the site is shared (same as the repo's social preview)
+image: /assets/social-preview.jpg
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
