@@ -2,6 +2,8 @@
 
 This repository helps beginners learn Python through 100+ exercises with hints and explained solutions. Most visitors are students, self-taught developers and job seekers preparing for interviews.
 
+**Interested? Email [rctushar07@gmail.com](mailto:rctushar07@gmail.com?subject=Sponsorship%20-%20Break%20The%20Ice%20With%20Python)** with the placement you're interested in, and we'll work out the details together.
+
 ## Audience
 
 <!-- TODO: fill in from Insights → Traffic (export regularly, GitHub keeps only 14 days) -->
@@ -9,25 +11,66 @@ This repository helps beginners learn Python through 100+ exercises with hints a
 - Monthly views: TODO
 - Top referrers: TODO
 
-## Tiers
+## Where your logo appears
 
-| Tier | Placement | Slots | Price |
-|---|---|---|---|
-| **Gold** | Large logo with a one-line tagline in the Sponsors section, right below the exercise list | 3 | TODO |
-| **Silver** | Small logo in the Sponsors section | 8 | TODO |
-| **Day page** | One line or small banner on a Day page | 1 per page | TODO |
+The Sponsors section sits **directly below the list of the 24 days**, the part of the README every visitor comes for.
 
-The banner at the top of the README is reserved for our current headline sponsor and is not available.
+```
+README
+┌──────────────────────────────────────────────────────────────┐
+│  Title, badges, headline sponsor (reserved)                  │
+│  Start here                                                  │
+│  The 24 days  (exercise table)                               │
+├──────────────────────────────────────────────────────────────┤
+│  Sponsors                                                    │
+│                                                              │
+│  Gold: 2 rows × 3 columns                                    │
+│  ┌────────────┐  ┌────────────┐  ┌────────────┐              │
+│  │ 240 × 80 px│  │ 240 × 80 px│  │ 240 × 80 px│              │
+│  └────────────┘  └────────────┘  └────────────┘              │
+│    tagline         tagline         tagline                   │
+│  ┌────────────┐  ┌────────────┐  ┌────────────┐              │
+│  │ 240 × 80 px│  │ 240 × 80 px│  │ 240 × 80 px│              │
+│  └────────────┘  └────────────┘  └────────────┘              │
+│    tagline         tagline         tagline                   │
+│                                                              │
+│  Silver: 2 rows × 4 columns                                  │
+│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐                 │
+│  │160 × 50│ │160 × 50│ │160 × 50│ │160 × 50│                 │
+│  └────────┘ └────────┘ └────────┘ └────────┘                 │
+│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐                 │
+│  │160 × 50│ │160 × 50│ │160 × 50│ │160 × 50│                 │
+│  └────────┘ └────────┘ └────────┘ └────────┘                 │
+├──────────────────────────────────────────────────────────────┤
+│  About, contributing, acknowledgements                       │
+└──────────────────────────────────────────────────────────────┘
 
-Every placement has its own `?ref=` tag, so you can see which slot sent each click.
+Each Day page (24 pages)
+┌──────────────────────────────────────────────────────────────┐
+│                          Sponsored · Your product: one line ◄│  top of page
+│  # Question 1 ...                                            │
+└──────────────────────────────────────────────────────────────┘
+```
+
+You can see the live placeholders in the [README's Sponsors section](README.md).
+
+## Placements
+
+| Placement | Where | Slots | Size on the page | What you send |
+|---|---|---|---|---|
+| **Gold** | Sponsors section, right below the exercise list | 6 (2 rows × 3) | Logo **240 × 80 px** + one-line tagline | Logo at 480 × 160 px (PNG or SVG), light and dark versions, tagline up to 60 characters, link |
+| **Silver** | Sponsors section, below Gold | 8 (2 rows × 4) | Logo **160 × 50 px** | Logo at 320 × 100 px (PNG or SVG), light and dark versions, link |
+| **Day page** | First line at the top of a Day page, where visitors from search land | 1 per page, 24 pages | One line of text | Text up to 80 characters, link |
+
+The banner at the top of the README is reserved for our current headline sponsor.
+
+Every placement gets its own `?ref=` tag on your link, so you can see exactly which slot sent each visit.
 
 ## Guidelines
 
 - Products should be useful to people learning to code or looking for developer jobs.
-- Every placement is clearly labelled as sponsored.
-- Logos come in a light and a dark version, at the sizes listed in the README.
+- Every placement is clearly shown as sponsored.
 
 ## Contact
 
-<!-- TODO: add contact email or link -->
-TODO
+[rctushar07@gmail.com](mailto:rctushar07@gmail.com?subject=Sponsorship%20-%20Break%20The%20Ice%20With%20Python)

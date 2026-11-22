@@ -58,20 +58,50 @@ These sponsors help keep this project free for everyone.
 
 ### Gold sponsors
 
-<!-- Up to 3 slots in one row. Logo 300x100 (light + dark via <picture>), one-line tagline,
-     link with ?ref=github-readme-gold. Replace a "Your logo here" cell per sponsor. -->
-| | | |
-|:---:|:---:|:---:|
-| <a href="SPONSORS.md"><sub>Your logo here</sub></a> | <a href="SPONSORS.md"><sub>Your logo here</sub></a> | <a href="SPONSORS.md"><sub>Your logo here</sub></a> |
+<!-- 6 slots: 2 rows x 3 columns. Logo shown at 240x80 px (send 480x160 for sharp
+     display), light + dark versions via <picture>, tagline up to 60 characters.
+     Replace one placeholder cell per sponsor and link with ?ref=github-readme-gold. -->
+<div align="center">
+
+<table>
+<tr>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
+</tr>
+<tr>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/gold-slot.svg" width="240" height="80" alt="Gold sponsor slot, 240 x 80 px"></a><br><sub>One-line tagline</sub></td>
+</tr>
+</table>
+
+</div>
 
 ### Silver sponsors
 
-<!-- Up to 8 slots. Logos 200x60, no tagline, link with ?ref=github-readme-silver. -->
-<p align="center">
-<a href="SPONSORS.md"><sub>Your logo here</sub></a>
-</p>
+<!-- 8 slots: 2 rows x 4 columns. Logo shown at 160x50 px (send 320x100), no tagline.
+     Replace one placeholder cell per sponsor and link with ?ref=github-readme-silver. -->
+<div align="center">
 
-<p align="center"><b><a href="SPONSORS.md">Become a sponsor →</a></b></p>
+<table>
+<tr>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
+</tr>
+<tr>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
+<td align="center"><a href="SPONSORS.md"><img src="assets/sponsors/silver-slot.svg" width="160" height="50" alt="Silver sponsor slot, 160 x 50 px"></a></td>
+</tr>
+</table>
+
+</div>
+
+<p align="center"><b><a href="SPONSORS.md">Become a sponsor →</a></b><br><sub>Get in touch: <a href="mailto:rctushar07@gmail.com?subject=Sponsorship%20-%20Break%20The%20Ice%20With%20Python">rctushar07@gmail.com</a></sub></p>
 
 ---
 
