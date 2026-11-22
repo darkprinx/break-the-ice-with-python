@@ -196,12 +196,15 @@ def build_nav():
         newline = "\r\n" if "\r\n" in raw else "\n"
         lines = raw.split(newline)
 
-        # Top: below the sponsor slot (the first right-aligned paragraph) and its blank line
+        # Top: below the sponsor slot comment, and below the sponsor line if the slot is sold
         if "<!-- day-nav:top -->" in lines:
             at = 0
         else:
-            slot = next(i for i, l in enumerate(lines) if l.startswith('<p align="right">'))
-            at = slot + 2
+            at = next(i for i, l in enumerate(lines) if l.rstrip().endswith("-->")) + 1
+            if lines[at].startswith('<p align="right">'):
+                at += 1
+            while lines[at].strip() == "":
+                at += 1
         lines = set_block(lines, "top", top_nav(day), at)
 
         # Bottom: where the old previous/next links were, else before the Discussion link
