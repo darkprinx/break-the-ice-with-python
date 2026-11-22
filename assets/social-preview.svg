@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a7f37"/><stop offset="1" stop-color="#116329"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0969da"/><stop offset="1" stop-color="#0550ae"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8250df"/><stop offset="1" stop-color="#6639ba"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bc4c00"/><stop offset="1" stop-color="#953800"/></linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- Python blue/yellow accent -->
+  <rect x="80" y="96" width="56" height="8" rx="4" fill="#3776ab"/>
+  <rect x="140" y="96" width="28" height="8" rx="4" fill="#ffd43b"/>
+
+  <text x="80" y="180" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Break The Ice With Python</text>
+  <text x="80" y="240" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#8b949e">100+ exercises for beginners, with hints and explained solutions</text>
+
+  <!-- Stage cards -->
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" fill="#ffffff">
+    <rect x="80" y="320" width="260" height="150" rx="16" fill="url(#g1)"/>
+    <text x="104" y="362" font-size="16" font-weight="700" fill-opacity="0.85">STAGE 1 · DAYS 1–6</text>
+    <text x="104" y="408" font-size="30" font-weight="800">Warm-up</text>
+    <text x="104" y="444" font-size="17" fill-opacity="0.9">Loops, strings, input</text>
+
+    <rect x="360" y="320" width="260" height="150" rx="16" fill="url(#g2)"/>
+    <text x="384" y="362" font-size="16" font-weight="700" fill-opacity="0.85">STAGE 2 · DAYS 7–12</text>
+    <text x="384" y="408" font-size="30" font-weight="800">Functions</text>
+    <text x="384" y="444" font-size="17" fill-opacity="0.9">Dicts, tuples, map, filter</text>
+
+    <rect x="640" y="320" width="260" height="150" rx="16" fill="url(#g3)"/>
+    <text x="664" y="362" font-size="16" font-weight="700" fill-opacity="0.85">STAGE 3 · DAYS 13–18</text>
+    <text x="664" y="408" font-size="30" font-weight="800">Classes</text>
+    <text x="664" y="444" font-size="17" fill-opacity="0.9">Errors, regex, recursion</text>
+
+    <rect x="920" y="320" width="260" height="150" rx="16" fill="url(#g4)"/>
+    <text x="944" y="362" font-size="16" font-weight="700" fill-opacity="0.85">STAGE 4 · DAYS 19–24</text>
+    <text x="944" y="408" font-size="30" font-weight="800">Challenges</text>
+    <text x="944" y="444" font-size="17" fill-opacity="0.9">Mix everything together</text>
+  </g>
+
+  <text x="80" y="550" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#ffd43b">24 days · 3–5 problems a day · free</text>
+  <text x="1200" y="550" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#8b949e">github.com/darkprinx/break-the-ice-with-python</text>
+</svg>
