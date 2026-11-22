@@ -1,3 +1,7 @@
+<!-- Day page sponsor slot: replace the line below with one line for this
+     page's sponsor, linked with ?ref=github-day-23 -->
+<p align="right"><sub><a href="../SPONSORS.md">📣 Sponsor this page</a></sub></p>
+
 # The extended part of the repository starts from this page. Previous 94 problems were collected from the repository mentioned in intro. The following problems are collected from Hackerrank and other resources from internet.All the given solutions are in python 3.
 
 # Question 95

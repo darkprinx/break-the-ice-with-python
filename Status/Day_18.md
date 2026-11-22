@@ -1,3 +1,7 @@
+<!-- Day page sponsor slot: replace the line below with one line for this
+     page's sponsor, linked with ?ref=github-day-18 -->
+<p align="right"><sub><a href="../SPONSORS.md">📣 Sponsor this page</a></sub></p>
+
 # Question 70
 
 ### **Question**
