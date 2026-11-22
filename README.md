@@ -2,17 +2,30 @@
 
 ### A journey of 100+ simple yet interesting problems which are explained, solved, discussed in different pythonic ways
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/darkprinx/100-plus-Python-programming-exercises-extended/master?filepath=notebooks%2F)
-[![Deepnote](https://deepnote.com/buttons/try-in-a-jupyter-notebook.svg)](https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fdarkprinx%2F100-plus-Python-programming-exercises-extended%2Fblob%2Fmaster%2Fnotebooks%2FDay_01.ipynb)
-[![GitHub stars](https://img.shields.io/github/stars/darkprinx/100-plus-Python-programming-exercises-extended?style=social)](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/stargazers)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/darkprinx/100-plus-Python-programming-exercises-extended/master?filepath=notebooks%2F)<br>
+[![Deepnote](https://deepnote.com/buttons/try-in-a-jupyter-notebook.svg
+)](https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fdarkprinx%2F100-plus-Python-programming-exercises-extended%2Fblob%2Fmaster%2Fnotebooks%2FDay_01.ipynb)
+
+---------------------
+## **Website & Autofill Extension**
+
+[![Apply to jobs in seconds with Zapply.](assets/zaply/apply-faster-banner.png)](https://app.zapply.jobs/onboarding/?ref=github-cta-darkprinx)
+
+Explore Zapply’s website and check out:
+
+- Our Chrome extension, which autofills job applications in seconds.
+- A dedicated job board featuring the latest openings across various roles.
+- User accounts with multiple profiles for different resume types and roles.
+- Job application tracking with streaks and commitment awards.
+
+Experience an advanced career journey with us! 🚀
 
 <p align="center">
-<a href="https://app.zapply.jobs/onboarding/?ref=github-readme-top">
-<img src="assets/zaply/apply-faster-banner.png" alt="Zapply: apply to jobs in seconds with the autofill Chrome extension" width="100%">
+<a href="https://app.zapply.jobs/onboarding/?ref=github-cta-darkprinx">
+<img src="assets/zaply/get-started-button.png" alt="Visit Zapply" width="700">
 </a>
-<br>
-<sub>Sponsored by <a href="https://app.zapply.jobs/onboarding/?ref=github-readme-top">Zapply</a> · <a href="#sponsors">See all sponsors</a></sub>
 </p>
+<p align="right"><sub>Sponsored by Zapply</sub></p>
 
 ---
 
@@ -43,26 +56,17 @@
 
 These sponsors help keep this project free for everyone.
 
-### Headline sponsor
-
-<p align="center">
-<a href="https://app.zapply.jobs/onboarding/?ref=github-readme-sponsors">
-<img src="assets/zaply/get-started-button.png" alt="Zapply" width="400">
-</a>
-<br>
-<sub><b>Zapply</b>: a Chrome extension that autofills job applications, plus a job board and application tracking.</sub>
-</p>
-
 ### Gold sponsors
 
-<!-- Up to 4 slots. Logos 300x100, light + dark versions via <picture>. -->
-<p align="center">
-<a href="SPONSORS.md"><sub>Your logo here</sub></a>
-</p>
+<!-- Up to 3 slots in one row. Logo 300x100 (light + dark via <picture>), one-line tagline,
+     link with ?ref=github-readme-gold. Replace a "Your logo here" cell per sponsor. -->
+| | | |
+|:---:|:---:|:---:|
+| <a href="SPONSORS.md"><sub>Your logo here</sub></a> | <a href="SPONSORS.md"><sub>Your logo here</sub></a> | <a href="SPONSORS.md"><sub>Your logo here</sub></a> |
 
 ### Silver sponsors
 
-<!-- Up to 8 slots. Logos 200x60. -->
+<!-- Up to 8 slots. Logos 200x60, no tagline, link with ?ref=github-readme-silver. -->
 <p align="center">
 <a href="SPONSORS.md"><sub>Your logo here</sub></a>
 </p>

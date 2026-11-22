@@ -13,10 +13,11 @@ This repository helps beginners learn Python through 100+ exercises with hints a
 
 | Tier | Placement | Slots | Price |
 |---|---|---|---|
-| **Headline** | Banner at the top of the README, plus the Sponsors section | 1 | TODO |
-| **Gold** | Large logo with a one-line tagline in the Sponsors section | 4 | TODO |
+| **Gold** | Large logo with a one-line tagline in the Sponsors section, right below the exercise list | 3 | TODO |
 | **Silver** | Small logo in the Sponsors section | 8 | TODO |
 | **Day page** | One line or small banner on a Day page | 1 per page | TODO |
+
+The banner at the top of the README is reserved for our current headline sponsor and is not available.
 
 Every placement has its own `?ref=` tag, so you can see which slot sent each click.
 
