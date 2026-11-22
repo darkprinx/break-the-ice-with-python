@@ -37,6 +37,8 @@ Experience an advanced career journey with us! 🚀
 
 ---
 
+<a name="days"></a>
+
 ## 📅 The 24 days
 
 <p align="center">Follow the path stage by stage, or jump to any day. New here? Begin with <a href="Status/Day%201.md"><b>Day 1</b></a>.</p>

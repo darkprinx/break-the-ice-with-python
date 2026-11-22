@@ -3,6 +3,10 @@
      <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-23"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-23">One-line message →</a></p> -->
 <p align="right"><a href="../SPONSORS.md"><img src="../assets/sponsors/day-slot.svg" width="420" alt="Sponsor this page: your logo and one line of text"></a></p>
 
+<!-- day-nav:top -->
+<p align="center"><a href="Day_22.md">← Day 22</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_24.md">Day 24 →</a></p>
+<!-- /day-nav:top -->
+
 # The extended part of the repository starts from this page. Previous 94 problems were collected from the repository mentioned in intro. The following problems are collected from Hackerrank and other resources from internet.All the given solutions are in python 3.
 
 # Question 95
@@ -380,8 +384,12 @@ if __name__ == '__main__':
 
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_22.md "Day 22")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_24.md "Day 24")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_24.md"><img src="../assets/days/day-24.svg" width="240" alt="Day 24, questions 100 to 103: Word counts &amp; recursion"></a><br>
+<a href="Day_22.md">← Day 22</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

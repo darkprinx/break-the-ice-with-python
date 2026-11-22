@@ -3,6 +3,10 @@
      <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-06"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-06">One-line message →</a></p> -->
 <p align="right"><a href="../SPONSORS.md"><img src="../assets/sponsors/day-slot.svg" width="420" alt="Sponsor this page: your logo and one line of text"></a></p>
 
+<!-- day-nav:top -->
+<p align="center"><a href="Day%205.md">← Day 5</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day%207.md">Day 7 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 18
 
 ### **Question:**
@@ -289,8 +293,12 @@ print(lst)
 
 **_Before the above problems, I didn't even know about re(regular expression) module and its use. I didn't even know how to sort by multiple keys. To solve those problems in different ways I had to explore and learn those syntax. There are a lots of interesting stuffs in re module though I faced quite a bit hardship to understand many of them._**
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%207.md "Day 7")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day%207.md"><img src="../assets/days/day-07.svg" width="240" alt="Day 7, questions 20 to 21: Generators &amp; robot moves"></a><br>
+<a href="Day%205.md">← Day 5</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

@@ -3,6 +3,10 @@
      <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-12"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-12">One-line message →</a></p> -->
 <p align="right"><a href="../SPONSORS.md"><img src="../assets/sponsors/day-slot.svg" width="420" alt="Sponsor this page: your logo and one line of text"></a></p>
 
+<!-- day-nav:top -->
+<p align="center"><a href="Day_11.md">← Day 11</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day_13.md">Day 13 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 44
 
 ### **Question:**
@@ -134,8 +138,12 @@ print(newyorker)
 
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_11.md "Day 11")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_13.md "Day 13")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day_13.md"><img src="../assets/days/day-13.svg" width="240" alt="Day 13, questions 47 to 50: Classes &amp; exceptions"></a><br>
+<a href="Day_11.md">← Day 11</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

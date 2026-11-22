@@ -3,6 +3,10 @@
      <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-04"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-04">One-line message →</a></p> -->
 <p align="right"><a href="../SPONSORS.md"><img src="../assets/sponsors/day-slot.svg" width="420" alt="Sponsor this page: your logo and one line of text"></a></p>
 
+<!-- day-nav:top -->
+<p align="center"><a href="Day%203.md">← Day 3</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day%205.md">Day 5 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 14
 
 ### **Question:**
@@ -216,8 +220,12 @@ num = int(input('input a number: '))
 sum = num + (num * 11) + (num * 111) + (num * 1111)
 print(sum)
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day%205.md"><img src="../assets/days/day-05.svg" width="240" alt="Day 5, questions 16 to 17: Comprehensions &amp; bank log"></a><br>
+<a href="Day%203.md">← Day 3</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)

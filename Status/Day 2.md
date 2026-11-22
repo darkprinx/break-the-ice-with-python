@@ -3,6 +3,10 @@
      <p align="right"><sub>Sponsored</sub><br><a href="URL?ref=github-day-02"><img src="../assets/sponsors/NAME.png" height="40" align="middle" alt="NAME"></a>&nbsp; <a href="URL?ref=github-day-02">One-line message →</a></p> -->
 <p align="right"><a href="../SPONSORS.md"><img src="../assets/sponsors/day-slot.svg" width="420" alt="Sponsor this page: your logo and one line of text"></a></p>
 
+<!-- day-nav:top -->
+<p align="center"><a href="Day%201.md">← Day 1</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a> &nbsp;·&nbsp; <a href="Day%203.md">Day 3 →</a></p>
+<!-- /day-nav:top -->
+
 # Question 4
 
 ### **Question:**
@@ -567,8 +571,12 @@ print('\n'.join(lines).upper())
 ```
 ---
 
-[**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
-
-[**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
+<!-- day-nav:bottom -->
+<p align="center">
+<sub><b>UP NEXT</b></sub><br>
+<a href="Day%203.md"><img src="../assets/days/day-03.svg" width="240" alt="Day 3, questions 10 to 13: Sorting words &amp; binary"></a><br>
+<a href="Day%201.md">← Day 1</a> &nbsp;·&nbsp; <a href="../README.md#days">All 24 days</a>
+</p>
+<!-- /day-nav:bottom -->
 
 [**_Discussion_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/issues/3)
