@@ -281,7 +281,7 @@ def build_site_config():
             "  - scope:",
             '      path: "Status/%s"' % page_file(day),
             "    values:",
-            '      title: "Day %d: %s | Python exercises %d-%d"' % (day, topic, first, last),
+            '      title: "Day %d: %s (Python exercises %d-%d)"' % (day, topic, first, last),
             '      description: "Python exercises %d to %d with hints and explained solutions: %s. Day %d of %d in Break The Ice With Python."'
             % (first, last, topic, day, len(DAYS)),
         ]
